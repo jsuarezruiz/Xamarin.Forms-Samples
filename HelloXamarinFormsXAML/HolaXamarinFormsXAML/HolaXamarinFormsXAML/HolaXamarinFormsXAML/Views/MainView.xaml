@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+					   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+					   x:Class="HolaXamarinFormsXAML.Views.MainView">
+    <StackLayout Orientation="Vertical" Padding="0, 10">
+        <Label Text="Hola Xamarin Forms!" />
+        <Button Text="Púlsame!" Command="{Binding HelloCommand}" />
+        <Label Text="{Binding Message}" />
+    </StackLayout>
+</ContentPage>
