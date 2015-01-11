@@ -1,0 +1,17 @@
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\HolaXamarinFormsCSharp\HolaXamarinFormsCSharp\HolaXamarinFormsCSharp.Android\bin\Debug\HolaXamarinFormsCSharp.Android.dll
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\HolaXamarinFormsCSharp\HolaXamarinFormsCSharp\HolaXamarinFormsCSharp.Android\bin\Debug\HolaXamarinFormsCSharp.Android.pdb
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\HolaXamarinFormsCSharp\HolaXamarinFormsCSharp\HolaXamarinFormsCSharp.Android\bin\Debug\HolaXamarinFormsCSharp.Android.dll.mdb
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\HolaXamarinFormsCSharp\HolaXamarinFormsCSharp\HolaXamarinFormsCSharp.Android\bin\Debug\HolaXamarinFormsCSharp.Android.apk
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\HolaXamarinFormsCSharp\HolaXamarinFormsCSharp\HolaXamarinFormsCSharp.Android\bin\Debug\HolaXamarinFormsCSharp.Android-Signed.apk
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\HolaXamarinFormsCSharp\HolaXamarinFormsCSharp\HolaXamarinFormsCSharp.Android\bin\Debug\Xamarin.Android.Support.v4.dll
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\HolaXamarinFormsCSharp\HolaXamarinFormsCSharp\HolaXamarinFormsCSharp.Android\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\HolaXamarinFormsCSharp\HolaXamarinFormsCSharp\HolaXamarinFormsCSharp.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\HolaXamarinFormsCSharp\HolaXamarinFormsCSharp\HolaXamarinFormsCSharp.Android\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\HolaXamarinFormsCSharp\HolaXamarinFormsCSharp\HolaXamarinFormsCSharp.Android\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\HolaXamarinFormsCSharp\HolaXamarinFormsCSharp\HolaXamarinFormsCSharp.Android\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\HolaXamarinFormsCSharp\HolaXamarinFormsCSharp\HolaXamarinFormsCSharp.Android\obj\Debug\HolaXamarinFormsCSharp.Android.dll
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\HolaXamarinFormsCSharp\HolaXamarinFormsCSharp\HolaXamarinFormsCSharp.Android\obj\Debug\HolaXamarinFormsCSharp.Android.pdb
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\HolaXamarinFormsCSharp\HolaXamarinFormsCSharp\HolaXamarinFormsCSharp.Android\obj\Debug\android\bin\HolaXamarinFormsCSharp.Android.apk
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\HolaXamarinFormsCSharp\HolaXamarinFormsCSharp\HolaXamarinFormsCSharp.Android\obj\Debug\res\drawable\icon.png
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\HolaXamarinFormsCSharp\HolaXamarinFormsCSharp\HolaXamarinFormsCSharp.Android\obj\Debug\R.cs.flag
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\HolaXamarinFormsCSharp\HolaXamarinFormsCSharp\HolaXamarinFormsCSharp.Android\obj\Debug\uploadflags.txt

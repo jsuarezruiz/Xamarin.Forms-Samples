@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="HolaXamarinFormsCSharp.Android">
+  <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="19" />
+  <application android:name="mono.android.app.Application" android:debuggable="true">
+    <activity android:label="HolaXamarinFormsCSharp" android:name="holaxamarinformscsharp.droid.MainActivity" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="HolaXamarinFormsCSharp.Android.mono.MonoRuntimeProvider.__mono_init__" />
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.HolaXamarinFormsCSharp.Android" />
+      </intent-filter>
+    </receiver>
+    <activity android:label="HolaXamarinFormsCSharp" android:name="holaxamarinformscsharp.android.TrialSplashScreen" android:theme="@style/Mono.Android.Theme.Splash" android:noHistory="true">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+  </application>
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+</manifest>
