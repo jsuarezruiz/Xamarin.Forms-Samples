@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+					   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+					   x:Class="Xamarin_Triggers.Views.MainView"
+             xmlns:triggers="clr-namespace:Xamarin_Triggers.Triggers;assembly=Xamarin_Triggers">
+  <ContentPage.Resources>
+    <ResourceDictionary>
+
+      <Style
+        x:Key="PropertyTriggerStyle"
+        TargetType="Button">
+        <Style.Triggers>
+          <Trigger
+              Property="Button.IsFocused"
+              Value="True"
+              TargetType="Button">
+            <Setter
+                Property="Button.TextColor"
+                Value="Red" />
+          </Trigger>
+        </Style.Triggers>
+      </Style>
+
+    </ResourceDictionary>
+  </ContentPage.Resources>
+  <StackLayout Padding="20">
+    <Label FontSize="32" Text="Property Triggers" />
+    <Button Style="{StaticResource PropertyTriggerStyle}" Text="Property Triggers" />
+    <Label FontSize="32" Text="Event Triggers" />
+    <StackLayout>
+      <Slider
+        x:Name="SliderTriggers"
+        Minimum="0"
+        Maximum="100"
+        Value="50">
+        <Slider.Triggers>
+          <EventTrigger
+              Event="ValueChanged">
+            <triggers:SliderColorTrigger />
+          </EventTrigger>
+        </Slider.Triggers>
+      </Slider>
+      <Label
+       BindingContext="{x:Reference SliderTriggers}"
+       Text="{Binding Value}"/>
+    </StackLayout>
+    <Label FontSize="32" Text="Data Triggers" />
+      <StackLayout Spacing="12">
+         <Label FontSize="24" Text="Recovery Password" />
+        <Entry x:Name="EmailEntry"
+               Placeholder="Enter Email" />
+        <Button x:Name="ValidationButton" Text="Send"
+                FontSize="Large"
+                HorizontalOptions="Center">
+            <Button.Triggers>
+                <DataTrigger TargetType="Button"
+                             Binding="{Binding Source={x:Reference EmailEntry},
+                                               Path=Text.Length}"
+                             Value="0">
+                    <Setter Property="IsEnabled" Value="False" />
+                </DataTrigger>
+            </Button.Triggers>
+        </Button>
+
+    </StackLayout>
+  </StackLayout>
+</ContentPage>
