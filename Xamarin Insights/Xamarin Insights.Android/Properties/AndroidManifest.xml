@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="Xamarin_Insights.Android" android:versionCode="1" android:versionName="1.0">
+	<uses-sdk />
+	<application android:label="Xamarin Insights.Android" android:icon="@drawable/Icon"></application>
+</manifest>

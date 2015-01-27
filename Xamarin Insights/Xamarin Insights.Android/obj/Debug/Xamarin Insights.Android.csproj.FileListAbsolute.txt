@@ -1,0 +1,28 @@
+c:\users\javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights.Android\obj\Debug\Xamarin Insights.Android.csprojResolveAssemblyReference.cache
+C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights.Android\bin\Debug\Xamarin Insights.Android.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights.Android\bin\Debug\Xamarin Insights.Android.pdb
+C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights.Android\bin\Debug\Xamarin Insights.Android.dll.mdb
+C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights.Android\bin\Debug\Xamarin_Insights.Android.apk
+C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights.Android\bin\Debug\Xamarin_Insights.Android-Signed.apk
+C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights.Android\bin\Debug\Cirrious.CrossCore.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights.Android\bin\Debug\Cirrious.CrossCore.Droid.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights.Android\bin\Debug\Cirrious.MvvmCross.Binding.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights.Android\bin\Debug\Cirrious.MvvmCross.Binding.Droid.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights.Android\bin\Debug\Cirrious.MvvmCross.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights.Android\bin\Debug\Cirrious.MvvmCross.Droid.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights.Android\bin\Debug\Cirrious.MvvmCross.Localization.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights.Android\bin\Debug\Xamarin Insights.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights.Android\bin\Debug\Xamarin Insights.pdb
+C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights.Android\obj\Debug\Xamarin Insights.Android.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights.Android\obj\Debug\Xamarin Insights.Android.pdb
+C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights.Android\obj\Debug\android\bin\Xamarin_Insights.Android.apk
+C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights.Android\obj\Debug\res\layout\splashscreen.xml
+C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights.Android\obj\Debug\res\layout\firstview.xml
+C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights.Android\obj\Debug\res\layout\main.xml
+C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights.Android\obj\Debug\res\values\strings.xml
+C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights.Android\obj\Debug\res\drawable\icon.png
+C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights.Android\obj\Debug\res\values\splashstyle.xml
+C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights.Android\obj\Debug\res\values\mvxbindingattributes.xml
+C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights.Android\obj\Debug\res\drawable\splash.png
+C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights.Android\obj\Debug\R.cs.flag
+C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights.Android\obj\Debug\uploadflags.txt

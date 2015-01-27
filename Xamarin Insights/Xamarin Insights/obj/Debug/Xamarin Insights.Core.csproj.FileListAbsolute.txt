@@ -1,0 +1,7 @@
+C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights\bin\Debug\Xamarin Insights.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights\bin\Debug\Xamarin Insights.pdb
+C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights\bin\Debug\Cirrious.CrossCore.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights\bin\Debug\Cirrious.MvvmCross.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights\bin\Debug\Cirrious.MvvmCross.Localization.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights\obj\Debug\Xamarin Insights.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights\obj\Debug\Xamarin Insights.pdb
