@@ -1,0 +1,13 @@
+c:\users\javier\documents\visual studio 2013\Projects\XamarinConditionalXAML\XamarinConditionalXAML\XamarinConditionalXAML.iOS\bin\iPhone\Debug\XamarinConditionalXAMLiOS.exe
+c:\users\javier\documents\visual studio 2013\Projects\XamarinConditionalXAML\XamarinConditionalXAML\XamarinConditionalXAML.iOS\bin\iPhone\Debug\XamarinConditionalXAMLiOS.pdb
+c:\users\javier\documents\visual studio 2013\Projects\XamarinConditionalXAML\XamarinConditionalXAML\XamarinConditionalXAML.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.dll
+c:\users\javier\documents\visual studio 2013\Projects\XamarinConditionalXAML\XamarinConditionalXAML\XamarinConditionalXAML.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.iOS.dll
+c:\users\javier\documents\visual studio 2013\Projects\XamarinConditionalXAML\XamarinConditionalXAML\XamarinConditionalXAML.iOS\bin\iPhone\Debug\Xamarin.Forms.Xaml.dll
+c:\users\javier\documents\visual studio 2013\Projects\XamarinConditionalXAML\XamarinConditionalXAML\XamarinConditionalXAML.iOS\bin\iPhone\Debug\XamarinConditionalXAML.dll
+c:\users\javier\documents\visual studio 2013\Projects\XamarinConditionalXAML\XamarinConditionalXAML\XamarinConditionalXAML.iOS\bin\iPhone\Debug\XamarinConditionalXAML.pdb
+c:\users\javier\documents\visual studio 2013\Projects\XamarinConditionalXAML\XamarinConditionalXAML\XamarinConditionalXAML.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.xml
+c:\users\javier\documents\visual studio 2013\Projects\XamarinConditionalXAML\XamarinConditionalXAML\XamarinConditionalXAML.iOS\bin\iPhone\Debug\Xamarin.Forms.Xaml.xml
+c:\users\javier\documents\visual studio 2013\Projects\XamarinConditionalXAML\XamarinConditionalXAML\XamarinConditionalXAML.iOS\obj\iPhone\Debug\
+c:\users\javier\documents\visual studio 2013\Projects\XamarinConditionalXAML\XamarinConditionalXAML\XamarinConditionalXAML.iOS\obj\iPhone\Debug\XamarinConditionalXAML.iOS.csprojResolveAssemblyReference.cache
+c:\users\javier\documents\visual studio 2013\Projects\XamarinConditionalXAML\XamarinConditionalXAML\XamarinConditionalXAML.iOS\obj\iPhone\Debug\XamarinConditionalXAMLiOS.exe
+c:\users\javier\documents\visual studio 2013\Projects\XamarinConditionalXAML\XamarinConditionalXAML\XamarinConditionalXAML.iOS\obj\iPhone\Debug\XamarinConditionalXAMLiOS.pdb

@@ -1,0 +1,63 @@
+﻿<!--
+***********************************************************************************************
+Xcc.targets
+
+WARNING:  DO NOT MODIFY this file unless you are knowledgeable about MSBuild and have
+          created a backup copy. 
+
+Copyright (C) First Floor Software. All rights reserved.
+***********************************************************************************************
+-->
+
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <UsingTask TaskName="PreprocessXaml" AssemblyFile="$(MSBuildThisFileDirectory)..\tools\Xcc.dll" />
+
+  <Target Name="GenerateXaml" BeforeTargets="MarkupCompilePass1" AfterTargets="_PreXamlG">
+    <!-- create collection for embedded xaml resources -->
+    <CreateItem Include="@(EmbeddedResource)" Condition="'%(Extension)' == '.xaml'">
+      <Output TaskParameter="Include" ItemName="EmbeddedXamlResource"/>
+    </CreateItem>
+
+    <PropertyGroup Label="Globals">
+      <!-- support for .NET projects (used by default) -->
+      <PreprocessorDefinitions>$(DefineConstants)</PreprocessorDefinitions>
+
+      <!--Ensure atleast one constant is defined. If none are defined, the $(DefineConstants) property is empty.
+      This can happen in Release builds without Trace defined for WPF projects and will error the build on the PreprocessXaml task.-->
+      <PreprocessorDefinitions Condition="'$(PreprocessorDefinitions)' == ''">XCC</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(PreprocessorDefinitions)' != ''">$(PreprocessorDefinitions);XCC</PreprocessorDefinitions>
+      
+      <!-- support for Visual C++ projects (will override the definition above as 'DefineConstants' and 'ClCompile.PreprocessorDefinitions' cannot be co-existant) -->
+      <PreprocessorDefinitions Condition="%(ClCompile.PreprocessorDefinitions) != ''">%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
+    </PropertyGroup>
+
+    <!-- ensure __ANDROID__ symbol is defined when targetting Android platform with .NET -->
+    <PropertyGroup Condition="'$(DefineConstants)' != '' and '$(TargetFrameworkIdentifier)' == 'MonoAndroid'">
+      <PreprocessorDefinitions Condition="'$(PreprocessorDefinitions)' == ''">__ANDROID__;$(DefineConstants)</PreprocessorDefinitions>
+
+      <!-- Make sure changes to 'PreprocessorDefinitions' are preserved (could make future updates easier) -->
+      <PreprocessorDefinitions Condition="'$(PreprocessorDefinitions)' != ''">__ANDROID__;$(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </PropertyGroup>
+
+    <!-- preprocess xaml pages -->
+    <PreprocessXaml ApplicationDefinitions="@(ApplicationDefinition)"
+                    Pages="@(Page)"
+                    EmbeddedXamlResources="@(EmbeddedXamlResource)"
+                    DefinedSymbols="$(PreprocessorDefinitions)"
+                    OutputPath="$(IntermediateOutputPath)preprocessedxaml\">
+      <Output ItemName="NewApplicationDefinition" TaskParameter="NewApplicationDefinitions" />
+      <Output ItemName="NewPage" TaskParameter="NewPages" />
+      <Output ItemName="NewEmbeddedXamlResource" TaskParameter="NewEmbeddedXamlResources" />
+      <Output ItemName="FileWrites" TaskParameter="GeneratedFiles" />
+    </PreprocessXaml>
+    <ItemGroup>
+      <ApplicationDefinition Remove="@(ApplicationDefinition)" />
+      <Page Remove="@(Page)" />
+      <EmbeddedResource Remove="@(EmbeddedXamlResource)" />
+
+      <ApplicationDefinition Include="@(NewApplicationDefinition)" />
+      <Page Include="@(NewPage)" />
+      <EmbeddedResource Include="@(NewEmbeddedXamlResource)" />
+    </ItemGroup>
+  </Target>
+</Project>

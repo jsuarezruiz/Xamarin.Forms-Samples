@@ -1,0 +1,11 @@
+c:\users\javier\documents\visual studio 2013\Projects\XamarinConditionalXAML\XamarinConditionalXAML\XamarinConditionalXAML\bin\Debug\XamarinConditionalXAML.dll
+c:\users\javier\documents\visual studio 2013\Projects\XamarinConditionalXAML\XamarinConditionalXAML\XamarinConditionalXAML\bin\Debug\XamarinConditionalXAML.pdb
+c:\users\javier\documents\visual studio 2013\Projects\XamarinConditionalXAML\XamarinConditionalXAML\XamarinConditionalXAML\bin\Debug\Xamarin.Forms.Core.dll
+c:\users\javier\documents\visual studio 2013\Projects\XamarinConditionalXAML\XamarinConditionalXAML\XamarinConditionalXAML\bin\Debug\Xamarin.Forms.Xaml.dll
+c:\users\javier\documents\visual studio 2013\Projects\XamarinConditionalXAML\XamarinConditionalXAML\XamarinConditionalXAML\bin\Debug\Xamarin.Forms.Core.xml
+c:\users\javier\documents\visual studio 2013\Projects\XamarinConditionalXAML\XamarinConditionalXAML\XamarinConditionalXAML\bin\Debug\Xamarin.Forms.Xaml.xml
+c:\users\javier\documents\visual studio 2013\Projects\XamarinConditionalXAML\XamarinConditionalXAML\XamarinConditionalXAML\obj\Debug\XamarinConditionalXAML.csprojResolveAssemblyReference.cache
+c:\users\javier\documents\visual studio 2013\Projects\XamarinConditionalXAML\XamarinConditionalXAML\XamarinConditionalXAML\obj\Debug\XamarinConditionalXAML.dll
+c:\users\javier\documents\visual studio 2013\Projects\XamarinConditionalXAML\XamarinConditionalXAML\XamarinConditionalXAML\obj\Debug\XamarinConditionalXAML.pdb
+c:\users\javier\documents\visual studio 2013\Projects\XamarinConditionalXAML\XamarinConditionalXAML\XamarinConditionalXAML\obj\Debug\preprocessedxaml\Views\MainView.xaml
+c:\users\javier\documents\visual studio 2013\Projects\XamarinConditionalXAML\XamarinConditionalXAML\XamarinConditionalXAML\obj\Debug\MainView.xaml.g.cs

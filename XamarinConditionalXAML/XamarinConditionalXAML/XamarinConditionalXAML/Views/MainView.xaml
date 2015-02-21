@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:android="condition:__ANDROID__"
+             xmlns:ios="condition:__IOS__"
+             xmlns:wp="condition:WINDOWS_PHONE"
+             mc:Ignorable="android ios wp"
+             mc:ProcessContent="android:* ios:* wp:*"
+             x:Class="XamarinConditionalXAML.Views.MainView">
+  <StackLayout 
+    VerticalOptions="FillAndExpand">
+    <android:Label 
+      Text="Android" />
+    <ios:Label 
+      Text="iOS" />
+    <wp:Label 
+      Text="Windows Phone" />
+    <!-- Android: Verde, iOS: Azul, Windows Phone: Rojo -->
+    <Label Text="Label" 
+           android:TextColor="Green"
+           ios:TextColor="Blue"
+           wp:TextColor="Red" />
+  </StackLayout>
+</ContentPage>
