@@ -1,0 +1,10 @@
+C:\Users\Javier\documents\visual studio 2013\Projects\PullToRefresh\PullToRefresh\PullToRefresh\obj\Debug\PullToRefresh.csprojResolveAssemblyReference.cache
+C:\Users\Javier\documents\visual studio 2013\Projects\PullToRefresh\PullToRefresh\PullToRefresh\obj\Debug\MainView.xaml.g.cs
+C:\Users\Javier\documents\visual studio 2013\Projects\PullToRefresh\PullToRefresh\PullToRefresh\bin\Debug\PullToRefresh.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\PullToRefresh\PullToRefresh\PullToRefresh\bin\Debug\PullToRefresh.pdb
+C:\Users\Javier\documents\visual studio 2013\Projects\PullToRefresh\PullToRefresh\PullToRefresh\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\PullToRefresh\PullToRefresh\PullToRefresh\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\PullToRefresh\PullToRefresh\PullToRefresh\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Javier\documents\visual studio 2013\Projects\PullToRefresh\PullToRefresh\PullToRefresh\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Javier\documents\visual studio 2013\Projects\PullToRefresh\PullToRefresh\PullToRefresh\obj\Debug\PullToRefresh.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\PullToRefresh\PullToRefresh\PullToRefresh\obj\Debug\PullToRefresh.pdb
