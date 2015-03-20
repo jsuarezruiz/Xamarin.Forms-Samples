@@ -1,0 +1,10 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\javier\documents\visual studio 2013\projects\xamarin.forms windows\xamarin.forms_windows.windows\obj\debug\intermediatexaml\xamarin.forms_windows.windows.exe" HashGuid="7ab4762e-cb4e-ec7c-951e-aa2a8ba90280" />
+    <ReferenceAssembly PathName="c:\users\javier\documents\visual studio 2013\projects\xamarin.forms windows\packages\xamarin.forms.windows.1.4.1.6347-pre2\lib\win81\xamarin.forms.core.dll" HashGuid="695e1f63-98e1-2331-655e-18368fda922f" />
+    <ReferenceAssembly PathName="c:\users\javier\documents\visual studio 2013\projects\xamarin.forms windows\packages\xamarin.forms.windows.1.4.1.6347-pre2\lib\win81\xamarin.forms.platform.winrt.dll" HashGuid="81f00e30-ba7e-dcad-afd1-c2e4d32f1e66" />
+    <ReferenceAssembly PathName="c:\users\javier\documents\visual studio 2013\projects\xamarin.forms windows\packages\xamarin.forms.windows.1.4.1.6347-pre2\lib\win81\xamarin.forms.platform.winrt.tablet.dll" HashGuid="6758798d-42a4-2d76-0539-18d99f0757bb" />
+    <ReferenceAssembly PathName="c:\users\javier\documents\visual studio 2013\projects\xamarin.forms windows\packages\xamarin.forms.windows.1.4.1.6347-pre2\lib\win81\xamarin.forms.xaml.dll" HashGuid="31dcdbc1-f401-3b44-c1f6-c25d08dd0160" />
+    <ReferenceAssembly PathName="c:\users\javier\documents\visual studio 2013\projects\xamarin.forms windows\xamarin.forms windows\xamarin.forms_windows\bin\debug\xamarin.forms_windows.dll" HashGuid="5522cfb4-c501-cdbf-a7bd-1d8f13ad09c8" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

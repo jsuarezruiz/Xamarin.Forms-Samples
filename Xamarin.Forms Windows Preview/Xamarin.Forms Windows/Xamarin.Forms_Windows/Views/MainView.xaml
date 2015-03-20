@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarin.Forms_Windows.Views.MainView"
+             Title="Monkeys">
+  <ListView x:Name="List"
+            ItemsSource="{Binding Monkeys}">
+    <ListView.ItemTemplate>
+      <DataTemplate>
+        <ViewCell Height="50">
+          <Grid Padding="5">
+            <Grid.RowDefinitions>
+              <RowDefinition Height="15" />
+              <RowDefinition Height="15" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>            
+              <ColumnDefinition Width="50"/>
+              <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>     
+            <Image 
+              Grid.Row="0" 
+              Grid.RowSpan="2" 
+              Grid.Column="0"
+              Source="{Binding Image}" 
+              Aspect="AspectFill" />
+            <Label 
+              Grid.Row="0" 
+              Grid.Column="1" 
+              Text="{Binding Name}" 
+              LineBreakMode="TailTruncation" />
+            <Label 
+              Grid.Row="1" 
+              Grid.Column="1" 
+              Text="{Binding Location}" 
+              TextColor="Gray" 
+              LineBreakMode="TailTruncation" />
+          </Grid>
+        </ViewCell>
+      </DataTemplate>
+    </ListView.ItemTemplate>
+  </ListView>
+</ContentPage>

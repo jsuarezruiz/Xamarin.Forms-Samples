@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>AIO</Machine>
+    <WindowsUser>Javier</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>faf2a5aa-c082-430d-a38e-0b5c87ea254c</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin.Forms Windows\Xamarin.Forms_Windows.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>190223947EF19CC60D4971BCD37D9414C43C4A2F99DD3B8AEDA0D9A76C8CE9EB</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>faf2a5aa-c082-430d-a38e-0b5c87ea254c_1.0.0.0_neutral__j6j5z4mnvcpja</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>faf2a5aa-c082-430d-a38e-0b5c87ea254c_j6j5z4mnvcpja!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>faf2a5aa-c082-430d-a38e-0b5c87ea254c</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Javier</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin.Forms Windows\Xamarin.Forms_Windows.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-20T17:37:55.985</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin.Forms Windows\Xamarin.Forms_Windows.Windows\bin\Debug\Xamarin.Forms_Windows.Windows.exe">
+      <PackagePath>Xamarin.Forms_Windows.Windows.exe</PackagePath>
+      <Modified>2015-03-20T18:38:09.729</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin.Forms Windows\packages\Xamarin.Forms.Windows.1.4.1.6347-pre2\lib\win81\Xamarin.Forms.Core.dll">
+      <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
+      <Modified>2015-03-19T18:44:15.399</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin.Forms Windows\packages\Xamarin.Forms.Windows.1.4.1.6347-pre2\lib\win81\Xamarin.Forms.Platform.WinRT.dll">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.dll</PackagePath>
+      <Modified>2015-03-19T18:44:15.461</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin.Forms Windows\packages\Xamarin.Forms.Windows.1.4.1.6347-pre2\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet.dll">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Tablet.dll</PackagePath>
+      <Modified>2015-03-19T18:44:15.473</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin.Forms Windows\packages\Xamarin.Forms.Windows.1.4.1.6347-pre2\lib\win81\Xamarin.Forms.Xaml.dll">
+      <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
+      <Modified>2015-03-19T18:44:15.532</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin.Forms Windows\Xamarin.Forms Windows\Xamarin.Forms_Windows\bin\Debug\Xamarin.Forms_Windows.dll">
+      <PackagePath>Xamarin.Forms_Windows.dll</PackagePath>
+      <Modified>2015-03-20T18:38:09.233</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin.Forms Windows\Xamarin.Forms_Windows.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-23T22:37:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin.Forms Windows\Xamarin.Forms_Windows.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-23T22:37:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin.Forms Windows\Xamarin.Forms_Windows.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-23T22:37:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin.Forms Windows\Xamarin.Forms_Windows.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-23T22:37:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin.Forms Windows\Xamarin.Forms_Windows.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-03-20T17:37:55.289</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin.Forms Windows\Xamarin.Forms_Windows.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-03-20T17:37:55.290</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin.Forms Windows\Xamarin.Forms_Windows.Windows\bin\Debug\Xamarin.Forms_Windows.Windows.xr.xml">
+      <PackagePath>Xamarin.Forms_Windows.Windows.xr.xml</PackagePath>
+      <Modified>2015-03-20T17:37:55.264</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin.Forms Windows\packages\Xamarin.Forms.Windows.1.4.1.6347-pre2\lib\win81\Xamarin.Forms.Platform.WinRT\FormsTextBox.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT\FormsTextBox.xbf</PackagePath>
+      <Modified>2015-03-19T18:44:15.498</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin.Forms Windows\packages\Xamarin.Forms.Windows.1.4.1.6347-pre2\lib\win81\Xamarin.Forms.Platform.WinRT\PageControl.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT\PageControl.xbf</PackagePath>
+      <Modified>2015-03-19T18:44:15.498</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin.Forms Windows\packages\Xamarin.Forms.Windows.1.4.1.6347-pre2\lib\win81\Xamarin.Forms.Platform.WinRT\Resources.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT\Resources.xbf</PackagePath>
+      <Modified>2015-03-19T18:44:15.511</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin.Forms Windows\packages\Xamarin.Forms.Windows.1.4.1.6347-pre2\lib\win81\Xamarin.Forms.Platform.WinRT\StepperControl.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT\StepperControl.xbf</PackagePath>
+      <Modified>2015-03-19T18:44:15.514</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin.Forms Windows\packages\Xamarin.Forms.Windows.1.4.1.6347-pre2\lib\win81\Xamarin.Forms.Platform.WinRT\Xamarin.Forms.Platform.WinRT.xr.xml">
+      <PackagePath>Xamarin.Forms.Platform.WinRT\Xamarin.Forms.Platform.WinRT.xr.xml</PackagePath>
+      <Modified>2015-03-19T18:44:15.520</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin.Forms Windows\packages\Xamarin.Forms.Windows.1.4.1.6347-pre2\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet\TabletMergeControl.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Tablet\TabletMergeControl.xbf</PackagePath>
+      <Modified>2015-03-19T18:44:15.475</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin.Forms Windows\packages\Xamarin.Forms.Windows.1.4.1.6347-pre2\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet\TabletResources.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Tablet\TabletResources.xbf</PackagePath>
+      <Modified>2015-03-19T18:44:15.477</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin.Forms Windows\packages\Xamarin.Forms.Windows.1.4.1.6347-pre2\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet\Xamarin.Forms.Platform.WinRT.Tablet.xr.xml">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Tablet\Xamarin.Forms.Platform.WinRT.Tablet.xr.xml</PackagePath>
+      <Modified>2015-03-19T18:44:15.496</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin.Forms Windows\Xamarin.Forms_Windows.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-03-20T17:37:55.729</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
