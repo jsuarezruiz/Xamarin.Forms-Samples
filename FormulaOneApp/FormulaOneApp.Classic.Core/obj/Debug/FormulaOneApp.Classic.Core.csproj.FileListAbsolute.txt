@@ -1,0 +1,8 @@
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Core\bin\Debug\FormulaOneApp.Classic.Core.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Core\bin\Debug\FormulaOneApp.Classic.Core.pdb
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Core\obj\Debug\FormulaOneApp.Classic.Core.csprojResolveAssemblyReference.cache
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Core\obj\Debug\FormulaOneApp.Classic.Core.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Core\obj\Debug\FormulaOneApp.Classic.Core.pdb
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Core\bin\Debug\Cirrious.CrossCore.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Core\bin\Debug\Cirrious.MvvmCross.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Core\bin\Debug\Cirrious.MvvmCross.Localization.dll

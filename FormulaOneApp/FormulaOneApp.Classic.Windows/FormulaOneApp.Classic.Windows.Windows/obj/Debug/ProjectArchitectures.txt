@@ -1,0 +1,1 @@
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Windows\FormulaOneApp.Classic.Windows.Windows\FormulaOneApp.Classic.Windows.Windows.csproj;neutral

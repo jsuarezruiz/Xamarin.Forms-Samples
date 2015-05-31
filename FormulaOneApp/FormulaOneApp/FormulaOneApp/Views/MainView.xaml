@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<styledTabbedPage:StyledTabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:customControls="clr-namespace:FormulaOneApp.Controls.HubTileAbstraction;assembly=FormulaOneApp"
+            xmlns:styledTabbedPage="clr-namespace:FormulaOneApp.Controls.StyledTabbedPageAbstraction;assembly=FormulaOneApp"
+            x:Class="FormulaOneApp.Views.MainView"
+            BackgroundColor="{StaticResource WhiteColor}"
+            Title="Formula One">
+  <!-- Incoming events -->
+  <ContentPage
+    Title="Events">
+    <StackLayout
+         Padding="12,0,0,0">
+      <Grid>
+        <Image
+          Aspect="AspectFill"
+          Source="{Binding NextRace.Round, Converter={StaticResource EventToImageConverter}}" />
+        <Grid
+          BackgroundColor="{StaticResource AccentColor}"
+          VerticalOptions="End"
+          Opacity=".75">
+          <StackLayout
+            Padding="15, 50">
+            <Label
+              Text="{Binding NextRace.RaceName}"
+              FontSize="48"/>
+            <Label
+              Text="{Binding NextRace.Date}"
+              FontSize="32"/>
+          </StackLayout>
+        </Grid>
+      </Grid>
+    </StackLayout>
+  </ContentPage>
+  <!-- News -->
+  <ContentPage
+    Title="News">
+    <StackLayout
+      Padding="24,12,0,0">
+      <!-- News List -->
+      <ListView
+        ItemsSource="{Binding News}">
+        <ListView.ItemTemplate>
+          <DataTemplate>
+            <ViewCell>
+              <ViewCell.View>
+                <StackLayout
+                  Padding="0,0,0,12"
+                  Orientation="Horizontal">
+                  <Image
+                    Source="{Binding Image}"
+                    WidthRequest="100"
+                    HeightRequest="100"
+                    Aspect="AspectFill"/>
+                  <StackLayout
+                    Padding="5,5,0,0">
+                    <Label
+                      Text="{Binding Title}"
+                      TextColor="{StaticResource BlackColor}"
+                      Font="24"/>
+                  </StackLayout>
+                </StackLayout>
+              </ViewCell.View>
+            </ViewCell>
+          </DataTemplate>
+        </ListView.ItemTemplate>
+      </ListView>
+    </StackLayout>
+  </ContentPage>
+  <!-- Sections -->
+  <ContentPage
+    Title="Sections">
+    <Grid>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="200" />
+        <ColumnDefinition Width="200" />
+      </Grid.ColumnDefinitions>
+      <Grid.RowDefinitions>
+        <RowDefinition Height="200" />
+        <RowDefinition Height="200" />
+      </Grid.RowDefinitions>
+      <customControls:CustomHubTileView
+        Title="Standings"
+        Message="Driver Standing"
+        Color="{StaticResource AccentColor}"
+        Command="{Binding StandingsCommand}">
+        <customControls:CustomHubTileView.Source>
+          <FileImageSource File="Images/Icons/Standings.png" />
+        </customControls:CustomHubTileView.Source>
+      </customControls:CustomHubTileView>
+      <customControls:CustomHubTileView
+        Grid.Column="1"
+        Title="Driver"
+        Message="Formula One 2015 Driver List"
+        Color="{StaticResource AccentColor}"
+        Command="{Binding DriversCommand}">
+        <customControls:CustomHubTileView.Source>
+          <FileImageSource File="Images/Icons/Driver.png" />
+        </customControls:CustomHubTileView.Source>
+      </customControls:CustomHubTileView>
+      <customControls:CustomHubTileView
+        Grid.Row="1"
+        Title="Scuderias"
+        Message="Formula One 2015 Scuderias"
+        Color="{StaticResource AccentColor}">
+        <customControls:CustomHubTileView.Source>
+          <FileImageSource File="Images/Icons/Scuderias.png" />
+        </customControls:CustomHubTileView.Source>
+      </customControls:CustomHubTileView>
+      <customControls:CustomHubTileView
+        Grid.Column="1"
+        Grid.Row="1"
+        Title="Circuit"
+        Message="Formula One 2015 Circuits"
+        Color="{StaticResource AccentColor}">
+        <customControls:CustomHubTileView.Source>
+          <FileImageSource File="Images/Icons/Circuit.png" />
+        </customControls:CustomHubTileView.Source>
+      </customControls:CustomHubTileView> 
+    </Grid>
+  </ContentPage>
+</styledTabbedPage:StyledTabbedPage>

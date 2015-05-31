@@ -1,0 +1,75 @@
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\obj\Debug\FormulaOneApp.Droid.csprojResolveAssemblyReference.cache
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\FormulaOneApp.Droid.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\FormulaOneApp.Droid.pdb
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\FormulaOneApp.Droid.dll.mdb
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\FormulaOneApp.Droid.apk
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\FormulaOneApp.Droid-Signed.apk
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\FormsViewGroup.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\FormulaOneApp.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Xamarin.Android.Support.v4.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\FormulaOneApp.pdb
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\FormulaOneApp.dll.mdb
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\obj\Debug\FormulaOneApp.Droid.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\obj\Debug\FormulaOneApp.Droid.pdb
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\obj\Debug\android\bin\FormulaOneApp.Droid.apk
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\obj\Debug\res\layout\main.xml
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\obj\Debug\res\values\strings.xml
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\obj\Debug\res\drawable-hdpi\icon.png
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\obj\Debug\res\drawable-mdpi\icon.png
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\obj\Debug\res\drawable-xhdpi\icon.png
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\obj\Debug\res\drawable-xxhdpi\icon.png
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\obj\Debug\res\drawable-xxxhdpi\icon.png
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\obj\Debug\R.cs.flag
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\obj\Debug\uploadflags.txt
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\FormulaOneApp.ErgastAPI.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\FormulaOneApp.Rss.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\FormulaOneApp.ErgastAPI.pdb
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\FormulaOneApp.Rss.pdb
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Images\Drivers\Kevin Magnussen.jpg
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Images\Events\7.jpg
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Images\Drivers\Carlos Sainz.jpg
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Images\Drivers\Daniel Ricciardo.jpg
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Images\Drivers\Daniil Kvyat.jpg
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Images\Drivers\Felipe Massa.jpg
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Images\Drivers\Felipe Nasr.jpg
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Images\Drivers\Fernando Alonso.jpg
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Images\Drivers\Jenson Button.jpg
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Images\Drivers\Kimi Räikkönen.jpg
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Images\Drivers\Lewis Hamilton.jpg
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Images\Drivers\Marcus Ericsson.jpg
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Images\Drivers\Max Verstappen.jpg
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Images\Drivers\Nico Hülkenberg.jpg
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Images\Drivers\Nico Rosberg.jpg
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Images\Drivers\Pastor Maldonado.jpg
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Images\Drivers\Roberto Merhi.jpg
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Images\Drivers\Romain Grosjean.jpg
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Images\Drivers\Sebastian Vettel.jpg
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Images\Drivers\Sergio Pérez.jpg
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Images\Drivers\Valtteri Bottas.jpg
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Images\Drivers\Will Stevens.jpg
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Images\Icons\Calendar.png
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Images\Icons\Circuit.png
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Images\Icons\Driver.png
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Images\Icons\Scuderias.png
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Images\Icons\Standings.png
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Images\Cars\Ferrari.png
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Images\Cars\Force India.png
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Images\Cars\Lotus F1.png
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Images\Cars\McLaren.png
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Images\Cars\Mercedes.png
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Images\Cars\Red Bull.png
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Images\Cars\Sauber.png
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Images\Cars\Toro Rosso.png
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Images\Cars\Williams.png
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\FormulaOneApp.Droid.dll.config
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Images\Cars\Manor Marussia.png

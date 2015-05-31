@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FormulaOneApp.Views.DriverDetailView"
+             BackgroundColor="{StaticResource AccentColor}">
+  <StackLayout>
+    <Grid>
+      <Image
+        Source="{Binding Driver.CompleteName, Converter={StaticResource DriverNameToImageConverter}}"
+        HeightRequest="600"
+        Aspect="AspectFill"/>
+      <Grid
+        BackgroundColor="{StaticResource BlackColor}"
+        VerticalOptions="End"
+        Opacity="0.75">
+        <Label
+          Text="{Binding Driver.CompleteName}"
+          FontSize="32"
+          TextColor="{StaticResource WhiteColor}"
+          XAlign="Center" />
+      </Grid>
+    </Grid>
+    <Grid
+      BackgroundColor="{StaticResource AccentColor}"
+      VerticalOptions="Start">
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition />
+        <ColumnDefinition />
+        <ColumnDefinition />
+        <ColumnDefinition />
+      </Grid.ColumnDefinitions>
+      <!-- Championships -->
+      <StackLayout>
+        <StackLayout
+          Orientation="Horizontal">
+          <Label  
+            Text="{Binding Champs}"
+            FontSize="42"
+            YAlign="Center" />
+          <Image
+            WidthRequest="75">
+            <Image.Source>
+              <FileImageSource File="Images/Icons/Champs.png" />
+            </Image.Source>
+          </Image>
+        </StackLayout>
+        <Label
+          Text="Champs"
+          YAlign="Center" />
+      </StackLayout>
+      <!-- Wins -->
+      <StackLayout
+        Grid.Column="1">
+        <StackLayout
+          Orientation="Horizontal">
+          <Label
+            Text="{Binding Wins}"
+            FontSize="42" 
+            YAlign="Center" />
+          <Image
+            WidthRequest="75">
+            <Image.Source>
+              <FileImageSource File="Images/Icons/Wins.png" />
+            </Image.Source>
+          </Image>
+        </StackLayout>
+        <Label
+          Text="Wins"
+          YAlign="Center" />
+      </StackLayout>
+      <!-- Poles -->
+      <StackLayout
+        Grid.Column="2">
+        <StackLayout
+          Orientation="Horizontal">
+          <Label 
+            Text="{Binding Poles}"
+            FontSize="42"
+            YAlign="Center" />
+          <Image
+            WidthRequest="75">
+            <Image.Source>
+              <FileImageSource File="Images/Icons/Pole.png" />
+            </Image.Source>
+          </Image>
+        </StackLayout>
+        <Label
+          Text="Poles"
+          YAlign="Center" />
+      </StackLayout>
+      <!-- Races -->
+      <StackLayout
+        Grid.Column="3">
+        <StackLayout
+          Orientation="Horizontal">
+          <Label
+            Text="{Binding Races}"
+            FontSize="42"
+            YAlign="Center" />
+          <Image
+            WidthRequest="75">
+            <Image.Source>
+              <FileImageSource File="Images/Icons/Races.png" />
+            </Image.Source>
+          </Image>
+        </StackLayout>
+        <Label
+          Text="Races"
+          YAlign="Center" />
+      </StackLayout>
+    </Grid>
+  </StackLayout>
+</ContentPage>

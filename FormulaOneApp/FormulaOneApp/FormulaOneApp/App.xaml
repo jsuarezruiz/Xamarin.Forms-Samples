@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+					   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+					   xmlns:converters="clr-namespace:FormulaOneApp.Converters"
+					   x:Class="FormulaOneApp.App">
+  <Application.Resources>
+    <ResourceDictionary>
+
+      <!-- Colors -->
+     <Color x:Key="WhiteColor">White</Color>
+      <Color x:Key="BlackColor">Black</Color>
+      <Color x:Key="AccentColor">#0092FF</Color>
+
+      <!-- Converters -->
+      <converters:DriverNameToImageConverter x:Key="DriverNameToImageConverter" />
+      <converters:EventToImageConverter x:Key="EventToImageConverter" />
+      <converters:ScuderiaNameToImageConverter x:Key="ScuderiaNameToImageConverter" />
+      
+    </ResourceDictionary>
+  </Application.Resources>
+</Application>

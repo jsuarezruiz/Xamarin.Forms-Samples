@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FormulaOneApp.Views.StandingsView"
+             BackgroundColor="{StaticResource WhiteColor}">
+  <Grid
+    x:Name="NameGrid">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="100" />
+      <RowDefinition Height="*" />
+    </Grid.RowDefinitions>
+    <!-- Header -->
+    <Grid
+      BackgroundColor="{StaticResource AccentColor}">
+      <Label
+        Text="Standing"
+        TextColor="{StaticResource WhiteColor}"
+        FontSize="48"
+        XAlign="Center"
+        YAlign="Center"/>
+    </Grid>
+    <!-- Standing List -->
+    <AbsoluteLayout x:Name="MessagesLayoutFrame"
+                    Grid.Row="1"
+                    Padding="0"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="End">
+      <ContentView x:Name="MessagesLayoutFrameInner"
+                   Padding="0"
+                   HorizontalOptions="FillAndExpand">
+        <ListView x:Name="MessagesListView"
+                  ItemsSource="{Binding Standing}"
+                  RowHeight="400"
+                  VerticalOptions="End"
+                  HeightRequest="400"
+                  WidthRequest="400"
+                  SeparatorVisibility="None"
+                  Rotation="270"
+                  HorizontalOptions="Center">
+          <ListView.ItemTemplate>
+            <DataTemplate>
+              <ViewCell>
+                <ContentView Rotation="90"
+                             Padding="12">
+                  <Grid
+                    Padding="0,0,0,12">
+                    <Grid.RowDefinitions>
+                      <RowDefinition Height="Auto" />
+                      <RowDefinition Height="150" />
+                      <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Label Grid.Row="0"
+                           Text="{Binding PositionText}"
+                           TextColor="{StaticResource AccentColor}"
+                           FontSize="64"
+                           XAlign="Center"
+                           YAlign="Center" />
+                    <Image
+                      Grid.Row="1"
+                      Source="{Binding Constructors[0].Name, Converter={StaticResource ScuderiaNameToImageConverter}}"
+                      WidthRequest="300"
+                      HeightRequest="300"
+                      Aspect="AspectFit"/>
+                    <StackLayout
+                      Grid.Row="2"
+                      Padding="5,5,0,0">
+                      <Label
+                        Text="{Binding Driver.CompleteName}"
+                        TextColor="{StaticResource BlackColor}"
+                        Font="32"
+                        XAlign="Center" />
+                      <StackLayout
+                        Orientation="Horizontal"
+                        Padding="80,0,0,0">
+                        <Label Text="Points: "
+                               TextColor="{StaticResource AccentColor}"
+                               Opacity="0.75" />
+                        <Label Text="{Binding Points}"
+                               TextColor="{StaticResource BlackColor}"
+                               Opacity="0.75" />
+                      </StackLayout>
+                      <StackLayout
+                        Orientation="Horizontal"
+                        Padding="80,0,0,0">
+                        <Label Text="Wins: "
+                               TextColor="{StaticResource AccentColor}"
+                               Opacity="0.75" />
+                        <Label Text="{Binding Wins}"
+                               TextColor="{StaticResource BlackColor}"
+                               Opacity="0.75" />
+                      </StackLayout>
+                    </StackLayout>
+                  </Grid>
+                </ContentView>
+              </ViewCell>
+            </DataTemplate>
+          </ListView.ItemTemplate>
+        </ListView>
+      </ContentView>
+    </AbsoluteLayout>
+  </Grid>
+</ContentPage>

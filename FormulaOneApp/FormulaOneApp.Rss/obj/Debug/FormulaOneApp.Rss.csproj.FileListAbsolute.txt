@@ -1,0 +1,4 @@
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Rss\bin\Debug\FormulaOneApp.Rss.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Rss\bin\Debug\FormulaOneApp.Rss.pdb
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Rss\obj\Debug\FormulaOneApp.Rss.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Rss\obj\Debug\FormulaOneApp.Rss.pdb

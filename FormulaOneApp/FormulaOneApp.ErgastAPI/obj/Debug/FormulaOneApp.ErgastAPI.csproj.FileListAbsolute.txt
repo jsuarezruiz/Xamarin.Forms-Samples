@@ -1,0 +1,7 @@
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.ErgastAPI\bin\Debug\FormulaOneApp.ErgastAPI.dll.config
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.ErgastAPI\bin\Debug\FormulaOneApp.ErgastAPI.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.ErgastAPI\bin\Debug\FormulaOneApp.ErgastAPI.pdb
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.ErgastAPI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.ErgastAPI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.ErgastAPI\obj\Debug\FormulaOneApp.ErgastAPI.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.ErgastAPI\obj\Debug\FormulaOneApp.ErgastAPI.pdb
