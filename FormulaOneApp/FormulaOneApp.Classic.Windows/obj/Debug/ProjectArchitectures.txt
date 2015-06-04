@@ -1,4 +1,0 @@
-C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Core\FormulaOneApp.Classic.Core.csproj;neutral
-C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Windows\FormulaOneApp.Classic.Windows.csproj;neutral
-C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.ErgastAPI\FormulaOneApp.ErgastAPI.csproj;neutral
-C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Rss\FormulaOneApp.Rss.csproj;neutral
