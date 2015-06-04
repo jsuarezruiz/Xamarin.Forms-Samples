@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="FormulaOneApp.Classic.Android" android:versionCode="1" android:versionName="1.0">
+  <uses-sdk android:minSdkVersion="11" />
+  <application android:label="FormulaOneApp.Classic.Android" android:icon="@drawable/icon" android:name="mono.android.app.Application" android:debuggable="true">
+    <activity android:icon="@drawable/icon" android:label="FormulaOneApp.Classic.Android" android:name="md5b1799cbc0b48311c02dc17ca65919f25.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:icon="@drawable/icon" android:label="FormulaOneApp.Classic.Android" android:noHistory="true" android:screenOrientation="portrait" android:theme="@style/Theme.Splash" android:name="md5b1799cbc0b48311c02dc17ca65919f25.SplashScreen">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="View for CircuitDetailViewModel" android:name="md50d03aa2c751770181f95d5d8ffa85596.CircuitDetailView" />
+    <activity android:label="View for DriverListViewModel" android:name="md50d03aa2c751770181f95d5d8ffa85596.DriverListView" />
+    <activity android:label="View for DriverDetailViewModel" android:name="md50d03aa2c751770181f95d5d8ffa85596.DriverDetailView" />
+    <activity android:label="View for CircuitListViewModel" android:name="md50d03aa2c751770181f95d5d8ffa85596.CircuitListView" />
+    <activity android:label="View for StandingsViewModel" android:name="md50d03aa2c751770181f95d5d8ffa85596.StandingsView" />
+    <activity android:label="View for MainViewModel" android:name="md50d03aa2c751770181f95d5d8ffa85596.MainView" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="FormulaOneApp.Classic.Android.mono.MonoRuntimeProvider.__mono_init__" />
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.FormulaOneApp.Classic.Android" />
+      </intent-filter>
+    </receiver>
+  </application>
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+</manifest>

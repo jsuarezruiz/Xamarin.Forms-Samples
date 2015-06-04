@@ -159,9 +159,7 @@
     <Compile Include="Controls\ImageCircleRenderer.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <Compile Include="Services\Dialog\DialogService.cs" />
     <Compile Include="Services\Internet\InternetService.cs" />
-    <Compile Include="Services\Storage\StorageService.cs" />
     <Compile Include="ViewController.cs" />
     <Compile Include="ViewController.designer.cs">
       <DependentUpon>ViewController.cs</DependentUpon>

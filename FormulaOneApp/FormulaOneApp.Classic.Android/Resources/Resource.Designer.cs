@@ -104,13 +104,28 @@ namespace FormulaOneApp.Classic.Android
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int FirstView = 2130903040;
+			public const int CircuitDetailView = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int Main = 2130903041;
+			public const int CircuitListView = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int SplashScreen = 2130903042;
+			public const int DriverDetailView = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int DriverListView = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int Main = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int MainView = 2130903045;
+			
+			// aapt resource value: 0x7f030006
+			public const int SplashScreen = 2130903046;
+			
+			// aapt resource value: 0x7f030007
+			public const int StandingsView = 2130903047;
 			
 			static Layout()
 			{

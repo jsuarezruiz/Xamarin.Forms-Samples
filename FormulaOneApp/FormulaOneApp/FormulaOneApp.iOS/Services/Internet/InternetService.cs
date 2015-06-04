@@ -1,14 +1,27 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using System.Net;
+using SystemConfiguration;
+using FormulaOneApp.iOS.Services.Internet;
+using FormulaOneApp.Services.Internet;
+using Xamarin.Forms;
 
-using Foundation;
-using UIKit;
-
+[assembly: Dependency(typeof(InternetService))]
 namespace FormulaOneApp.iOS.Services.Internet
 {
-    class InternetService
+    public class InternetService : IInternetService
     {
+        private static NetworkReachability _defaultRoute;
+
+        public InternetService()
+        {
+            _defaultRoute = new NetworkReachability(new IPAddress(0));
+        }
+
+        public bool HasConnection()
+        {
+            NetworkReachabilityFlags flags;
+            _defaultRoute.TryGetFlags(out flags);
+
+            return flags.HasFlag(NetworkReachabilityFlags.Reachable);
+        }
     }
 }

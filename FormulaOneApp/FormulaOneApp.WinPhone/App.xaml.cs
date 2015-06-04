@@ -1,12 +1,11 @@
 ﻿using System;
 using System.Diagnostics;
-using System.Resources;
 using System.Windows;
 using System.Windows.Markup;
 using System.Windows.Navigation;
+using FormulaOneApp.WinPhone.Resources;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
-using FormulaOneApp.WinPhone.Resources;
 
 namespace FormulaOneApp.WinPhone
 {
@@ -39,7 +38,7 @@ namespace FormulaOneApp.WinPhone
             if (Debugger.IsAttached)
             {
                 // Display the current frame rate counters.
-                Application.Current.Host.Settings.EnableFrameRateCounter = false;
+                Current.Host.Settings.EnableFrameRateCounter = false;
 
                 // Show the areas of the app that are being redrawn in each frame.
                 //Application.Current.Host.Settings.EnableRedrawRegions = true;
@@ -54,7 +53,6 @@ namespace FormulaOneApp.WinPhone
                 // and consume battery power when the user is not using the phone.
                 PhoneApplicationService.Current.UserIdleDetectionMode = IdleDetectionMode.Disabled;
             }
-
         }
 
         // Code to execute when the application is launching (eg, from Start)

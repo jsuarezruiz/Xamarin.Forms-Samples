@@ -14,6 +14,8 @@
         private IDictionary<Type, Type> viewModelRouting = new Dictionary<Type, Type>()
         {
             { typeof(MainViewModel), typeof(MainView) },
+            { typeof(CircuitListViewModel), typeof(CircuitListView) },     
+            { typeof(CircuitDetailViewModel), typeof(CircuitDetailView) },
             { typeof(DriverListViewModel), typeof(DriverListView) },
             { typeof(DriverDetailViewModel), typeof(DriverDetailView) },
             { typeof(StandingsViewModel), typeof(StandingsView) }

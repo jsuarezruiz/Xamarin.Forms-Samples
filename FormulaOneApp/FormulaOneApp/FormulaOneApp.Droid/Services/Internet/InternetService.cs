@@ -1,18 +1,21 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
 using Android.App;
 using Android.Content;
-using Android.OS;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
+using Android.Net;
+using FormulaOneApp.Droid.Services.Internet;
+using FormulaOneApp.Services.Internet;
+using Xamarin.Forms;
 
+[assembly: Dependency(typeof(InternetService))]
 namespace FormulaOneApp.Droid.Services.Internet
 {
-    class InternetService
+    public class InternetService : IInternetService
     {
+        public bool HasConnection()
+        {   
+            var connectivityManager = (ConnectivityManager)
+            Application.Context.GetSystemService(Context.ConnectivityService);
+            var activeConnection = connectivityManager.ActiveNetworkInfo;
+            return (activeConnection != null) && activeConnection.IsConnected;
+        }
     }
 }

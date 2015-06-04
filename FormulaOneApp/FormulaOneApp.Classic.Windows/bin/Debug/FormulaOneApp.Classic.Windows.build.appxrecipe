@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>AIO</Machine>
+    <WindowsUser>Javier</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>fe8fb795-2b7c-46fd-8d6c-0d2184955cc6</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Windows\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Windows\bin\Debug\FormulaOneApp.Classic.Windows.exe">
+      <PackagePath>FormulaOneApp.Classic.Windows.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\packages\MvvmCross.HotTuna.CrossCore.3.5.1\lib\wpa81\Cirrious.CrossCore.dll">
+      <PackagePath>Cirrious.CrossCore.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\packages\MvvmCross.HotTuna.CrossCore.3.5.1\lib\wpa81\Cirrious.CrossCore.WindowsCommon.dll">
+      <PackagePath>Cirrious.CrossCore.WindowsCommon.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.5.1\lib\wpa81\Cirrious.MvvmCross.dll">
+      <PackagePath>Cirrious.MvvmCross.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\packages\MvvmCross.HotTuna.CrossCore.3.5.1\lib\wpa81\Cirrious.MvvmCross.Localization.dll">
+      <PackagePath>Cirrious.MvvmCross.Localization.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.5.1\lib\wpa81\Cirrious.MvvmCross.WindowsCommon.dll">
+      <PackagePath>Cirrious.MvvmCross.WindowsCommon.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Core\bin\Debug\FormulaOneApp.Classic.Core.dll">
+      <PackagePath>FormulaOneApp.Classic.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Core\bin\Debug\FormulaOneApp.ErgastAPI.dll">
+      <PackagePath>FormulaOneApp.ErgastAPI.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Core\bin\Debug\OxyPlot.dll">
+      <PackagePath>OxyPlot.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Core\bin\Debug\FormulaOneApp.Rss.dll">
+      <PackagePath>FormulaOneApp.Rss.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Core\bin\Debug\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Windows\Assets\Events\7.jpg">
+      <PackagePath>Assets\Events\7.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Rss\Images\DefaultFeedIcon.jpg">
+      <PackagePath>FormulaOneApp.Rss\Images\DefaultFeedIcon.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Windows\Assets\Icons\Calendar.png">
+      <PackagePath>Assets\Icons\Calendar.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Windows\Assets\Icons\Champs.png">
+      <PackagePath>Assets\Icons\Champs.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Windows\Assets\Icons\Circuit.png">
+      <PackagePath>Assets\Icons\Circuit.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Windows\Assets\Icons\Driver.png">
+      <PackagePath>Assets\Icons\Driver.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Windows\Assets\Icons\Pole.png">
+      <PackagePath>Assets\Icons\Pole.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Windows\Assets\Icons\PushPin.png">
+      <PackagePath>Assets\Icons\PushPin.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Windows\Assets\Icons\Races.png">
+      <PackagePath>Assets\Icons\Races.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Windows\Assets\Icons\Scuderias.png">
+      <PackagePath>Assets\Icons\Scuderias.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Windows\Assets\Icons\Standings.png">
+      <PackagePath>Assets\Icons\Standings.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Windows\Assets\Icons\Wins.png">
+      <PackagePath>Assets\Icons\Wins.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Windows\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Windows\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Windows\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Windows\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Windows\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Windows\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Windows\bin\Debug\Themes\Colors.xbf">
+      <PackagePath>Themes\Colors.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Windows\bin\Debug\Themes\Generic.xbf">
+      <PackagePath>Themes\Generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Windows\bin\Debug\Themes\Hub.xbf">
+      <PackagePath>Themes\Hub.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Windows\bin\Debug\Themes\List.xbf">
+      <PackagePath>Themes\List.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Windows\bin\Debug\Views\CircuitDetailView.xbf">
+      <PackagePath>Views\CircuitDetailView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Windows\bin\Debug\Views\CircuitListView.xbf">
+      <PackagePath>Views\CircuitListView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Windows\bin\Debug\Views\DriverDetailView.xbf">
+      <PackagePath>Views\DriverDetailView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Windows\bin\Debug\Views\DriverListView.xbf">
+      <PackagePath>Views\DriverListView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Windows\bin\Debug\Views\MainView.xbf">
+      <PackagePath>Views\MainView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Windows\bin\Debug\Views\StandingsView.xbf">
+      <PackagePath>Views\StandingsView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Windows\bin\Debug\FormulaOneApp.Classic.Windows.xr.xml">
+      <PackagePath>FormulaOneApp.Classic.Windows.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

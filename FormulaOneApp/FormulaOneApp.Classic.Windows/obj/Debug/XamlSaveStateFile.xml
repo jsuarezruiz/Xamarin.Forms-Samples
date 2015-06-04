@@ -1,0 +1,11 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\javier\documents\visual studio 2013\projects\formulaoneapp\formulaoneapp.classic.windows\obj\debug\intermediatexaml\formulaoneapp.classic.windows.exe" HashGuid="ef5f1eb8-6052-5d12-dd4e-932b6505df93" />
+    <ReferenceAssembly PathName="c:\users\javier\documents\visual studio 2013\projects\formulaoneapp\packages\mvvmcross.hottuna.crosscore.3.5.1\lib\wpa81\cirrious.crosscore.dll" HashGuid="f51cf076-e9f9-7893-b7aa-10ded5a79469" />
+    <ReferenceAssembly PathName="c:\users\javier\documents\visual studio 2013\projects\formulaoneapp\packages\mvvmcross.hottuna.crosscore.3.5.1\lib\wpa81\cirrious.crosscore.windowscommon.dll" HashGuid="33137c4e-381b-0828-9fcf-2ac3014e11f4" />
+    <ReferenceAssembly PathName="c:\users\javier\documents\visual studio 2013\projects\formulaoneapp\packages\mvvmcross.hottuna.mvvmcrosslibraries.3.5.1\lib\wpa81\cirrious.mvvmcross.dll" HashGuid="c59ba883-98f9-a0fc-9b87-39694ebb8fc3" />
+    <ReferenceAssembly PathName="c:\users\javier\documents\visual studio 2013\projects\formulaoneapp\packages\mvvmcross.hottuna.crosscore.3.5.1\lib\wpa81\cirrious.mvvmcross.localization.dll" HashGuid="cc169ebc-6f40-271e-a9fe-e2fe4b3425db" />
+    <ReferenceAssembly PathName="c:\users\javier\documents\visual studio 2013\projects\formulaoneapp\packages\mvvmcross.hottuna.mvvmcrosslibraries.3.5.1\lib\wpa81\cirrious.mvvmcross.windowscommon.dll" HashGuid="9470c5fd-ff0e-73c7-d67b-3c13969244eb" />
+    <ReferenceAssembly PathName="c:\users\javier\documents\visual studio 2013\projects\formulaoneapp\formulaoneapp.classic.core\bin\debug\formulaoneapp.classic.core.dll" HashGuid="9d0f6c88-946e-5881-4bc5-b27cd13b5c22" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

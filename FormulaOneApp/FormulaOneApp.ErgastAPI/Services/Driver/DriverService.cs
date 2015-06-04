@@ -68,11 +68,12 @@
         /// 
         /// </summary>
         /// <param name="driver"></param>
+        /// <param name="season"></param>
         /// <returns></returns>
-        public async Task<RaceTable> GetDriverResultsAsync(string driver = "")
+        public async Task<RaceTable> GetDriverResultsAsync(string driver = "", string season = "current")
         {
             RaceRootObject data = null;
-            string url = string.Format("http://ergast.com/api/f1/drivers/{0}/results.json", driver);
+            string url = string.Format("http://ergast.com/api/f1/{0}/drivers/{1}/results.json", season, driver);
 
             HttpWebRequest request = WebRequest.CreateHttp(new Uri(url));
             var response = await HttpRequest(request);

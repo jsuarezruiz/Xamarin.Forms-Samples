@@ -1,4 +1,6 @@
-﻿namespace FormulaOneApp.ViewModels
+﻿using FormulaOneApp.Services.Internet;
+
+namespace FormulaOneApp.ViewModels
 {
     using System;
     using System.Threading.Tasks;
@@ -22,6 +24,7 @@
         //Services
         private readonly INavigationService _navigationService;
         private readonly IRaceService _raceService;
+        private readonly IInternetService _internetService;
 
         //Variables 
         private Race _nextRace;
@@ -31,11 +34,13 @@
         // Commands
         private ICommand _standingsCommand;
         private ICommand _driversCommand;
+        private ICommand _circuitsCommand;
 
-        public MainViewModel(INavigationService navigationService, IRaceService raceService)
+        public MainViewModel(INavigationService navigationService, IRaceService raceService, IInternetService internetService)
         {
             _navigationService = navigationService;
             _raceService = raceService;
+            _internetService = internetService;
         }
 
         public Race NextRace
@@ -76,6 +81,11 @@
         public ICommand DriversCommand
         {
             get { return _driversCommand = _driversCommand ?? new DelegateCommand(DriversCommandExecute); }
+        }
+
+        public ICommand CircuitsCommand
+        {
+            get { return _circuitsCommand = _circuitsCommand ?? new DelegateCommand(CircuitsCommandExecute); }
         }
 
         public override async void OnAppearing(object navigationContext)
@@ -144,6 +154,11 @@
         private void DriversCommandExecute()
         {
             _navigationService.NavigateTo<DriverListViewModel>();
+        }
+
+        private void CircuitsCommandExecute()
+        {
+            _navigationService.NavigateTo<CircuitListViewModel>();
         }
     }
 }

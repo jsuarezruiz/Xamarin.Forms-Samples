@@ -1,0 +1,184 @@
+<views:MvxWindowsPage
+    x:Class="FormulaOneApp.Classic.Windows.Views.MainView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:views="using:Cirrious.MvvmCross.WindowsCommon.Views"
+    xmlns:tile="using:FormulaOneApp.Classic.Windows.Controls.Tile"
+    xmlns:animations="using:FormulaOneApp.Classic.Windows.Controls.Tile.Animations"
+    mc:Ignorable="d"
+    Background="{StaticResource WhiteBrush}"
+    Foreground="{StaticResource BlackBrush}">
+    <Grid>
+        <Hub 
+            Header="Formula One" 
+            HeaderTemplate="{StaticResource HubHeaderDataTemplate}">
+            <HubSection Header="Events"
+                        HeaderTemplate="{StaticResource HubSectionHeaderDataTemplate}">
+                <DataTemplate>
+                    <Grid>
+                        <Image
+                            Source="{Binding NextRace.Round, Converter={StaticResource EventToImageConverter}}"
+                            Stretch="UniformToFill" />
+                        <Grid
+                            Background="{StaticResource AccentBrush}"
+                            VerticalAlignment="Bottom">
+                            <StackPanel
+                                Margin="15, 50">
+                                <TextBlock
+                                    Text="{Binding NextRace.RaceName}"
+                                    Foreground="{StaticResource WhiteBrush}"
+                                    FontSize="48"/>
+                                <TextBlock
+                                    Text="{Binding NextRace.Date}"
+                                    Foreground="{StaticResource WhiteBrush}"
+                                    FontSize="32"/>
+                            </StackPanel>
+                        </Grid>
+                    </Grid>
+                </DataTemplate>
+            </HubSection>
+            <HubSection Header="News"
+                        HeaderTemplate="{StaticResource HubSectionHeaderDataTemplate}">
+                <DataTemplate>
+                    <Grid>
+                        <ListView
+                            ItemsSource="{Binding News}"
+                            ItemTemplate="{StaticResource NewDataTemplate}" />
+                    </Grid>
+                </DataTemplate>
+            </HubSection>
+            <HubSection Header="Sections"
+                        HeaderTemplate="{StaticResource HubSectionHeaderDataTemplate}">
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="225" />
+                            <ColumnDefinition Width="225" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="225" />
+                            <RowDefinition Height="225" />
+                        </Grid.RowDefinitions>
+                        <tile:Tile 
+                            Command="{Binding StandingsCommand}"
+                            Grid.Column="0"
+                            Grid.Row="0"
+                            IsAnimationEnabled="True" 
+                            Height="220"
+                            Width="220"
+                            Background="{StaticResource AccentBrush}"
+                            tile:TiltEffect.IsTiltEnabled="True">
+                            <tile:Tile.FrontContent>
+                                <Grid HorizontalAlignment="Stretch" 
+                                      VerticalAlignment="Stretch">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="200" />
+                                        <RowDefinition Height="*" />
+                                    </Grid.RowDefinitions>
+                                    <Image 
+                                        Source="ms-appx:///Assets/Icons/Standings.png" />
+                                    <TextBlock Grid.Row="1" 
+                                               Text="Standings"
+                                               Foreground="{StaticResource WhiteBrush}"
+                                               FontSize="18"
+                                               HorizontalAlignment="Center" />
+                                </Grid>
+                            </tile:Tile.FrontContent>
+                            <tile:Tile.TileAnimation>
+                                <animations:LeftAnimationTile />
+                            </tile:Tile.TileAnimation>
+                        </tile:Tile>
+                        <tile:Tile
+                            Command="{Binding DriversCommand}"
+                            Grid.Column="1"
+                            Grid.Row="0"
+                            IsAnimationEnabled="True" 
+                            Height="220"
+                            Width="220"
+                            Background="{StaticResource AccentBrush}"
+                            tile:TiltEffect.IsTiltEnabled="True">
+                            <tile:Tile.FrontContent>
+                                <Grid HorizontalAlignment="Stretch" 
+                                      VerticalAlignment="Stretch">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="200" />
+                                        <RowDefinition Height="*" />
+                                    </Grid.RowDefinitions>
+                                    <Image 
+                                        Source="ms-appx:///Assets/Icons/Driver.png" />
+                                    <TextBlock Grid.Row="1" 
+                                               Text="Drivers"
+                                               Foreground="{StaticResource WhiteBrush}"
+                                               FontSize="18"
+                                               HorizontalAlignment="Center" />
+                                </Grid>
+                            </tile:Tile.FrontContent>
+                            <tile:Tile.TileAnimation>
+                                <animations:RightTileAnimation />
+                            </tile:Tile.TileAnimation>
+                        </tile:Tile>
+                        <tile:Tile
+                            Grid.Column="0"
+                            Grid.Row="1"
+                            IsAnimationEnabled="True" 
+                            Height="220"
+                            Width="220"
+                            Background="{StaticResource AccentBrush}"
+                            tile:TiltEffect.IsTiltEnabled="True">
+                            <tile:Tile.FrontContent>
+                                <Grid HorizontalAlignment="Stretch" 
+                                      VerticalAlignment="Stretch">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="200" />
+                                        <RowDefinition Height="*" />
+                                    </Grid.RowDefinitions>
+                                    <Image 
+                                        Source="ms-appx:///Assets/Icons/Scuderias.png" />
+                                    <TextBlock Grid.Row="1" 
+                                               Text="Scuderias"
+                                               Foreground="{StaticResource WhiteBrush}"
+                                               FontSize="18"
+                                               HorizontalAlignment="Center" />
+                                </Grid>
+                            </tile:Tile.FrontContent>
+                            <tile:Tile.TileAnimation>
+                                <animations:RotationVerticalTileAnimation />
+                            </tile:Tile.TileAnimation>
+                        </tile:Tile>
+                        <tile:Tile
+                            Command="{Binding CircuitsCommand}"
+                            Grid.Column="1"
+                            Grid.Row="1"
+                            IsAnimationEnabled="True" 
+                            Height="220"
+                            Width="220"
+                            Background="{StaticResource AccentBrush}"
+                            tile:TiltEffect.IsTiltEnabled="True">
+                            <tile:Tile.FrontContent>
+                                <Grid HorizontalAlignment="Stretch" 
+                                      VerticalAlignment="Stretch">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="200" />
+                                        <RowDefinition Height="*" />
+                                    </Grid.RowDefinitions>
+                                    <Image 
+                                        Source="ms-appx:///Assets/Icons/Circuit.png" />
+                                    <TextBlock Grid.Row="1" 
+                                               Text="Circuits"
+                                               Foreground="{StaticResource WhiteBrush}"
+                                               FontSize="18"
+                                               HorizontalAlignment="Center" />
+                                </Grid>
+                            </tile:Tile.FrontContent>
+                            <tile:Tile.TileAnimation>
+                                <animations:RotationHorizontalTileAnimation />
+                            </tile:Tile.TileAnimation>
+                        </tile:Tile>
+                    </Grid>
+                </DataTemplate>
+            </HubSection>
+        </Hub>
+    </Grid>
+</views:MvxWindowsPage>

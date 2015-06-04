@@ -63,3 +63,14 @@ C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneAp
 C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp\bin\Debug\Images\Icons\Pole.png
 C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp\bin\Debug\Images\Icons\Races.png
 C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp\bin\Debug\Images\Icons\Wins.png
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp\bin\Debug\OxyPlot.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp\bin\Debug\OxyPlot.Xamarin.Forms.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp\bin\Debug\OxyPlot.pdb
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp\bin\Debug\OxyPlot.xml
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp\bin\Debug\OxyPlot.Xamarin.Forms.pdb
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp\bin\Debug\OxyPlot.Xamarin.Forms.xml
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp\bin\Debug\Images\Icons\PushPin.png
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp\obj\Debug\CircuitListView.xaml.g.cs
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp\obj\Debug\CircuitDetailView.xaml.g.cs
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp\bin\Debug\Xamarin.Forms.Maps.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp\bin\Debug\Xamarin.Forms.Maps.xml

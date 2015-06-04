@@ -17,7 +17,6 @@ C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneAp
 C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\FormulaOneApp.Classic.Android.pdb
 C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\android\bin\FormulaOneApp.Classic.Android.apk
 C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\res\layout\splashscreen.xml
-C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\res\layout\firstview.xml
 C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\res\layout\main.xml
 C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\res\values\strings.xml
 C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\res\drawable\icon.png
@@ -26,3 +25,19 @@ C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneAp
 C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\res\drawable\splash.png
 C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\R.cs.flag
 C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\uploadflags.txt
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Android\bin\Debug\FormulaOneApp.Classic.Core.dll.mdb
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Android\bin\Debug\FormulaOneApp.ErgastAPI.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Android\bin\Debug\OxyPlot.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Android\bin\Debug\FormulaOneApp.Rss.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Android\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Android\bin\Debug\FormulaOneApp.ErgastAPI.pdb
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Android\bin\Debug\OxyPlot.pdb
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Android\bin\Debug\OxyPlot.xml
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Android\bin\Debug\FormulaOneApp.Rss.pdb
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Android\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\res\layout\mainview.xml
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\res\layout\circuitlistview.xml
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\res\layout\circuitdetailview.xml
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\res\layout\driverlistview.xml
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\res\layout\driverdetailview.xml
+C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\res\layout\standingsview.xml

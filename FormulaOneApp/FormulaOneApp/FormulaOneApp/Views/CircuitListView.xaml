@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FormulaOneApp.Views.CircuitListView"
+             BackgroundColor="{StaticResource WhiteColor}">
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="100" />
+      <RowDefinition Height="*" />
+    </Grid.RowDefinitions>
+    <!-- Header -->
+    <Grid
+      BackgroundColor="{StaticResource AccentColor}">
+      <Label
+        Text="Circuits"
+        TextColor="{StaticResource WhiteColor}"
+        FontSize="48"
+        XAlign="Center"
+        YAlign="Center"/>
+    </Grid>
+    <!-- Driver List -->
+    <Grid
+      Grid.Row="1"
+      Padding="12, 12, 0, 0">
+      <ListView
+        ItemsSource="{Binding Circuits}"
+        SelectedItem="{Binding Circuit, Mode=TwoWay}">
+        <ListView.ItemTemplate>
+          <DataTemplate>
+            <ViewCell>
+              <ViewCell.View>
+                <StackLayout
+                  Padding="0,0,0,12"
+                  Orientation="Horizontal">
+                  <Image
+                    Source="Images/Icons/PushPin.png"
+                    WidthRequest="75"
+                    HeightRequest="75"
+                    Aspect="AspectFit" />
+                  <StackLayout
+                    Padding="12,0,0,0">
+                    <Label
+                      Text="{Binding CircuitName}"
+                      TextColor="{StaticResource BlackColor}"
+                      Font="32"/>
+                    <Label
+                      Text="{Binding Location}"
+                      TextColor="{StaticResource AccentColor}"
+                      Font="24"/>
+                  </StackLayout>
+                </StackLayout>
+              </ViewCell.View>
+            </ViewCell>
+          </DataTemplate>
+        </ListView.ItemTemplate>
+      </ListView>
+    </Grid>
+  </Grid>
+</ContentPage>

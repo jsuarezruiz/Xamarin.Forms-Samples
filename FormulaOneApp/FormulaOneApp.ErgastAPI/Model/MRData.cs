@@ -1,4 +1,5 @@
-﻿using FormulaOneApp.ErgastAPI.Model.Constructor;
+﻿using FormulaOneApp.ErgastAPI.Model.Circuit;
+using FormulaOneApp.ErgastAPI.Model.Constructor;
 using FormulaOneApp.ErgastAPI.Model.Driver;
 
 namespace FormulaOneApp.ErgastAPI.Model
@@ -15,6 +16,7 @@ namespace FormulaOneApp.ErgastAPI.Model
         public string Total { get; set; }
         public RaceTable RaceTable { get; set; }
         public DriverTable DriverTable { get; set; }
-        public ConstructorTable ConstructorTable { get; set; }
+        public ConstructorTable ConstructorTable { get; set; } 
+        public CircuitTable CircuitTable { get; set; }
     }
 }

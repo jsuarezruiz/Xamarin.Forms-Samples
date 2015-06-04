@@ -12,6 +12,8 @@
             SupportedOrientations = SupportedPageOrientation.PortraitOrLandscape;
 
             Forms.Init();
+            OxyPlot.Xamarin.Forms.Platform.WP8.Forms.Init(); 
+            Xamarin.FormsMaps.Init();
             LoadApplication(new FormulaOneApp.App());
         }
     }

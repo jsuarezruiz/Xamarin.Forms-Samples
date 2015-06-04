@@ -31,6 +31,6 @@
         /// </summary>
         /// <param name="driver"></param>
         /// <returns></returns>
-        Task<RaceTable> GetDriverResultsAsync(string driver = "");
+        Task<RaceTable> GetDriverResultsAsync(string driver = "", string season = "current");
     }
 }

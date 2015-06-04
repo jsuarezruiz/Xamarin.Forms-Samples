@@ -112,7 +112,8 @@
         Grid.Row="1"
         Title="Circuit"
         Message="Formula One 2015 Circuits"
-        Color="{StaticResource AccentColor}">
+        Color="{StaticResource AccentColor}"
+        Command="{Binding CircuitsCommand}">
         <customControls:CustomHubTileView.Source>
           <FileImageSource File="Images/Icons/Circuit.png" />
         </customControls:CustomHubTileView.Source>
