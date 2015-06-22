@@ -1,0 +1,9 @@
+c:\users\javier\documents\visual studio 2013\Projects\HyperlinkCustomRender\HyperlinkCustomRender\HyperlinkCustomRender\bin\Debug\HyperlinkCustomRender.dll
+c:\users\javier\documents\visual studio 2013\Projects\HyperlinkCustomRender\HyperlinkCustomRender\HyperlinkCustomRender\bin\Debug\HyperlinkCustomRender.pdb
+c:\users\javier\documents\visual studio 2013\Projects\HyperlinkCustomRender\HyperlinkCustomRender\HyperlinkCustomRender\bin\Debug\Xamarin.Forms.Core.dll
+c:\users\javier\documents\visual studio 2013\Projects\HyperlinkCustomRender\HyperlinkCustomRender\HyperlinkCustomRender\bin\Debug\Xamarin.Forms.Xaml.dll
+c:\users\javier\documents\visual studio 2013\Projects\HyperlinkCustomRender\HyperlinkCustomRender\HyperlinkCustomRender\bin\Debug\Xamarin.Forms.Core.xml
+c:\users\javier\documents\visual studio 2013\Projects\HyperlinkCustomRender\HyperlinkCustomRender\HyperlinkCustomRender\bin\Debug\Xamarin.Forms.Xaml.xml
+c:\users\javier\documents\visual studio 2013\Projects\HyperlinkCustomRender\HyperlinkCustomRender\HyperlinkCustomRender\obj\Debug\MainView.xaml.g.cs
+c:\users\javier\documents\visual studio 2013\Projects\HyperlinkCustomRender\HyperlinkCustomRender\HyperlinkCustomRender\obj\Debug\HyperlinkCustomRender.dll
+c:\users\javier\documents\visual studio 2013\Projects\HyperlinkCustomRender\HyperlinkCustomRender\HyperlinkCustomRender\obj\Debug\HyperlinkCustomRender.pdb
