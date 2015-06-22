@@ -1,0 +1,13 @@
+c:\users\javier\documents\visual studio 2013\Projects\HubTileCustomRender\HubTileCustomRender\HubTileCustomRender\bin\Debug\HubTileCustomRender.dll
+c:\users\javier\documents\visual studio 2013\Projects\HubTileCustomRender\HubTileCustomRender\HubTileCustomRender\bin\Debug\HubTileCustomRender.pdb
+c:\users\javier\documents\visual studio 2013\Projects\HubTileCustomRender\HubTileCustomRender\HubTileCustomRender\bin\Debug\Xamarin.Forms.Core.dll
+c:\users\javier\documents\visual studio 2013\Projects\HubTileCustomRender\HubTileCustomRender\HubTileCustomRender\bin\Debug\Xamarin.Forms.Xaml.dll
+c:\users\javier\documents\visual studio 2013\Projects\HubTileCustomRender\HubTileCustomRender\HubTileCustomRender\bin\Debug\Xamarin.Forms.Core.xml
+c:\users\javier\documents\visual studio 2013\Projects\HubTileCustomRender\HubTileCustomRender\HubTileCustomRender\bin\Debug\Xamarin.Forms.Xaml.xml
+c:\users\javier\documents\visual studio 2013\Projects\HubTileCustomRender\HubTileCustomRender\HubTileCustomRender\obj\Debug\MainView.xaml.g.cs
+c:\users\javier\documents\visual studio 2013\Projects\HubTileCustomRender\HubTileCustomRender\HubTileCustomRender\obj\Debug\HubTileCustomRender.dll
+c:\users\javier\documents\visual studio 2013\Projects\HubTileCustomRender\HubTileCustomRender\HubTileCustomRender\obj\Debug\HubTileCustomRender.pdb
+c:\users\javier\documents\visual studio 2013\Projects\HubTileCustomRender\HubTileCustomRender\HubTileCustomRender\bin\Debug\Images\arroces.jpg
+c:\users\javier\documents\visual studio 2013\Projects\HubTileCustomRender\HubTileCustomRender\HubTileCustomRender\bin\Debug\Images\pastas.jpg
+c:\users\javier\documents\visual studio 2013\Projects\HubTileCustomRender\HubTileCustomRender\HubTileCustomRender\bin\Debug\Images\pescados.jpg
+c:\users\javier\documents\visual studio 2013\Projects\HubTileCustomRender\HubTileCustomRender\HubTileCustomRender\bin\Debug\Images\rapida.jpg

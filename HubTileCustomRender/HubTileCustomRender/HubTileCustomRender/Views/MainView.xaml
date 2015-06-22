@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:HubTileCustomRender.Controls;assembly=HubTileCustomRender"
+             x:Class="HubTileCustomRender.Views.MainView">
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="120" />
+      <RowDefinition Height="*" />
+    </Grid.RowDefinitions>
+    <StackLayout Padding="12">
+      <Label Text="HUBTILE - CUSTOM RENDERS" />
+      <Label Text="hubtile" FontSize="48" />
+    </StackLayout>
+    <Grid Grid.Row="1" Padding="12">
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="180" />
+        <ColumnDefinition Width="180" />
+      </Grid.ColumnDefinitions>
+      <Grid.RowDefinitions>
+        <RowDefinition Height="180" />
+        <RowDefinition Height="180" />
+      </Grid.RowDefinitions>
+      <controls:CustomHubTileView
+        Title="Arroces"
+        Message="25 recetas"
+        Color="Red">
+        <controls:CustomHubTileView.Source>
+          <FileImageSource File="../Images/arroces.jpg" />
+        </controls:CustomHubTileView.Source>
+      </controls:CustomHubTileView>
+      <controls:CustomHubTileView
+        Grid.Column="1"
+        Title="Pizza"
+        Message="5 recetas"
+        Color="Green">
+        <controls:CustomHubTileView.Source>
+          <FileImageSource File="/Images/rapida.jpg" />
+        </controls:CustomHubTileView.Source>
+      </controls:CustomHubTileView>
+      <controls:CustomHubTileView
+        Grid.Row="1"
+        Title="Pastas"
+        Message="16 recetas"
+        Color="Blue">
+        <controls:CustomHubTileView.Source>
+          <FileImageSource File="Images/pastas.jpg" />
+        </controls:CustomHubTileView.Source>
+      </controls:CustomHubTileView>
+      <controls:CustomHubTileView
+        Grid.Column="1"
+        Grid.Row="1"
+        Title="Pescados"
+        Message="52 recetas"
+        Color="Yellow">
+        <controls:CustomHubTileView.Source>
+          <FileImageSource File="Images/pescados.jpg" />
+        </controls:CustomHubTileView.Source>
+      </controls:CustomHubTileView>
+    </Grid>
+  </Grid>
+</ContentPage>
