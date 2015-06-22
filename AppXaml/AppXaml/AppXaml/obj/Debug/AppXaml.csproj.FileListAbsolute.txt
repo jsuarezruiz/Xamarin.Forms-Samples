@@ -1,0 +1,10 @@
+c:\users\javier\documents\visual studio 2013\Projects\AppXaml\AppXaml\AppXaml\bin\Debug\AppXaml.dll
+c:\users\javier\documents\visual studio 2013\Projects\AppXaml\AppXaml\AppXaml\bin\Debug\AppXaml.pdb
+c:\users\javier\documents\visual studio 2013\Projects\AppXaml\AppXaml\AppXaml\bin\Debug\Xamarin.Forms.Core.dll
+c:\users\javier\documents\visual studio 2013\Projects\AppXaml\AppXaml\AppXaml\bin\Debug\Xamarin.Forms.Xaml.dll
+c:\users\javier\documents\visual studio 2013\Projects\AppXaml\AppXaml\AppXaml\bin\Debug\Xamarin.Forms.Core.xml
+c:\users\javier\documents\visual studio 2013\Projects\AppXaml\AppXaml\AppXaml\bin\Debug\Xamarin.Forms.Xaml.xml
+c:\users\javier\documents\visual studio 2013\Projects\AppXaml\AppXaml\AppXaml\obj\Debug\App.xaml.g.cs
+c:\users\javier\documents\visual studio 2013\Projects\AppXaml\AppXaml\AppXaml\obj\Debug\AppXaml.dll
+c:\users\javier\documents\visual studio 2013\Projects\AppXaml\AppXaml\AppXaml\obj\Debug\AppXaml.pdb
+c:\users\javier\documents\visual studio 2013\Projects\AppXaml\AppXaml\AppXaml\obj\Debug\MainView.xaml.g.cs
