@@ -1,0 +1,13 @@
+C:\Users\Javier\documents\visual studio 2013\Projects\DependencyServiceSample\DependencyServiceSample\DependencyServiceSample.iOS\bin\iPhone\Debug\DependencyServiceSampleiOS.exe
+C:\Users\Javier\documents\visual studio 2013\Projects\DependencyServiceSample\DependencyServiceSample\DependencyServiceSample.iOS\bin\iPhone\Debug\DependencyServiceSampleiOS.pdb
+C:\Users\Javier\documents\visual studio 2013\Projects\DependencyServiceSample\DependencyServiceSample\DependencyServiceSample.iOS\bin\iPhone\Debug\DependencyServiceSample.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\DependencyServiceSample\DependencyServiceSample\DependencyServiceSample.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\DependencyServiceSample\DependencyServiceSample\DependencyServiceSample.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.iOS.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\DependencyServiceSample\DependencyServiceSample\DependencyServiceSample.iOS\bin\iPhone\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Javier\documents\visual studio 2013\Projects\DependencyServiceSample\DependencyServiceSample\DependencyServiceSample.iOS\bin\iPhone\Debug\DependencyServiceSample.pdb
+C:\Users\Javier\documents\visual studio 2013\Projects\DependencyServiceSample\DependencyServiceSample\DependencyServiceSample.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.xml
+C:\Users\Javier\documents\visual studio 2013\Projects\DependencyServiceSample\DependencyServiceSample\DependencyServiceSample.iOS\bin\iPhone\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Javier\documents\visual studio 2013\Projects\DependencyServiceSample\DependencyServiceSample\DependencyServiceSample.iOS\obj\iPhone\Debug\
+C:\Users\Javier\documents\visual studio 2013\Projects\DependencyServiceSample\DependencyServiceSample\DependencyServiceSample.iOS\obj\iPhone\Debug\DependencyServiceSample.iOS.csprojResolveAssemblyReference.cache
+C:\Users\Javier\documents\visual studio 2013\Projects\DependencyServiceSample\DependencyServiceSample\DependencyServiceSample.iOS\obj\iPhone\Debug\DependencyServiceSampleiOS.exe
+C:\Users\Javier\documents\visual studio 2013\Projects\DependencyServiceSample\DependencyServiceSample\DependencyServiceSample.iOS\obj\iPhone\Debug\DependencyServiceSampleiOS.pdb
