@@ -5,3 +5,13 @@ C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneAp
 C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.ErgastAPI\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.ErgastAPI\obj\Debug\FormulaOneApp.ErgastAPI.dll
 C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.ErgastAPI\obj\Debug\FormulaOneApp.ErgastAPI.pdb
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.ErgastAPI\bin\Debug\FormulaOneApp.ErgastAPI.dll.config
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.ErgastAPI\bin\Debug\FormulaOneApp.ErgastAPI.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.ErgastAPI\bin\Debug\FormulaOneApp.ErgastAPI.pdb
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.ErgastAPI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.ErgastAPI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.ErgastAPI\obj\Debug\FormulaOneApp.ErgastAPI.csprojResolveAssemblyReference.cache
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.ErgastAPI\obj\Debug\FormulaOneApp.ErgastAPI.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.ErgastAPI\obj\Debug\FormulaOneApp.ErgastAPI.pdb
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.ErgastAPI\obj\Debug\FormulaOneApp.ErgastAPI.dll.mdb
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.ErgastAPI\bin\Debug\FormulaOneApp.ErgastAPI.dll.mdb

@@ -12,7 +12,7 @@ public class MvxLayoutInfactorFactory_FactoryWrapper
 		__md_methods = 
 			"n_onCreateView:(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;:GetOnCreateView_Ljava_lang_String_Landroid_content_Context_Landroid_util_AttributeSet_Handler:Android.Views.LayoutInflater/IFactoryInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
 			"";
-		mono.android.Runtime.register ("Cirrious.MvvmCross.Binding.Droid.Binders.MvxLayoutInfactorFactory/FactoryWrapper, Cirrious.MvvmCross.Binding.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", MvxLayoutInfactorFactory_FactoryWrapper.class, __md_methods);
+		mono.android.Runtime.register ("Cirrious.MvvmCross.Binding.Droid.Binders.MvxLayoutInfactorFactory+FactoryWrapper, Cirrious.MvvmCross.Binding.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", MvxLayoutInfactorFactory_FactoryWrapper.class, __md_methods);
 	}
 
 
@@ -20,7 +20,7 @@ public class MvxLayoutInfactorFactory_FactoryWrapper
 	{
 		super ();
 		if (getClass () == MvxLayoutInfactorFactory_FactoryWrapper.class)
-			mono.android.TypeManager.Activate ("Cirrious.MvvmCross.Binding.Droid.Binders.MvxLayoutInfactorFactory/FactoryWrapper, Cirrious.MvvmCross.Binding.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("Cirrious.MvvmCross.Binding.Droid.Binders.MvxLayoutInfactorFactory+FactoryWrapper, Cirrious.MvvmCross.Binding.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
 
 

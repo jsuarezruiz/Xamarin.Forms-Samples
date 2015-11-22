@@ -73,3 +73,6 @@ C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneAp
 C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Images\Cars\Williams.png
 C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\FormulaOneApp.Droid.dll.config
 C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\bin\Debug\Images\Cars\Manor Marussia.png
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\obj\Debug\FormulaOneApp.Droid.csprojResolveAssemblyReference.cache
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\obj\Debug\FormulaOneApp.Droid.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp\FormulaOneApp.Droid\obj\Debug\FormulaOneApp.Droid.pdb

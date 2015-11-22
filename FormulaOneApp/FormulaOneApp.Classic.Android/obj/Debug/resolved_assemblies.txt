@@ -1,62 +1,77 @@
-C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Android\bin\Debug\FormulaOneApp.Classic.Android.dll
-C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\packages\MvvmCross.HotTuna.CrossCore.3.5.1\lib\MonoAndroid\Cirrious.CrossCore.dll
-C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\packages\MvvmCross.HotTuna.CrossCore.3.5.1\lib\MonoAndroid\Cirrious.CrossCore.Droid.dll
-C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\packages\MvvmCross.HotTuna.CrossCore.3.5.1\lib\MonoAndroid\Cirrious.MvvmCross.Binding.dll
-C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\packages\MvvmCross.HotTuna.CrossCore.3.5.1\lib\MonoAndroid\Cirrious.MvvmCross.Binding.Droid.dll
-C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.5.1\lib\MonoAndroid\Cirrious.MvvmCross.dll
-C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.5.1\lib\MonoAndroid\Cirrious.MvvmCross.Droid.dll
-C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\packages\MvvmCross.HotTuna.CrossCore.3.5.1\lib\MonoAndroid\Cirrious.MvvmCross.Localization.dll
-C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Core\bin\Debug\FormulaOneApp.Classic.Core.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Collections.Concurrent.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Collections.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.ComponentModel.Annotations.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.ComponentModel.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.ComponentModel.EventBasedAsync.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Diagnostics.Contracts.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Diagnostics.Debug.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Diagnostics.Tools.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Diagnostics.Tracing.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Dynamic.Runtime.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Globalization.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.IO.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Linq.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Linq.Expressions.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Linq.Parallel.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Linq.Queryable.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Net.NetworkInformation.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Net.Primitives.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Net.Requests.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.ObjectModel.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Reflection.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Reflection.Emit.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Reflection.Emit.ILGeneration.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Reflection.Emit.Lightweight.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Reflection.Extensions.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Reflection.Primitives.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Resources.ResourceManager.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Runtime.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Runtime.Extensions.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Runtime.InteropServices.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Runtime.InteropServices.WindowsRuntime.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Runtime.Numerics.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Runtime.Serialization.Json.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Runtime.Serialization.Primitives.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Runtime.Serialization.Xml.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Security.Principal.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.ServiceModel.Http.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.ServiceModel.Primitives.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.ServiceModel.Security.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Text.Encoding.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Text.Encoding.Extensions.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Text.RegularExpressions.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Threading.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Threading.Tasks.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Threading.Tasks.Parallel.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Threading.Timer.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Xml.ReaderWriter.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Xml.XDocument.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Xml.XmlSerializer.dll
-C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Android\bin\Debug\FormulaOneApp.ErgastAPI.dll
-C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Android\bin\Debug\Newtonsoft.Json.dll
-C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Android\bin\Debug\OxyPlot.dll
-C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp.Classic.Android\bin\Debug\FormulaOneApp.Rss.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\FormulaOneApp.Classic.Android.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\Cirrious.CrossCore.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\Cirrious.CrossCore.Droid.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\Cirrious.MvvmCross.Binding.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\Cirrious.MvvmCross.Binding.Droid.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\Cirrious.MvvmCross.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\Cirrious.MvvmCross.Droid.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\Cirrious.MvvmCross.Localization.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\FormulaOneApp.Classic.Core.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\Mono.Android.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\mscorlib.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Core.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Xml.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Xml.Linq.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Collections.Concurrent.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Collections.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.ComponentModel.Annotations.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.ComponentModel.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.ComponentModel.EventBasedAsync.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Diagnostics.Contracts.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Diagnostics.Debug.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Diagnostics.Tools.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Diagnostics.Tracing.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Dynamic.Runtime.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Globalization.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.IO.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Linq.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Linq.Expressions.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Linq.Parallel.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Linq.Queryable.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Net.NetworkInformation.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Net.Primitives.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Net.Requests.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.ObjectModel.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Reflection.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Reflection.Emit.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Reflection.Emit.ILGeneration.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Reflection.Emit.Lightweight.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Reflection.Extensions.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Reflection.Primitives.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Resources.ResourceManager.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Runtime.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Runtime.Extensions.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Runtime.InteropServices.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Runtime.InteropServices.WindowsRuntime.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Runtime.Numerics.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Runtime.Serialization.Json.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Runtime.Serialization.Primitives.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Runtime.Serialization.Xml.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Security.Principal.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.ServiceModel.Http.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.ServiceModel.Primitives.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.ServiceModel.Security.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Text.Encoding.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Text.Encoding.Extensions.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Text.RegularExpressions.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Threading.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Threading.Tasks.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Threading.Tasks.Parallel.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Threading.Timer.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Xml.ReaderWriter.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Xml.XDocument.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Xml.XmlSerializer.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\FormulaOneApp.ErgastAPI.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\Newtonsoft.Json.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\Microsoft.CSharp.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\Mono.CSharp.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\OxyPlot.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Net.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\FormulaOneApp.Rss.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Runtime.Serialization.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.ServiceModel.Internals.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.ComponentModel.DataAnnotations.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.ComponentModel.Composition.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.Numerics.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Android\obj\Debug\assemblies\System.ServiceModel.dll

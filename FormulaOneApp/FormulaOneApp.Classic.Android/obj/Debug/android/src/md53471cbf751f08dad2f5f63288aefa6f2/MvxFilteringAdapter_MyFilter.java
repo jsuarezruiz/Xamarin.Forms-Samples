@@ -13,7 +13,7 @@ public class MvxFilteringAdapter_MyFilter
 			"n_publishResults:(Ljava/lang/CharSequence;Landroid/widget/Filter$FilterResults;)V:GetPublishResults_Ljava_lang_CharSequence_Landroid_widget_Filter_FilterResults_Handler\n" +
 			"n_convertResultToString:(Ljava/lang/Object;)Ljava/lang/CharSequence;:GetConvertResultToString_Ljava_lang_Object_Handler\n" +
 			"";
-		mono.android.Runtime.register ("Cirrious.MvvmCross.Binding.Droid.Views.MvxFilteringAdapter/MyFilter, Cirrious.MvvmCross.Binding.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", MvxFilteringAdapter_MyFilter.class, __md_methods);
+		mono.android.Runtime.register ("Cirrious.MvvmCross.Binding.Droid.Views.MvxFilteringAdapter+MyFilter, Cirrious.MvvmCross.Binding.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", MvxFilteringAdapter_MyFilter.class, __md_methods);
 	}
 
 
@@ -21,14 +21,14 @@ public class MvxFilteringAdapter_MyFilter
 	{
 		super ();
 		if (getClass () == MvxFilteringAdapter_MyFilter.class)
-			mono.android.TypeManager.Activate ("Cirrious.MvvmCross.Binding.Droid.Views.MvxFilteringAdapter/MyFilter, Cirrious.MvvmCross.Binding.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("Cirrious.MvvmCross.Binding.Droid.Views.MvxFilteringAdapter+MyFilter, Cirrious.MvvmCross.Binding.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
 
 	public MvxFilteringAdapter_MyFilter (md53471cbf751f08dad2f5f63288aefa6f2.MvxFilteringAdapter p0) throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == MvxFilteringAdapter_MyFilter.class)
-			mono.android.TypeManager.Activate ("Cirrious.MvvmCross.Binding.Droid.Views.MvxFilteringAdapter/MyFilter, Cirrious.MvvmCross.Binding.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "Cirrious.MvvmCross.Binding.Droid.Views.MvxFilteringAdapter, Cirrious.MvvmCross.Binding.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", this, new java.lang.Object[] { p0 });
+			mono.android.TypeManager.Activate ("Cirrious.MvvmCross.Binding.Droid.Views.MvxFilteringAdapter+MyFilter, Cirrious.MvvmCross.Binding.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "Cirrious.MvvmCross.Binding.Droid.Views.MvxFilteringAdapter, Cirrious.MvvmCross.Binding.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", this, new java.lang.Object[] { p0 });
 	}
 
 

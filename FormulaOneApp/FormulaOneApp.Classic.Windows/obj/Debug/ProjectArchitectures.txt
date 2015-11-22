@@ -1,0 +1,4 @@
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Core\FormulaOneApp.Classic.Core.csproj;neutral
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Classic.Windows\FormulaOneApp.Classic.Windows.csproj;neutral
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.ErgastAPI\FormulaOneApp.ErgastAPI.csproj;neutral
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp.Rss\FormulaOneApp.Rss.csproj;neutral

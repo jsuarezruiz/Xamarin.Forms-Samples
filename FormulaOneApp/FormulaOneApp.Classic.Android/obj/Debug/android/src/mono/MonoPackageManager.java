@@ -141,8 +141,9 @@ class MonoPackageManager_Resources {
 		"Newtonsoft.Json.dll",
 		"OxyPlot.dll",
 		"FormulaOneApp.Rss.dll",
+		"System.ServiceModel.Internals.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};
-	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_21";
+	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_23";
 }

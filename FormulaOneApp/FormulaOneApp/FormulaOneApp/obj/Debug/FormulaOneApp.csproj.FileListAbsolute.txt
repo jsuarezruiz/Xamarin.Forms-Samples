@@ -74,3 +74,13 @@ C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneAp
 C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp\obj\Debug\CircuitDetailView.xaml.g.cs
 C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp\bin\Debug\Xamarin.Forms.Maps.dll
 C:\Users\Javier\documents\visual studio 2013\Projects\FormulaOneApp\FormulaOneApp\FormulaOneApp\bin\Debug\Xamarin.Forms.Maps.xml
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp\FormulaOneApp\obj\Debug\FormulaOneApp.csprojResolveAssemblyReference.cache
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp\FormulaOneApp\obj\Debug\MainView.xaml.g.cs
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp\FormulaOneApp\obj\Debug\App.xaml.g.cs
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp\FormulaOneApp\obj\Debug\DriverListView.xaml.g.cs
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp\FormulaOneApp\obj\Debug\DriverDetailView.xaml.g.cs
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp\FormulaOneApp\obj\Debug\StandingsView.xaml.g.cs
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp\FormulaOneApp\obj\Debug\CircuitListView.xaml.g.cs
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp\FormulaOneApp\obj\Debug\CircuitDetailView.xaml.g.cs
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp\FormulaOneApp\obj\Debug\FormulaOneApp.dll
+C:\Users\javie\Documents\GitHub\Xamarin.Forms-Samples\FormulaOneApp\FormulaOneApp\FormulaOneApp\obj\Debug\FormulaOneApp.pdb

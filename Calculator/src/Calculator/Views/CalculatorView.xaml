@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calculator.Views.CalculatorView">
+  <ContentPage.Padding>
+    <OnPlatform x:TypeArguments="Thickness"
+	                iOS="5, 20, 5, 0"
+	                Android="5, 0, 5, 0"
+	                WinPhone="5, 0, 5, 0" />
+  </ContentPage.Padding>
+  <ContentPage.Resources>
+    <ResourceDictionary>
+
+      <Style x:Key="DisplayValueStyle" TargetType="Label">
+        <Setter Property="FontSize" Value="42"/>
+        <Setter Property="XAlign" Value="End"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="BackgroundColor" Value="#F2F2F2"/>
+      </Style>
+
+      <Style x:Key="BaseButtonStyle" TargetType="Button">
+        <Setter Property="BackgroundColor" Value="#E6E6E6"/>
+        <Setter Property="BorderColor" Value="#E6E6E6"/>
+        <Setter Property="FontSize" Value="Large"/>
+        <Setter Property="MinimumHeightRequest" Value="70"/>
+        <Setter Property="HeightRequest" Value="80"/>
+      </Style>
+
+      <Style x:Key="NumericButtonStyle"
+             BasedOn="{StaticResource BaseButtonStyle}"
+             TargetType="Button">
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="Command" Value="{Binding DigitComamnd}"/>
+      </Style>
+
+      <Style x:Key="OperatorButtonStyle"
+             BasedOn="{StaticResource BaseButtonStyle}"
+             TargetType="Button">
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="Command" Value="{Binding OperatorCommand}"/>
+      </Style>
+
+      <Style x:Key="ControlButtonStyle"
+             BasedOn="{StaticResource BaseButtonStyle}"
+             TargetType="Button">
+        <Setter Property="TextColor" Value="Black"/>
+      </Style>
+
+    </ResourceDictionary>
+  </ContentPage.Resources>
+  <Grid
+    BackgroundColor="#F2F2F2">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto"/>
+      <RowDefinition Height="*"/>
+    </Grid.RowDefinitions>
+    <Label
+      Grid.Row="0"
+      Text="{Binding DisplayValue}"
+      StyleId="DisplayValue"
+      MinimumHeightRequest="100"
+      HeightRequest="100"
+      Style="{StaticResource DisplayValueStyle}"/>
+    <Grid
+      Grid.Row="1"
+      BackgroundColor="#E6E6E6"
+      VerticalOptions="EndAndExpand">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+      </Grid.RowDefinitions>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*" />
+        <ColumnDefinition Width="*" />
+        <ColumnDefinition Width="*" />
+        <ColumnDefinition Width="*" />
+      </Grid.ColumnDefinitions>
+      <!-- Row 0 (DEL, CE, C and /) -->
+      <Button Text="DEL"
+              Grid.Row="0" 
+              Grid.Column="0" 
+              StyleId="DelButton"
+              Command="{Binding DeleteCommand}"
+              Style="{StaticResource ControlButtonStyle}"/>
+      <Button Text="CE"
+              Grid.Row="0" 
+              Grid.Column="1" 
+              StyleId="CEButton"
+              Command="{Binding ClearEntryCommand}"
+              Style="{StaticResource ControlButtonStyle}"/>
+      <Button	Text="C"
+              Grid.Row="0" 
+              Grid.Column="2"              
+              StyleId="CButton"
+              Command="{Binding ClearCommand}"
+              Style="{StaticResource ControlButtonStyle}"/>
+      <Button	Text="/"
+              Grid.Row="0" 
+              Grid.Column="3"
+              CommandParameter="/"
+              Style="{StaticResource OperatorButtonStyle}"/>
+      <!-- Row 1 (7, 8, 9 and *) -->
+      <Button Text="7"
+              Grid.Row="1"
+              Grid.Column="0" 
+              StyleId="Digit7"
+              CommandParameter="7"
+              Style="{StaticResource NumericButtonStyle}"/>
+      <Button Text="8"
+              Grid.Row="1" 
+              Grid.Column="1"
+              StyleId="Digit8"
+              CommandParameter="8"
+              Style="{StaticResource NumericButtonStyle}"/>
+      <Button Text="9"
+              Grid.Row="1"
+              Grid.Column="2" 
+              StyleId="Digit9"
+              CommandParameter="9"
+              Style="{StaticResource NumericButtonStyle}"/>
+      <Button	Text="*"
+              Grid.Row="1"
+              Grid.Column="3" 
+              StyleId="OperatorX"
+              CommandParameter="*"
+              Style="{StaticResource OperatorButtonStyle}"/>
+      <!-- Row 2 (4, 5, 6 and -) -->
+      <Button Text="4"
+              Grid.Row="2" 
+              Grid.Column="0" 
+              StyleId="Digit4"
+              CommandParameter="4"
+              Style="{StaticResource NumericButtonStyle}"/>
+      <Button Text="5"
+              Grid.Row="2" 
+              Grid.Column="1"
+              StyleId="Digit5"
+              CommandParameter="5"
+              Style="{StaticResource NumericButtonStyle}"/>
+      <Button Text="6"
+              Grid.Row="2" 
+              Grid.Column="2" 
+              StyleId="Digit6"
+              CommandParameter="6"
+              Style="{StaticResource NumericButtonStyle}"/>
+      <Button	Text="-"
+              Grid.Row="2" 
+              Grid.Column="3" 
+              StyleId="Operator-"
+              CommandParameter="-"
+              Style="{StaticResource OperatorButtonStyle}"/>
+      <!-- Row 3 (1, 2, 3 and +) -->
+      <Button Text="1"
+              Grid.Row="3" 
+              Grid.Column="0"
+              StyleId="Digit1"
+              CommandParameter="1"
+              Style="{StaticResource NumericButtonStyle}"/>
+      <Button Text="2"
+              Grid.Row="3" 
+              Grid.Column="1" 
+              StyleId="Digit2"
+              CommandParameter="2"
+              Style="{StaticResource NumericButtonStyle}"/>
+      <Button Text="3"
+              Grid.Row="3" 
+              Grid.Column="2" 
+              StyleId="Digit3"
+              CommandParameter="3"
+              Style="{StaticResource NumericButtonStyle}"/>
+      <Button	Text="+"
+              Grid.Row="3" 
+              Grid.Column="3" 
+              StyleId="Operator+"
+              CommandParameter="+"
+              Style="{StaticResource OperatorButtonStyle}"/>
+      <!-- Row 4 (0, . and =) -->
+      <Button Text="0"
+              Grid.Row="4" 
+              Grid.Column="0" 
+              StyleId="Digit0"
+              Grid.ColumnSpan="2"
+              CommandParameter="0"
+              Style="{StaticResource NumericButtonStyle}"/>
+      <Button Text="."
+              Grid.Row="4" 
+              Grid.Column="2" 
+              StyleId="Decimal"
+              CommandParameter="."
+              Style="{StaticResource NumericButtonStyle}"/>
+      <Button Text="="
+              Grid.Row="4" 
+              Grid.Column="3" 
+              StyleId="OperatorEquals"
+              Command="{Binding ComputeCommand}"
+              Style="{StaticResource ControlButtonStyle}"/>
+    </Grid>
+  </Grid>
+</ContentPage>

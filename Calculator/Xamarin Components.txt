@@ -1,0 +1,6 @@
+Open up a cmd window to nt authority\system. You used to be able to trick the system into letting you do this by scheduling a task (for the next minute) to open a cmd window as nt auth. Howeer, 'at' is no longer supported and not sure if schtasks supports /interactive. I ended up using PsExec from Sysinternals - see http://mikehowells.wordpress.com/2011/02/12/running-a-command-prompt-as-nt-authoritysystem/.
+
+psexec -i -s %SystemRoot$\system32\cmd.exe
+xamarin-component login
+
+That did the trick and the cookie ends up stored in C:\Windows\system32\config\systemprofile.xamarin-credentials
