@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Xamarin.Forms.Player</name>
+    </assembly>
+    <members>
+        <member name="T:Xamarin.Forms.Player.ThisAssembly">
+            <summary>Provides access to the current assembly information.</summary>
+        </member>
+        <member name="T:Xamarin.Forms.Player.ThisAssembly.Git">
+            <summary>Provides access to the git information for the current assembly.</summary>
+        </member>
+        <member name="F:Xamarin.Forms.Player.ThisAssembly.Git.Branch">
+            <summary>Branch: master</summary>
+        </member>
+        <member name="F:Xamarin.Forms.Player.ThisAssembly.Git.Commit">
+            <summary>Commit: 25b9027</summary>
+        </member>
+        <member name="F:Xamarin.Forms.Player.ThisAssembly.Git.Sha">
+            <summary>Sha: 25b9027fb5412d6f832addac8a221e4e47e06228</summary>
+        </member>
+        <member name="F:Xamarin.Forms.Player.ThisAssembly.Git.Commits">
+            <summary>Commits on top of base version: 6</summary>
+        </member>
+        <member name="F:Xamarin.Forms.Player.ThisAssembly.Git.Tag">
+            <summary>Tag: </summary>
+        </member>
+        <member name="F:Xamarin.Forms.Player.ThisAssembly.Git.BaseTag">
+            <summary>Base tag: </summary>
+        </member>
+        <member name="T:Xamarin.Forms.Player.ThisAssembly.Git.BaseVersion">
+            <summary>Provides access to the base version information used to determine the <see cref="T:Xamarin.Forms.Player.ThisAssembly.Git.SemVer" />.</summary>      
+        </member>
+        <member name="F:Xamarin.Forms.Player.ThisAssembly.Git.BaseVersion.Major">
+            <summary>Major: 0</summary>
+        </member>
+        <member name="F:Xamarin.Forms.Player.ThisAssembly.Git.BaseVersion.Minor">
+            <summary>Minor: 1</summary>
+        </member>
+        <member name="F:Xamarin.Forms.Player.ThisAssembly.Git.BaseVersion.Patch">
+            <summary>Patch: 6</summary>
+        </member>
+        <member name="T:Xamarin.Forms.Player.ThisAssembly.Git.SemVer">
+            <summary>Provides access to SemVer information for the current assembly.</summary>
+        </member>
+        <member name="F:Xamarin.Forms.Player.ThisAssembly.Git.SemVer.Major">
+            <summary>Major: 0</summary>
+        </member>
+        <member name="F:Xamarin.Forms.Player.ThisAssembly.Git.SemVer.Minor">
+            <summary>Minor: 1</summary>
+        </member>
+        <member name="F:Xamarin.Forms.Player.ThisAssembly.Git.SemVer.Patch">
+            <summary>Patch: 12</summary>
+        </member>
+        <member name="F:Xamarin.Forms.Player.ThisAssembly.Git.SemVer.Label">
+            <summary>Label: pre</summary>
+        </member>
+        <member name="F:Xamarin.Forms.Player.ThisAssembly.Git.SemVer.DashLabel">
+            <summary>Label with dash prefix: -pre</summary>
+        </member>
+        <member name="F:Xamarin.Forms.Player.ThisAssembly.Git.SemVer.Source">
+            <summary>Source: File</summary>
+        </member>
+        <member name="T:Xamarin.Forms.Player.App">
+            <summary>
+            Main player app, to be used from the main entry point for your 
+            Xamarin.Forms application.
+            </summary>
+        </member>
+        <member name="M:Xamarin.Forms.Player.App.#ctor">
+            <summary>
+            Initializes the application.
+            </summary>
+        </member>
+        <member name="M:Xamarin.Forms.Player.App.SetPage(Xamarin.Forms.Page)">
+            <summary>
+            Used to set MainPage. If page is NavigationPage, existing page is set to root
+            </summary>
+            <param name="page">Page</param>
+        </member>
+        <member name="M:Xamarin.Forms.Player.App.CreatePage(System.String,System.String)">
+            <summary>
+            Creates an instance of the page.  If desired type is not an instance of page, a host page will be created
+            </summary>
+            <param name="fullClassName">Fully qualified class name</param>
+            <param name="assemblyName">Assembly name</param>
+            <returns>Page instance</returns>
+        </member>
+        <member name="M:Xamarin.Forms.Player.App.OnStart">
+            <summary>
+            Starts the app.
+            </summary>
+        </member>
+        <member name="M:Xamarin.Forms.Player.App.OnSleep">
+            <summary>
+            Sleeps the app.
+            </summary>
+        </member>
+        <member name="M:Xamarin.Forms.Player.App.OnResume">
+            <summary>
+            Resumes the app.
+            </summary>
+        </member>
+        <member name="T:Xamarin.Forms.Player.AppViewModel">
+            <summary>
+            Internal view model for the app, that maintains the state 
+            with the forms player hub.
+            </summary>
+        </member>
+        <member name="T:Xamarin.Forms.Player.ErrorView">
+            <summary>
+            Custom view that shows any errors that happen during 
+            the rendering of the received XAML or JSON.
+            </summary>
+        </member>
+        <member name="M:Xamarin.Forms.Player.ErrorView.#ctor">
+            <summary>
+            Initializes the view.
+            </summary>
+        </member>
+        <member name="P:Xamarin.Forms.Player.ErrorView.ErrorMessage">
+            <summary>
+            Gets or sets the error message to display.
+            </summary>
+        </member>
+        <member name="T:Xamarin.Forms.Player.Helpers.Settings">
+            <summary>
+            This is the Settings static class that can be used in your Core solution or in any
+            of your client applications. All settings are laid out the same exact way with getters
+            and setters. 
+            </summary>
+        </member>
+        <member name="T:Xamarin.Forms.Player.MainView">
+            <summary>
+            Main view of the player application.
+            </summary>
+        </member>
+        <member name="M:Xamarin.Forms.Player.MainView.#ctor">
+            <summary>
+            Initializes the main view.
+            </summary>
+        </member>
+    </members>
+</doc>

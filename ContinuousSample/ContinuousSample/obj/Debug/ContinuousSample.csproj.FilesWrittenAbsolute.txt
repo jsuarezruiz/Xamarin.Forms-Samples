@@ -1,0 +1,7 @@
+/Users/javiersuarezruiz/Projects/ContinuousSample/ContinuousSample/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
+/Users/javiersuarezruiz/Projects/ContinuousSample/ContinuousSample/bin/Debug/ContinuousSample.dll.mdb
+/Users/javiersuarezruiz/Projects/ContinuousSample/ContinuousSample/bin/Debug/ContinuousSample.dll
+/Users/javiersuarezruiz/Projects/ContinuousSample/ContinuousSample/obj/Debug/ContinuousSample.dll
+/Users/javiersuarezruiz/Projects/ContinuousSample/ContinuousSample/obj/Debug/ContinuousSample.dll.mdb
+/Users/javiersuarezruiz/Projects/ContinuousSample/ContinuousSample/bin/Debug/Xamarin.Forms.Core.dll
+/Users/javiersuarezruiz/Projects/ContinuousSample/ContinuousSample/bin/Debug/Xamarin.Forms.Xaml.dll

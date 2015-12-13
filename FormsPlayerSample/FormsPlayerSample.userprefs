@@ -1,0 +1,12 @@
+﻿<Properties StartupItem="Droid/FormsPlayerSample.Droid.csproj" RefactoringSettings.EnableRefactorings="True">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.192.168.57.101:5555" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FormsPlayerSample/Views/MainView.xaml">
+    <Files>
+      <File FileName="FormsPlayerSample/Views/MainView.xaml" Line="11" Column="15" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

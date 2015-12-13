@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Refractored.Xam.Settings</name>
+    </assembly>
+    <members>
+        <member name="T:Refractored.Xam.Settings.CrossSettings">
+            <summary>
+            Cross Platform settings
+            </summary>
+        </member>
+        <member name="P:Refractored.Xam.Settings.CrossSettings.Current">
+            <summary>
+            Current settings to use
+            </summary>
+        </member>
+    </members>
+</doc>

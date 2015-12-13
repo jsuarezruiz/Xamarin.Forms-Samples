@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Xamarin.Forms.Dynamic</name>
+    </assembly>
+    <members>
+        <member name="T:Xamarin.Forms.BindingObjectExtensions">
+            <summary>
+            Exposes the <see cref="M:Xamarin.Forms.BindingObjectExtensions.LoadFromXaml``1(``0,System.String)"/> extension method.
+            </summary>
+        </member>
+        <member name="M:Xamarin.Forms.BindingObjectExtensions.LoadFromXaml``1(``0,System.String)">
+            <summary>
+            Applies the given XAML to the view.
+            </summary>
+        </member>
+        <member name="T:Xamarin.Forms.Dynamic.DictionaryModel">
+            <summary>
+            Provides a dynamic model based on a properties of 
+            key-value pairs.
+            </summary>
+        </member>
+        <member name="M:Xamarin.Forms.Dynamic.DictionaryModel.#ctor">
+            <summary>
+            Initializes an instance of the class.
+            </summary>
+        </member>
+        <member name="M:Xamarin.Forms.Dynamic.DictionaryModel.#ctor(System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Initializes the model with the properties to be used 
+            as properties.
+            </summary>
+        </member>
+        <member name="M:Xamarin.Forms.Dynamic.DictionaryModel.TryGetMember(System.Dynamic.GetMemberBinder,System.Object@)">
+            <summary>
+            Tries to retrieve the value of a property using dynamic syntax.
+            </summary>
+        </member>
+        <member name="M:Xamarin.Forms.Dynamic.DictionaryModel.TrySetMember(System.Dynamic.SetMemberBinder,System.Object)">
+            <summary>
+            Sets the value of a dictionary key using dynamic syntax.
+            </summary>
+        </member>
+        <member name="M:Xamarin.Forms.Dynamic.DictionaryModel.GetTypeInfo">
+            <summary>
+            Retrieves an object that represents the type of this instance.
+            </summary>
+        </member>
+        <member name="M:Xamarin.Forms.Dynamic.DictionaryModel.Add(System.String,System.Object)">
+            <summary>
+            Adds an element with the provided key and value to the <see cref="T:System.Collections.Generic.IDictionary`2" />.
+            </summary>
+            <param name="key">The object to use as the key of the element to add.</param>
+            <param name="value">The object to use as the value of the element to add.</param>
+        </member>
+        <member name="M:Xamarin.Forms.Dynamic.DictionaryModel.ContainsKey(System.String)">
+            <summary>
+            Determines whether the <see cref="T:System.Collections.Generic.IDictionary`2" /> contains an element with the specified key.
+            </summary>
+            <param name="key">The key to locate in the <see cref="T:System.Collections.Generic.IDictionary`2" />.</param>
+            <returns>
+            true if the <see cref="T:System.Collections.Generic.IDictionary`2" /> contains an element with the key; otherwise, false.
+            </returns>
+        </member>
+        <member name="M:Xamarin.Forms.Dynamic.DictionaryModel.Remove(System.String)">
+            <summary>
+            Removes the element with the specified key from the <see cref="T:System.Collections.Generic.IDictionary`2" />.
+            </summary>
+            <param name="key">The key of the element to remove.</param>
+            <returns>
+            true if the element is successfully removed; otherwise, false.  This method also returns false if <paramref name="key" /> was not found in the original <see cref="T:System.Collections.Generic.IDictionary`2" />.
+            </returns>
+        </member>
+        <member name="M:Xamarin.Forms.Dynamic.DictionaryModel.TryGetValue(System.String,System.Object@)">
+            <summary>
+            Gets the value associated with the specified key.
+            </summary>
+            <param name="key">The key whose value to get.</param>
+            <param name="value">When this method returns, the value associated with the specified key, if the key is found; otherwise, the default value for the type of the <paramref name="value" /> parameter. This parameter is passed uninitialized.</param>
+            <returns>
+            true if the object that implements <see cref="T:System.Collections.Generic.IDictionary`2" /> contains an element with the specified key; otherwise, false.
+            </returns>
+        </member>
+        <member name="E:Xamarin.Forms.Dynamic.DictionaryModel.CollectionChanged">
+            <summary>Event raised when the collection changes.</summary>
+        </member>
+        <member name="E:Xamarin.Forms.Dynamic.DictionaryModel.PropertyChanged">
+            <summary>Event raised when a property on the collection changes.</summary>
+        </member>
+        <member name="P:Xamarin.Forms.Dynamic.DictionaryModel.Keys">
+            <summary>
+            Gets an <see cref="T:System.Collections.Generic.ICollection`1" /> containing the keys of the <see cref="T:System.Collections.Generic.IDictionary`2" />.
+            </summary>
+            <returns>An <see cref="T:System.Collections.Generic.ICollection`1" /> containing the keys of the object that implements <see cref="T:System.Collections.Generic.IDictionary`2" />.</returns>
+        </member>
+        <member name="P:Xamarin.Forms.Dynamic.DictionaryModel.Values">
+            <summary>
+            Gets an <see cref="T:System.Collections.Generic.ICollection`1" /> containing the values in the <see cref="T:System.Collections.Generic.IDictionary`2" />.
+            </summary>
+            <returns>An <see cref="T:System.Collections.Generic.ICollection`1" /> containing the values in the object that implements <see cref="T:System.Collections.Generic.IDictionary`2" />.</returns>
+        </member>
+        <member name="P:Xamarin.Forms.Dynamic.DictionaryModel.Item(System.String)">
+            <summary>
+            Gets or sets the element with the specified key.
+            </summary>
+            <param name="key">The key.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Xamarin.Forms.Dynamic.JsonCommand.Dereference(System.String)">
+            <summary>
+            Dereferences a property name or path used as the $CanExecute property 
+            value. Very useful to make the execution dynamic depending on a value 
+            in the target model.
+            </summary>
+        </member>
+        <member name="M:Xamarin.Forms.Dynamic.JsonExtensions.ApplyChanges(Newtonsoft.Json.Linq.JObject,Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Patches an existing source <see cref="T:Newtonsoft.Json.Linq.JObject"/> with (potentially 
+            partial) changes from another <see cref="T:Newtonsoft.Json.Linq.JObject"/>.
+            </summary>
+        </member>
+        <member name="T:Xamarin.Forms.JsonModel">
+            <summary>
+            Dynamic data-bindable JSON-based model.
+            </summary>
+        </member>
+        <member name="M:Xamarin.Forms.JsonModel.#ctor(System.Object[])">
+            <summary>
+            Creates the JSON-based model from content 
+            objects from Linq to Json content.
+            </summary>
+        </member>
+        <member name="M:Xamarin.Forms.JsonModel.#ctor(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Creates the JSON-based model from a loaded  
+            Linq to Json object.
+            </summary>
+        </member>
+        <member name="M:Xamarin.Forms.JsonModel.Parse(System.String)">
+            <summary>
+            Load a model from a string that contains JSON.
+            </summary>
+            <param name="json">A string that contains JSON.</param>
+            <returns>A <see cref="T:Xamarin.Forms.JsonModel"/> populated from the string that contains JSON.</returns>
+        </member>
+        <member name="M:Xamarin.Forms.JsonModel.Load(Newtonsoft.Json.JsonReader)">
+            <summary>
+            Loads an model from a JSON reader.
+            </summary>
+            <param name="reader">A <see cref="T:Newtonsoft.Json.JsonReader"/> that will be read for the content of the <see cref="T:Xamarin.Forms.JsonModel"/>.</param>
+            <returns>A <see cref="T:Xamarin.Forms.JsonModel"/> that contains the JSON that was read from the specified <see cref="T:Newtonsoft.Json.JsonReader"/>.</returns>
+        </member>
+        <member name="M:Xamarin.Forms.JsonModel.GetTypeInfo">
+            <summary>
+            Retrieves an object that represents the type of this instance.
+            </summary>
+        </member>
+        <member name="P:Xamarin.Forms.JsonModel.ChildrenTokens">
+            <summary>
+            Gets the container's children tokens.
+            </summary>
+        </member>
+    </members>
+</doc>
