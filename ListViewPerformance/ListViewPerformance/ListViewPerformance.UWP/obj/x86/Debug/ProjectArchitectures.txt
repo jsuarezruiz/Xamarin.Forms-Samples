@@ -1,0 +1,2 @@
+C:\Users\javie\documents\visual studio 2015\Projects\ListViewPerformance\ListViewPerformance\ListViewPerformance.UWP\ListViewPerformance.UWP.csproj;x86
+C:\Users\javie\documents\visual studio 2015\Projects\ListViewPerformance\ListViewPerformance\ListViewPerformance\ListViewPerformance.csproj;neutral
