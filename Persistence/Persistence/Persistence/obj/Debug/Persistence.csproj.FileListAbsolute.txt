@@ -1,0 +1,17 @@
+c:\users\javie\documents\visual studio 2015\Projects\Persistence\Persistence\Persistence\bin\Debug\Persistence.dll
+c:\users\javie\documents\visual studio 2015\Projects\Persistence\Persistence\Persistence\bin\Debug\Persistence.pdb
+c:\users\javie\documents\visual studio 2015\Projects\Persistence\Persistence\Persistence\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+c:\users\javie\documents\visual studio 2015\Projects\Persistence\Persistence\Persistence\bin\Debug\Microsoft.Practices.Unity.dll
+c:\users\javie\documents\visual studio 2015\Projects\Persistence\Persistence\Persistence\bin\Debug\Xamarin.Forms.Core.dll
+c:\users\javie\documents\visual studio 2015\Projects\Persistence\Persistence\Persistence\bin\Debug\Xamarin.Forms.Xaml.dll
+c:\users\javie\documents\visual studio 2015\Projects\Persistence\Persistence\Persistence\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+c:\users\javie\documents\visual studio 2015\Projects\Persistence\Persistence\Persistence\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+c:\users\javie\documents\visual studio 2015\Projects\Persistence\Persistence\Persistence\bin\Debug\Microsoft.Practices.Unity.xml
+c:\users\javie\documents\visual studio 2015\Projects\Persistence\Persistence\Persistence\bin\Debug\Xamarin.Forms.Core.xml
+c:\users\javie\documents\visual studio 2015\Projects\Persistence\Persistence\Persistence\bin\Debug\Xamarin.Forms.Xaml.xml
+c:\users\javie\documents\visual studio 2015\Projects\Persistence\Persistence\Persistence\obj\Debug\Persistence.csprojResolveAssemblyReference.cache
+c:\users\javie\documents\visual studio 2015\Projects\Persistence\Persistence\Persistence\obj\Debug\MainView.xaml.g.cs
+c:\users\javie\documents\visual studio 2015\Projects\Persistence\Persistence\Persistence\obj\Debug\Persistence.dll
+c:\users\javie\documents\visual studio 2015\Projects\Persistence\Persistence\Persistence\obj\Debug\Persistence.pdb
+c:\users\javie\documents\visual studio 2015\Projects\Persistence\Persistence\Persistence\obj\Debug\Persistence.dll.mdb
+c:\users\javie\documents\visual studio 2015\Projects\Persistence\Persistence\Persistence\bin\Debug\Persistence.dll.mdb
