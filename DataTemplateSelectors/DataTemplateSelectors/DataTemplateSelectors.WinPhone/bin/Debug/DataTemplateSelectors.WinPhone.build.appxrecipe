@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-7OCT0RJ</Machine>
+    <WindowsUser>javie</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>e8ebdf4c-1a3c-4b54-919a-429e98e93142</PackageIdentityName>
+    <IntermediateOutputPath>c:\users\javie\documents\visual studio 2015\Projects\DataTemplateSelectors\DataTemplateSelectors\DataTemplateSelectors.WinPhone\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\javie\documents\visual studio 2015\Projects\DataTemplateSelectors\DataTemplateSelectors\DataTemplateSelectors.WinPhone\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\javie\documents\visual studio 2015\Projects\DataTemplateSelectors\DataTemplateSelectors\DataTemplateSelectors.WinPhone\bin\Debug\DataTemplateSelectors.WinPhone.exe">
+      <PackagePath>DataTemplateSelectors.WinPhone.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javie\documents\visual studio 2015\Projects\DataTemplateSelectors\DataTemplateSelectors\DataTemplateSelectors\bin\Debug\DataTemplateSelectors.dll">
+      <PackagePath>DataTemplateSelectors.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javie\documents\visual studio 2015\Projects\DataTemplateSelectors\packages\Xamarin.Forms.2.0.0.6482\lib\wpa81\Xamarin.Forms.Core.dll">
+      <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javie\documents\visual studio 2015\Projects\DataTemplateSelectors\packages\Xamarin.Forms.2.0.0.6482\lib\wpa81\Xamarin.Forms.Platform.dll">
+      <PackagePath>Xamarin.Forms.Platform.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javie\documents\visual studio 2015\Projects\DataTemplateSelectors\packages\Xamarin.Forms.2.0.0.6482\lib\wpa81\Xamarin.Forms.Platform.WinRT.dll">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javie\documents\visual studio 2015\Projects\DataTemplateSelectors\packages\Xamarin.Forms.2.0.0.6482\lib\wpa81\Xamarin.Forms.Platform.WinRT.Phone.dll">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Phone.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javie\documents\visual studio 2015\Projects\DataTemplateSelectors\packages\Xamarin.Forms.2.0.0.6482\lib\wpa81\Xamarin.Forms.Xaml.dll">
+      <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javie\documents\visual studio 2015\Projects\DataTemplateSelectors\DataTemplateSelectors\DataTemplateSelectors.WinPhone\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javie\documents\visual studio 2015\Projects\DataTemplateSelectors\DataTemplateSelectors\DataTemplateSelectors.WinPhone\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javie\documents\visual studio 2015\Projects\DataTemplateSelectors\DataTemplateSelectors\DataTemplateSelectors.WinPhone\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javie\documents\visual studio 2015\Projects\DataTemplateSelectors\DataTemplateSelectors\DataTemplateSelectors.WinPhone\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javie\documents\visual studio 2015\Projects\DataTemplateSelectors\DataTemplateSelectors\DataTemplateSelectors.WinPhone\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javie\documents\visual studio 2015\Projects\DataTemplateSelectors\DataTemplateSelectors\DataTemplateSelectors.WinPhone\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javie\documents\visual studio 2015\Projects\DataTemplateSelectors\DataTemplateSelectors\DataTemplateSelectors.WinPhone\bin\Debug\DataTemplateSelectors.WinPhone.xr.xml">
+      <PackagePath>DataTemplateSelectors.WinPhone.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javie\documents\visual studio 2015\Projects\DataTemplateSelectors\DataTemplateSelectors\DataTemplateSelectors.WinPhone\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javie\documents\visual studio 2015\Projects\DataTemplateSelectors\DataTemplateSelectors\DataTemplateSelectors.WinPhone\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javie\documents\visual studio 2015\Projects\DataTemplateSelectors\packages\Xamarin.Forms.2.0.0.6482\lib\wpa81\Xamarin.Forms.Platform.WinRT\FormsTextBox.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT\FormsTextBox.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javie\documents\visual studio 2015\Projects\DataTemplateSelectors\packages\Xamarin.Forms.2.0.0.6482\lib\wpa81\Xamarin.Forms.Platform.WinRT\PageControl.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT\PageControl.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javie\documents\visual studio 2015\Projects\DataTemplateSelectors\packages\Xamarin.Forms.2.0.0.6482\lib\wpa81\Xamarin.Forms.Platform.WinRT\StepperControl.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT\StepperControl.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javie\documents\visual studio 2015\Projects\DataTemplateSelectors\packages\Xamarin.Forms.2.0.0.6482\lib\wpa81\Xamarin.Forms.Platform.WinRT\Xamarin.Forms.Platform.WinRT.xr.xml">
+      <PackagePath>Xamarin.Forms.Platform.WinRT\Xamarin.Forms.Platform.WinRT.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javie\documents\visual studio 2015\Projects\DataTemplateSelectors\packages\Xamarin.Forms.2.0.0.6482\lib\wpa81\Xamarin.Forms.Platform.WinRT.Phone\PhoneResources.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Phone\PhoneResources.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javie\documents\visual studio 2015\Projects\DataTemplateSelectors\packages\Xamarin.Forms.2.0.0.6482\lib\wpa81\Xamarin.Forms.Platform.WinRT.Phone\Resources.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Phone\Resources.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javie\documents\visual studio 2015\Projects\DataTemplateSelectors\packages\Xamarin.Forms.2.0.0.6482\lib\wpa81\Xamarin.Forms.Platform.WinRT.Phone\SearchBox.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Phone\SearchBox.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javie\documents\visual studio 2015\Projects\DataTemplateSelectors\packages\Xamarin.Forms.2.0.0.6482\lib\wpa81\Xamarin.Forms.Platform.WinRT.Phone\Xamarin.Forms.Platform.WinRT.Phone.xr.xml">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Phone\Xamarin.Forms.Platform.WinRT.Phone.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javie\documents\visual studio 2015\Projects\DataTemplateSelectors\DataTemplateSelectors\DataTemplateSelectors.WinPhone\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

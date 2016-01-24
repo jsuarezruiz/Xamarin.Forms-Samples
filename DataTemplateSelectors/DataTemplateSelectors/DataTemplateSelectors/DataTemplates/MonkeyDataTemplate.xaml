@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ViewCell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DataTemplateSelectors.DataTemplates.MonkeyDataTemplate">
+  <Grid Padding="5">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="20" />
+      <RowDefinition Height="20" />
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="*" />
+      <ColumnDefinition Width="40" />
+    </Grid.ColumnDefinitions>
+    <Label Grid.Row="0" Grid.Column="0" 
+           ext="{Binding Name}" LineBreakMode="TailTruncation" />
+    <Label Grid.Row="1" Grid.Column="0" 
+           Text="{Binding Description}" Font="Small" TextColor="Gray" LineBreakMode="TailTruncation" />
+    <Image Grid.Row="0" Grid.RowSpan="2" Grid.Column="1" 
+           Source="{Binding Image}" Aspect="AspectFill" />
+  </Grid>
+</ViewCell>

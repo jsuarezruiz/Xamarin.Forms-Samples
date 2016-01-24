@@ -1,0 +1,1 @@
+c:\users\javie\documents\visual studio 2015\Projects\XamarinInsights\XamarinInsights\XamarinInsights.Droid\obj\Debug\XamarinInsights.Droid.csprojResolveAssemblyReference.cache
