@@ -21,6 +21,7 @@ namespace Calculator.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             Forms.Init();
+            Appearance.Configure();
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

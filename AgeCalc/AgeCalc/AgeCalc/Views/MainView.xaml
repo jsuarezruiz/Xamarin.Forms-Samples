@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AgeCalc.Views.MainView"
+             xmlns:local="clr-namespace:AgeCalc;assembly=AgeCalc"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             Title="Age Calc">
+  <StackLayout VerticalOptions="Fill"
+               Padding="20"
+               Spacing="10">
+    <Label
+      Text="Birth Date"
+      VerticalOptions="Start"												
+      HorizontalOptions="Start" />
+    <DatePicker
+      StyleId="BirthDatePicker"
+      VerticalOptions="Start"
+      Date="{Binding BirthDate, Mode=TwoWay}"
+      MinimumDate="{x:Static local:App.MinimumDate}"
+      MaximumDate="{x:Static local:App.MaximumDate}">
+      <DatePicker.Format>yyyy-MM-dd</DatePicker.Format>
+    </DatePicker>
+    <Button
+      StyleId="CalcButton"
+      Text="Calc"
+      VerticalOptions="Start"
+      Command="{Binding CalcCommand}"
+      Style="{DynamicResource PrimaryActionButtonStyle}"/>
+    <BoxView 
+      Style="{DynamicResource SpacerThemeShowCaseStyle}" />
+    <StackLayout
+      Orientation="Horizontal"
+      IsVisible="{Binding Age, Converter={StaticResource StringToVisibilityConverter}}">
+      <Label
+        StyleId="ResultLabel"
+        Text="{Binding Age}"
+        TextColor="{StaticResource AccentColor}"/>
+      <Label
+        Text="Years"/>
+    </StackLayout>
+    <Grid      
+      x:Name="ImageGrid"
+      IsVisible="{Binding Age, Converter={StaticResource StringToVisibilityConverter}}">
+      <Image
+        Source="{Binding Age, Converter={StaticResource AgeToImageConverter}}"
+        Style="{StaticResource AgeImageStyle}"/>
+    </Grid>
+  </StackLayout>
+</ContentPage>

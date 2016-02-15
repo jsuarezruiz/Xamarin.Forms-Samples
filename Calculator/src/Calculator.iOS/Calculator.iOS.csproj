@@ -104,6 +104,7 @@
     <AssemblyName>CalculatoriOS</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Appareance.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <None Include="Info.plist" />

@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AgeCalc.App"
+             xmlns:converters="clr-namespace:AgeCalc.Converters;assembly=AgeCalc">
+  <Application.Resources>
+    <ResourceDictionary>
+
+      <!-- Export AccentColor -->
+      <Color x:Key="AccentColor">#FFDA125F</Color>
+      <!-- Export InverseTextColor -->
+      <Color x:Key="InverseTextColor">White</Color>
+
+      <!-- CONVERTERS -->
+      <converters:AgeToImageConverter x:Key="AgeToImageConverter" />
+      <converters:StringToVisibilityConverter x:Key="StringToVisibilityConverter" />
+      
+      <!-- COLORS -->
+      <Color x:Key="BrandColor">#ad1457</Color>
+      <Color x:Key="BrandColorLight">#ec407a</Color>
+      <Color x:Key="BrandColorLighter">#f06292</Color>
+      <Color x:Key="BrandColorDark">#c2185b</Color>
+      <Color x:Key="BrandColorDarker">#ad1457</Color>
+
+      <!-- COMPLEMENT COLORS -->
+      <Color x:Key="ComplementColor">#384f63</Color>
+      <Color x:Key="ComplementColorDark">#272f36</Color>
+      <Color x:Key="ComplementColorDarker">#1f252a</Color>
+      <Color x:Key="TranslucidBlack">#44000000</Color>
+      <Color x:Key="TranslucidWhite">#22ffffff</Color>
+
+      <!-- BASE COLORS -->
+      <Color x:Key="BaseTextColor" >#37474f</Color>
+      <x:Double x:Key="BaseFontSize">16</x:Double>
+      <x:Double x:Key="BaseButtonHeight">44</x:Double>
+      <x:Double x:Key="BaseButtonBorderRadius">22</x:Double>
+
+      <!-- INDICATOR COLORS -->
+      <Color x:Key="LabelButtonColor">#ffffff</Color>
+
+      <!-- IMPLICIT STYLES -->
+      <Style TargetType="Frame">
+        <Setter Property="OutlineColor" Value="{StaticResource BrandColor}" />
+      </Style>
+
+      <Style TargetType="Entry">
+        <Setter Property="TextColor" Value="{StaticResource BaseTextColor}" />
+      </Style>
+
+      <Style TargetType="ActivityIndicator">
+        <Setter Property="Color" Value="{StaticResource AccentColor}" />
+      </Style>
+
+      <Style TargetType="ContentPage">
+        <Setter Property="BackgroundColor" Value="White" />
+      </Style>
+
+      <Style TargetType="ContentView">
+        <Setter Property="BackgroundColor" Value="White" />
+      </Style>
+
+      <Style TargetType="ScrollView">
+        <Setter Property="BackgroundColor" Value="Transparent" />
+      </Style>
+
+      <Style TargetType="Label">
+        <Setter Property="FontSize" Value="{StaticResource BaseFontSize}" />
+        <Setter Property="TextColor" Value="{StaticResource BaseTextColor}" />
+      </Style>
+
+      <Style TargetType="Button">
+        <Setter Property="FontSize" Value="{StaticResource BaseFontSize}" />
+        <Setter Property="BorderRadius" Value="22" />
+        <Setter Property="HeightRequest" Value="{StaticResource BaseButtonHeight}"/>
+
+        <!-- 
+				Mimic Android Buttons background color 
+				If no background color is set, 
+				the button won't render with height as specified here
+				-->
+        <Setter Property="BackgroundColor">
+          <Setter.Value>
+            <OnPlatform x:TypeArguments="Color" Android="#d6d6d6" />
+          </Setter.Value>
+        </Setter>
+      </Style>
+
+      <Style x:Key="RoundedButtonStyle" TargetType="Button">
+        <Setter Property="FontSize" Value="{StaticResource BaseFontSize}" />
+        <Setter Property="BorderRadius" Value="22" />
+        <Setter Property="HeightRequest" Value="{StaticResource BaseButtonHeight}"/>
+      </Style>
+
+      <Style x:Key="PrimaryActionButtonStyle" TargetType="Button" BasedOn="{StaticResource RoundedButtonStyle}">
+        <Setter Property="BackgroundColor" Value="{StaticResource AccentColor}"/>
+        <Setter Property="TextColor" Value="{StaticResource LabelButtonColor}"/>
+        <Setter Property="HeightRequest" Value="{StaticResource BaseButtonHeight}"/>
+      </Style>
+
+      <!-- LAYOUT HELPERS -->
+      <Style x:Key="Spacer" TargetType="BoxView">
+        <Setter Property="BackgroundColor" Value="Transparent"/>
+      </Style>
+
+      <Style x:Key="SpacerThemeShowCaseStyle" TargetType="BoxView" BasedOn="{ StaticResource Spacer }">
+        <Setter Property="HeightRequest" Value="20"/>
+      </Style>
+
+      <!-- IMAGES -->
+      <Style x:Key="AgeImageStyle" TargetType="Image">
+        <Setter Property="HeightRequest" Value="250"/>
+        <Setter Property="WidthRequest" Value="250"/>
+        <Setter Property="Aspect" Value="AspectFit"/>
+      </Style>
+      
+    </ResourceDictionary>
+  </Application.Resources>
+</Application>
