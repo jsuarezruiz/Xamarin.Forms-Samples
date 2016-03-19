@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:forms="clr-namespace:OxyPlot.Xamarin.Forms;assembly=OxyPlot.Xamarin.Forms"
+             x:Class="AdaptTablet.Views.DriverDetailView"
+             Title="{Binding Driver.CompleteName}">
+  <Grid Padding="0">
+    <ScrollView>
+      <StackLayout Padding="0" Spacing="0">
+        <!-- Basic Info -->
+        <Grid
+          HorizontalOptions="FillAndExpand"
+          VerticalOptions="Start">
+          <Image
+            x:Name="img"
+            Source="{Binding Driver.CompleteName, Converter={StaticResource DriverNameToImageConverter}}"
+            HeightRequest="320"
+            Aspect="AspectFill"
+					  HorizontalOptions="StartAndExpand"
+					  VerticalOptions="Start"/>
+          <Grid
+            VerticalOptions="End"
+            HorizontalOptions="FillAndExpand"
+            BackgroundColor="{StaticResource ComplementColor}"
+            Opacity="0.75">
+            <Label
+              Text="{Binding Driver.CompleteName}"
+              TextColor="White"
+              XAlign="Center">
+              	<Label.FontSize>
+    				<OnIdiom x:TypeArguments="x:Double"
+             			Phone="24"
+             			Tablet="28"/>
+  				</Label.FontSize>
+  			</Label>
+          </Grid>
+        </Grid>
+        <!-- Statistics -->
+        <Grid
+          BackgroundColor="{StaticResource AccentColor}"
+          HorizontalOptions="FillAndExpand"
+          VerticalOptions="Start"
+          HeightRequest="75">
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+          </Grid.ColumnDefinitions>
+          <!-- Wins -->
+          <StackLayout
+            HorizontalOptions="Center">
+            <StackLayout
+              Orientation="Horizontal">
+              <Label
+                Text="{Binding Wins}"
+                TextColor="White"
+                FontSize="42"
+                YAlign="Center" />
+              <Image
+                Source="Icons/Wins.png"
+                WidthRequest="75"/>
+            </StackLayout>
+            <Label
+              Text="Wins"
+              TextColor="White"
+              YAlign="Center" />
+          </StackLayout>
+          <!-- Races -->
+          <StackLayout
+            Grid.Column="1"
+            HorizontalOptions="Center">
+            <StackLayout
+              Orientation="Horizontal">
+              <Label
+                Text="{Binding Races}"
+                TextColor="White"
+                FontSize="42"
+                YAlign="Center" />
+              <Image
+                Source="Icons/Races.png"
+                WidthRequest="75" />
+            </StackLayout>
+            <Label
+              Text="Races"
+              TextColor="White"
+              YAlign="Center" />
+          </StackLayout>
+        </Grid>
+        <!-- Charts -->
+        <forms:PlotView
+          Model="{Binding PlotModel}"
+          HeightRequest="500"
+          WidthRequest="350"
+          BackgroundColor="Transparent"
+          HorizontalOptions="CenterAndExpand"
+          VerticalOptions="CenterAndExpand" />
+      </StackLayout>
+    </ScrollView>
+  </Grid>
+</ContentPage>

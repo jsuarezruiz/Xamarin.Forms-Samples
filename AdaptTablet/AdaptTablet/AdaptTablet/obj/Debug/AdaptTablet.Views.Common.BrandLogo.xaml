@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView 
+	xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="AdaptTablet.Views.BrandLogo"
+	Padding="20">
+	<Grid  
+		ColumnSpacing="10"
+		Padding="0"
+		Style="{StaticResource BrandContainerStyle}">
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="Auto" />
+			<ColumnDefinition Width="Auto" />
+		</Grid.ColumnDefinitions>
+		<Image 
+			Grid.Column="0"
+			HeightRequest="64" 
+			WidthRequest="64" 
+			Source="{StaticResource BrandImage}" 
+			BackgroundColor="{StaticResource AccentColor}"/>
+		<StackLayout
+			Grid.Column="1"
+			Orientation="Vertical"
+			HorizontalOptions="Start"
+			VerticalOptions="Center"
+			Spacing="0">
+			<Label 
+				Style="{DynamicResource BrandNameStyle}"
+				Text="FORMULA" 
+				FontAttributes="Bold" 
+				VerticalTextAlignment="Start"/>
+			<Label 
+				Style="{DynamicResource BrandNameStyle}"
+				Text="ONE" 
+				VerticalTextAlignment="Start"/>
+		</StackLayout>
+	</Grid>
+</ContentView>

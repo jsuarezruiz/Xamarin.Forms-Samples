@@ -1,14 +1,23 @@
+using FormulaOneApp.Controls.CircleImageAbstraction;
+using FormulaOneApp.iOS.Controls;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using Xamarin.Forms;
+using Xamarin.Forms.Platform.iOS;
 
-using Foundation;
-using UIKit;
-
+[assembly: ExportRenderer(typeof(CircleImage), typeof(ImageCircleRenderer))]
 namespace FormulaOneApp.iOS.Controls
 {
-    class ImageCircleRenderer
+    public class ImageCircleRenderer : ImageRenderer
     {
+        protected override void OnElementChanged(ElementChangedEventArgs<Image> e)
+        {
+            base.OnElementChanged(e);
+
+            double min = Math.Min(Element.Width, Element.Height);
+
+            Control.Layer.CornerRadius = (float)(min / 2.0);
+            Control.Layer.MasksToBounds = false;
+            Control.ClipsToBounds = true;
+        }
     }
 }

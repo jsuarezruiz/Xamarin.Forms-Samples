@@ -1,0 +1,15 @@
+BundleAssemblies=False
+AotAssemblies=False
+AndroidAotMode=
+ExplicitCrunch=False
+EnableProguard=
+UseSharedRuntime=true
+EmbedAssembliesIntoApk=False
+AndroidLinkMode=None
+AndroidLinkSkip=
+AndroidSdkBuildToolsVersion=23.0.0
+AndroidSdkPath=
+AndroidNdkPath=
+JavaSdkPath=
+AndroidSequencePointsMode=None
+XamarinAndroidVersion=6.0.99-544

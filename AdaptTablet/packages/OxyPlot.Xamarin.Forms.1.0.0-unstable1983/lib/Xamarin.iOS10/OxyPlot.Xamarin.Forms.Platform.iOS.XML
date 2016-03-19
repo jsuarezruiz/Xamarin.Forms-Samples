@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OxyPlot.Xamarin.Forms.Platform.iOS</name>
+    </assembly>
+    <members>
+        <member name="T:OxyPlot.Xamarin.Forms.Platform.iOS.Forms">
+            <summary>
+            Initializes OxyPlot renderers for use with Xamarin.Forms.
+            </summary>
+        </member>
+        <member name="M:OxyPlot.Xamarin.Forms.Platform.iOS.Forms.Init">
+            <summary>
+            Initializes OxyPlot for Xamarin.Forms.
+            </summary>
+        </member>
+        <member name="T:OxyPlot.Xamarin.Forms.Platform.iOS.PlotViewRenderer">
+            <summary>
+            Provides a custom <see cref="T:OxyPlot.Xamarin.Forms.PlotView" /> renderer for Xamarin.iOS.
+            </summary>
+        </member>
+        <member name="M:OxyPlot.Xamarin.Forms.Platform.iOS.PlotViewRenderer.#cctor">
+            <summary>
+            Initializes static members of the <see cref="T:OxyPlot.Xamarin.Forms.Platform.iOS.PlotViewRenderer"/> class.
+            </summary>
+        </member>
+        <member name="M:OxyPlot.Xamarin.Forms.Platform.iOS.PlotViewRenderer.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:OxyPlot.Xamarin.Forms.Platform.iOS.PlotViewRenderer"/> class.
+            </summary>
+        </member>
+        <member name="M:OxyPlot.Xamarin.Forms.Platform.iOS.PlotViewRenderer.Init">
+            <summary>
+            Initializes the renderer.
+            </summary>
+            <remarks>This method must be called before a <see cref="T:PlotView" /> is used.</remarks>
+        </member>
+        <member name="M:OxyPlot.Xamarin.Forms.Platform.iOS.PlotViewRenderer.OnElementChanged(Xamarin.Forms.Platform.iOS.ElementChangedEventArgs{OxyPlot.Xamarin.Forms.PlotView})">
+            <summary>
+            Raises the element changed event.
+            </summary>
+            <param name="e">The event arguments.</param>
+        </member>
+        <member name="M:OxyPlot.Xamarin.Forms.Platform.iOS.PlotViewRenderer.OnElementPropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            Raises the element property changed event.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The event arguments.</param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,6 @@
+/Users/javiersuarezruiz/Downloads/AdaptTablet/AdaptTablet.ErgastAPI/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile111.AssemblyAttribute.cs
+/Users/javiersuarezruiz/Downloads/AdaptTablet/AdaptTablet.ErgastAPI/bin/Debug/AdaptTablet.ErgastAPI.dll.mdb
+/Users/javiersuarezruiz/Downloads/AdaptTablet/AdaptTablet.ErgastAPI/bin/Debug/AdaptTablet.ErgastAPI.dll
+/Users/javiersuarezruiz/Downloads/AdaptTablet/AdaptTablet.ErgastAPI/obj/Debug/AdaptTablet.ErgastAPI.dll
+/Users/javiersuarezruiz/Downloads/AdaptTablet/AdaptTablet.ErgastAPI/obj/Debug/AdaptTablet.ErgastAPI.dll.mdb
+/Users/javiersuarezruiz/Downloads/AdaptTablet/AdaptTablet.ErgastAPI/bin/Debug/Newtonsoft.Json.dll

@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-7OCT0RJ</Machine>
+    <WindowsUser>javie</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>85930d70-750c-41a6-9b95-03faaed4159c</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet.Windows\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet.Windows\bin\Debug\AdaptTablet.Windows.exe">
+      <PackagePath>AdaptTablet.Windows.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet\bin\Debug\AdaptTablet.dll">
+      <PackagePath>AdaptTablet.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\packages\CommonServiceLocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll">
+      <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\packages\Unity.4.0.1\lib\win8\Microsoft.Practices.Unity.dll">
+      <PackagePath>Microsoft.Practices.Unity.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\packages\Unity.4.0.1\lib\win8\Microsoft.Practices.Unity.RegistrationByConvention.dll">
+      <PackagePath>Microsoft.Practices.Unity.RegistrationByConvention.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\packages\Xamarin.Forms.2.0.0.6482\lib\win81\Xamarin.Forms.Core.dll">
+      <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\packages\Xamarin.Forms.2.0.0.6482\lib\win81\Xamarin.Forms.Platform.dll">
+      <PackagePath>Xamarin.Forms.Platform.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\packages\Xamarin.Forms.2.0.0.6482\lib\win81\Xamarin.Forms.Platform.WinRT.dll">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\packages\Xamarin.Forms.2.0.0.6482\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet.dll">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Tablet.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\packages\Xamarin.Forms.2.0.0.6482\lib\win81\Xamarin.Forms.Xaml.dll">
+      <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet\bin\Debug\AdaptTablet.ErgastAPI.dll">
+      <PackagePath>AdaptTablet.ErgastAPI.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet\bin\Debug\OxyPlot.dll">
+      <PackagePath>OxyPlot.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet\bin\Debug\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet\Images\Icons\Calendar.png">
+      <PackagePath>AdaptTablet\Images\Icons\Calendar.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet\Images\Icons\Champs.png">
+      <PackagePath>AdaptTablet\Images\Icons\Champs.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet\Images\Icons\Circuit.png">
+      <PackagePath>AdaptTablet\Images\Icons\Circuit.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet\Images\Icons\Driver.png">
+      <PackagePath>AdaptTablet\Images\Icons\Driver.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet\Images\Icons\Pole.png">
+      <PackagePath>AdaptTablet\Images\Icons\Pole.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet\Images\Icons\PushPin.png">
+      <PackagePath>AdaptTablet\Images\Icons\PushPin.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet\Images\Icons\Races.png">
+      <PackagePath>AdaptTablet\Images\Icons\Races.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet\Images\Icons\Scuderias.png">
+      <PackagePath>AdaptTablet\Images\Icons\Scuderias.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet\Images\Icons\Standings.png">
+      <PackagePath>AdaptTablet\Images\Icons\Standings.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet\Images\Icons\Wins.png">
+      <PackagePath>AdaptTablet\Images\Icons\Wins.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet.Windows\bin\Debug\AdaptTablet.Windows.xr.xml">
+      <PackagePath>AdaptTablet.Windows.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet\Images\Drivers\Carlos Sainz.jpg">
+      <PackagePath>AdaptTablet\Images\Drivers\Carlos Sainz.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet\Images\Drivers\Daniel Ricciardo.jpg">
+      <PackagePath>AdaptTablet\Images\Drivers\Daniel Ricciardo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet\Images\Drivers\Daniil Kvyat.jpg">
+      <PackagePath>AdaptTablet\Images\Drivers\Daniil Kvyat.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet\Images\Drivers\Felipe Massa.jpg">
+      <PackagePath>AdaptTablet\Images\Drivers\Felipe Massa.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet\Images\Drivers\Felipe Nasr.jpg">
+      <PackagePath>AdaptTablet\Images\Drivers\Felipe Nasr.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet\Images\Drivers\Fernando Alonso.jpg">
+      <PackagePath>AdaptTablet\Images\Drivers\Fernando Alonso.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet\Images\Drivers\Jenson Button.jpg">
+      <PackagePath>AdaptTablet\Images\Drivers\Jenson Button.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet\Images\Drivers\Kevin Magnussen.jpg">
+      <PackagePath>AdaptTablet\Images\Drivers\Kevin Magnussen.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet\Images\Drivers\Kimi Räikkönen.jpg">
+      <PackagePath>AdaptTablet\Images\Drivers\Kimi Räikkönen.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet\Images\Drivers\Lewis Hamilton.jpg">
+      <PackagePath>AdaptTablet\Images\Drivers\Lewis Hamilton.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet\Images\Drivers\Marcus Ericsson.jpg">
+      <PackagePath>AdaptTablet\Images\Drivers\Marcus Ericsson.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet\Images\Drivers\Max Verstappen.jpg">
+      <PackagePath>AdaptTablet\Images\Drivers\Max Verstappen.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet\Images\Drivers\Nico Hülkenberg.jpg">
+      <PackagePath>AdaptTablet\Images\Drivers\Nico Hülkenberg.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet\Images\Drivers\Nico Rosberg.jpg">
+      <PackagePath>AdaptTablet\Images\Drivers\Nico Rosberg.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet\Images\Drivers\Pastor Maldonado.jpg">
+      <PackagePath>AdaptTablet\Images\Drivers\Pastor Maldonado.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet\Images\Drivers\Roberto Merhi.jpg">
+      <PackagePath>AdaptTablet\Images\Drivers\Roberto Merhi.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet\Images\Drivers\Romain Grosjean.jpg">
+      <PackagePath>AdaptTablet\Images\Drivers\Romain Grosjean.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet\Images\Drivers\Sebastian Vettel.jpg">
+      <PackagePath>AdaptTablet\Images\Drivers\Sebastian Vettel.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet\Images\Drivers\Sergio Pérez.jpg">
+      <PackagePath>AdaptTablet\Images\Drivers\Sergio Pérez.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet\Images\Drivers\Valtteri Bottas.jpg">
+      <PackagePath>AdaptTablet\Images\Drivers\Valtteri Bottas.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet\Images\Drivers\Will Stevens.jpg">
+      <PackagePath>AdaptTablet\Images\Drivers\Will Stevens.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\packages\Xamarin.Forms.2.0.0.6482\lib\win81\Xamarin.Forms.Platform.WinRT\FormsTextBox.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT\FormsTextBox.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\packages\Xamarin.Forms.2.0.0.6482\lib\win81\Xamarin.Forms.Platform.WinRT\PageControl.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT\PageControl.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\packages\Xamarin.Forms.2.0.0.6482\lib\win81\Xamarin.Forms.Platform.WinRT\StepperControl.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT\StepperControl.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\packages\Xamarin.Forms.2.0.0.6482\lib\win81\Xamarin.Forms.Platform.WinRT\Xamarin.Forms.Platform.WinRT.xr.xml">
+      <PackagePath>Xamarin.Forms.Platform.WinRT\Xamarin.Forms.Platform.WinRT.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\packages\Xamarin.Forms.2.0.0.6482\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet\Resources.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Tablet\Resources.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\packages\Xamarin.Forms.2.0.0.6482\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet\TabletResources.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Tablet\TabletResources.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\packages\Xamarin.Forms.2.0.0.6482\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet\Xamarin.Forms.Platform.WinRT.Tablet.xr.xml">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Tablet\Xamarin.Forms.Platform.WinRT.Tablet.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

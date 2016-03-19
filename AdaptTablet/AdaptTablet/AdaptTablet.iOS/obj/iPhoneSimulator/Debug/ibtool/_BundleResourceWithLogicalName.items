@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.storyboardc/UIViewController-X5k-f2-b5h~ipad.nib/objects-8.0+.nib">
+      <LogicalName>LaunchScreen.storyboardc/UIViewController-X5k-f2-b5h~ipad.nib/objects-8.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.storyboardc/UIViewController-X5k-f2-b5h~ipad.nib/objects.nib">
+      <LogicalName>LaunchScreen.storyboardc/UIViewController-X5k-f2-b5h~ipad.nib/objects.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.storyboardc/UIViewController-X5k-f2-b5h~ipad.nib/runtime.nib">
+      <LogicalName>LaunchScreen.storyboardc/UIViewController-X5k-f2-b5h~ipad.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.storyboardc/UIViewController-X5k-f2-b5h~iphone.nib/objects-8.0+.nib">
+      <LogicalName>LaunchScreen.storyboardc/UIViewController-X5k-f2-b5h~iphone.nib/objects-8.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.storyboardc/UIViewController-X5k-f2-b5h~iphone.nib/objects.nib">
+      <LogicalName>LaunchScreen.storyboardc/UIViewController-X5k-f2-b5h~iphone.nib/objects.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.storyboardc/UIViewController-X5k-f2-b5h~iphone.nib/runtime.nib">
+      <LogicalName>LaunchScreen.storyboardc/UIViewController-X5k-f2-b5h~iphone.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.storyboardc/X5k-f2-b5h-view-yd7-JS-zBw~ipad.nib/objects-8.0+.nib">
+      <LogicalName>LaunchScreen.storyboardc/X5k-f2-b5h-view-yd7-JS-zBw~ipad.nib/objects-8.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.storyboardc/X5k-f2-b5h-view-yd7-JS-zBw~ipad.nib/objects.nib">
+      <LogicalName>LaunchScreen.storyboardc/X5k-f2-b5h-view-yd7-JS-zBw~ipad.nib/objects.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.storyboardc/X5k-f2-b5h-view-yd7-JS-zBw~ipad.nib/runtime.nib">
+      <LogicalName>LaunchScreen.storyboardc/X5k-f2-b5h-view-yd7-JS-zBw~ipad.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.storyboardc/X5k-f2-b5h-view-yd7-JS-zBw~iphone.nib/objects-8.0+.nib">
+      <LogicalName>LaunchScreen.storyboardc/X5k-f2-b5h-view-yd7-JS-zBw~iphone.nib/objects-8.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.storyboardc/X5k-f2-b5h-view-yd7-JS-zBw~iphone.nib/objects.nib">
+      <LogicalName>LaunchScreen.storyboardc/X5k-f2-b5h-view-yd7-JS-zBw~iphone.nib/objects.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.storyboardc/X5k-f2-b5h-view-yd7-JS-zBw~iphone.nib/runtime.nib">
+      <LogicalName>LaunchScreen.storyboardc/X5k-f2-b5h-view-yd7-JS-zBw~iphone.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool/LaunchScreen~ipad.storyboardc/Info-8.0+.plist">
+      <LogicalName>LaunchScreen~ipad.storyboardc/Info-8.0+.plist</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool/LaunchScreen~ipad.storyboardc/Info.plist">
+      <LogicalName>LaunchScreen~ipad.storyboardc/Info.plist</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool/LaunchScreen~iphone.storyboardc/Info-8.0+.plist">
+      <LogicalName>LaunchScreen~iphone.storyboardc/Info-8.0+.plist</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool/LaunchScreen~iphone.storyboardc/Info.plist">
+      <LogicalName>LaunchScreen~iphone.storyboardc/Info.plist</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+  </ItemGroup>
+</Project>

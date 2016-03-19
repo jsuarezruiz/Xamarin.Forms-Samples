@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OxyPlot.Xamarin.Forms.Platform.Android</name>
+    </assembly>
+    <members>
+        <member name="T:OxyPlot.Xamarin.Forms.Platform.Android.Forms">
+            <summary>
+            Initializes OxyPlot renderers for use with Xamarin.Forms.
+            </summary>
+        </member>
+        <member name="M:OxyPlot.Xamarin.Forms.Platform.Android.Forms.Init">
+            <summary>
+            Initializes OxyPlot for Xamarin.Forms.
+            </summary>
+        </member>
+        <member name="T:OxyPlot.Xamarin.Forms.Platform.Android.PlotViewRenderer">
+            <summary>
+            Provides a custom <see cref="T:OxyPlot.Xamarin.Forms.PlotView" /> renderer for Xamarin.Android. 
+            </summary>
+        </member>
+        <member name="M:OxyPlot.Xamarin.Forms.Platform.Android.PlotViewRenderer.#cctor">
+            <summary>
+            Initializes static members of the <see cref="T:OxyPlot.Xamarin.Forms.Platform.Android.PlotViewRenderer"/> class.
+            </summary>
+        </member>
+        <member name="M:OxyPlot.Xamarin.Forms.Platform.Android.PlotViewRenderer.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:OxyPlot.Xamarin.Forms.Platform.Android.PlotViewRenderer"/> class.
+            </summary>
+        </member>
+        <member name="M:OxyPlot.Xamarin.Forms.Platform.Android.PlotViewRenderer.Init">
+            <summary>
+            Initializes the renderer.
+            </summary>
+            <remarks>This method must be called before a <see cref="T:PlotView" /> is used.</remarks>
+        </member>
+        <member name="M:OxyPlot.Xamarin.Forms.Platform.Android.PlotViewRenderer.OnElementChanged(Xamarin.Forms.Platform.Android.ElementChangedEventArgs{OxyPlot.Xamarin.Forms.PlotView})">
+            <summary>
+            Raises the element changed event.
+            </summary>
+            <param name="e">The event arguments.</param>
+        </member>
+        <member name="M:OxyPlot.Xamarin.Forms.Platform.Android.PlotViewRenderer.OnElementPropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            Raises the element property changed event.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The event arguments.</param>
+        </member>
+    </members>
+</doc>

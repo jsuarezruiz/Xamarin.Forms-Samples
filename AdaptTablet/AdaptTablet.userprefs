@@ -1,0 +1,51 @@
+﻿<Properties StartupItem="AdaptTablet/AdaptTablet.iOS/AdaptTablet.iOS.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPadAir2.9.2" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AdaptTablet/AdaptTablet/Views/Drivers/DriverDetailView.xaml">
+    <Files>
+      <File FileName="AdaptTablet/AdaptTablet.iOS/Appearance.cs" Line="29" Column="64" />
+      <File FileName="AdaptTablet/AdaptTablet/Helpers/ExportedColors.cs" Line="1" Column="1" />
+      <File FileName="AdaptTablet/AdaptTablet.Droid/MainActivity.cs" Line="23" Column="3" />
+      <File FileName="AdaptTablet/AdaptTablet/Converters/DriverNameToImageConverter.cs" Line="18" Column="18" />
+      <File FileName="AdaptTablet/AdaptTablet/ViewModels/Drivers/DriverListViewModel.cs" Line="45" Column="1" />
+      <File FileName="AdaptTablet/AdaptTablet/Views/Drivers/Tablet/DriverListTabletView.cs" Line="40" Column="4" />
+      <File FileName="AdaptTablet/AdaptTablet/Views/Drivers/DriverDetailView.xaml.cs" Line="1" Column="1" />
+      <File FileName="AdaptTablet/AdaptTablet/Views/Drivers/DriverListView.xaml.cs" Line="27" Column="1" />
+      <File FileName="AdaptTablet/AdaptTablet/App.xaml" Line="1" Column="1" />
+      <File FileName="AdaptTablet/AdaptTablet/Views/Drivers/DriverDetailView.xaml" Line="30" Column="16" />
+      <File FileName="AdaptTablet/AdaptTablet/Views/Drivers/DriverListView.xaml" Line="1" Column="1" />
+      <File FileName="AdaptTablet/AdaptTablet/Views/Drivers/Templates/DriverItemTemplate.xaml" Line="48" Column="15" />
+      <File FileName="AdaptTablet/AdaptTablet.iOS/Main.cs" Line="12" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AdaptTablet" expanded="True">
+            <Node name="App" expanded="True">
+              <Node name="AdaptTablet" expanded="True">
+                <Node name="Converters" expanded="True" />
+                <Node name="Helpers" expanded="True" />
+                <Node name="ViewModels" expanded="True">
+                  <Node name="Drivers" expanded="True" />
+                </Node>
+                <Node name="Views" expanded="True">
+                  <Node name="Drivers" expanded="True">
+                    <Node name="Tablet" expanded="True" />
+                    <Node name="Templates" expanded="True" />
+                    <Node name="DriverDetailView.xaml" expanded="True" selected="True" />
+                    <Node name="DriverListView.xaml" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="AdaptTablet.Droid" expanded="True" />
+              <Node name="AdaptTablet.iOS" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

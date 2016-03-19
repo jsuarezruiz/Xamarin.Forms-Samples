@@ -1,0 +1,14 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\javie\documents\visual studio 2015\projects\adapttablet\adapttablet\adapttablet.windows\obj\debug\intermediatexaml\adapttablet.windows.exe" HashGuid="1b8262c8-2290-b361-0f74-1150f175aaff" />
+    <ReferenceAssembly PathName="c:\users\javie\documents\visual studio 2015\projects\adapttablet\adapttablet\adapttablet\bin\debug\adapttablet.dll" HashGuid="d4bc6332-c501-6ce7-0685-214068f70306" />
+    <ReferenceAssembly PathName="c:\users\javie\documents\visual studio 2015\projects\adapttablet\packages\commonservicelocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\microsoft.practices.servicelocation.dll" HashGuid="89de7f80-26d8-a17c-5ad9-b855f81ea5b2" />
+    <ReferenceAssembly PathName="c:\users\javie\documents\visual studio 2015\projects\adapttablet\packages\unity.4.0.1\lib\win8\microsoft.practices.unity.dll" HashGuid="c877bd0f-99df-0d61-0e86-1fcd5a709a45" />
+    <ReferenceAssembly PathName="c:\users\javie\documents\visual studio 2015\projects\adapttablet\packages\unity.4.0.1\lib\win8\microsoft.practices.unity.registrationbyconvention.dll" HashGuid="d99e49e1-55d1-563f-7f59-5ee85698795a" />
+    <ReferenceAssembly PathName="c:\users\javie\documents\visual studio 2015\projects\adapttablet\packages\xamarin.forms.2.0.0.6482\lib\win81\xamarin.forms.core.dll" HashGuid="c8a30eb8-5ae8-352d-b94f-7c913a7557ba" />
+    <ReferenceAssembly PathName="c:\users\javie\documents\visual studio 2015\projects\adapttablet\packages\xamarin.forms.2.0.0.6482\lib\win81\xamarin.forms.platform.dll" HashGuid="d9389e38-8a39-bed5-406b-7a34fe4704ea" />
+    <ReferenceAssembly PathName="c:\users\javie\documents\visual studio 2015\projects\adapttablet\packages\xamarin.forms.2.0.0.6482\lib\win81\xamarin.forms.platform.winrt.dll" HashGuid="dbd728c2-e21b-4125-2be0-f7931b605baa" />
+    <ReferenceAssembly PathName="c:\users\javie\documents\visual studio 2015\projects\adapttablet\packages\xamarin.forms.2.0.0.6482\lib\win81\xamarin.forms.platform.winrt.tablet.dll" HashGuid="cc26105e-9714-a8a4-7460-d1885be1ee00" />
+    <ReferenceAssembly PathName="c:\users\javie\documents\visual studio 2015\projects\adapttablet\packages\xamarin.forms.2.0.0.6482\lib\win81\xamarin.forms.xaml.dll" HashGuid="2828b56a-3245-7d15-6650-dfb4f30cfa91" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

@@ -1,0 +1,3 @@
+C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet.ErgastAPI\AdaptTablet.ErgastAPI.csproj;neutral
+C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet.UWP\AdaptTablet.UWP.csproj;x86
+C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet\AdaptTablet.csproj;neutral

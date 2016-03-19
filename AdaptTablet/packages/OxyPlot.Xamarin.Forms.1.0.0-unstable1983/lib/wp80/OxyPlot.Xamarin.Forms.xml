@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OxyPlot.Xamarin.Forms</name>
+    </assembly>
+    <members>
+        <member name="T:OxyPlot.Xamarin.Forms.ExtensionMethods">
+            <summary>
+            Provides extension methods related to OxyPlot and Xamarin.Forms.
+            </summary>
+        </member>
+        <member name="M:OxyPlot.Xamarin.Forms.ExtensionMethods.ToXamarinForms(OxyPlot.OxyColor)">
+            <summary>
+            Converts from <see cref="T:OxyColor"/> to <see cref="T:Color"/>.
+            </summary>
+            <param name="c">The color to convert.</param>
+            <returns>The converted color.</returns>
+        </member>
+        <member name="M:OxyPlot.Xamarin.Forms.ExtensionMethods.ToOxyColor(Xamarin.Forms.Color)">
+            <summary>
+            Converts from <see cref="T:Color"/> to <see cref="T:OxyColor"/>.
+            </summary>
+            <param name="c">The color to convert.</param>
+            <returns>The converted color.</returns>
+        </member>
+        <member name="T:OxyPlot.Xamarin.Forms.PlotView">
+            <summary>
+            Represents a visual element that displays a <see cref="T:OxyPlot.PlotModel" />.
+            </summary>
+        </member>
+        <member name="F:OxyPlot.Xamarin.Forms.PlotView.ControllerProperty">
+            <summary>
+            Identifies the <see cref="P:OxyPlot.Xamarin.Forms.PlotView.Controller" />  bindable property.
+            </summary>
+        </member>
+        <member name="F:OxyPlot.Xamarin.Forms.PlotView.ModelProperty">
+            <summary>
+            Identifies the <see cref="P:OxyPlot.Xamarin.Forms.PlotView.Model" />  bindable property.
+            </summary>
+        </member>
+        <member name="M:OxyPlot.Xamarin.Forms.PlotView.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:OxyPlot.Xamarin.Forms.PlotView"/> class.
+            </summary>
+            <exception cref="T:System.InvalidOperationException">Renderer is not initialized</exception>
+        </member>
+        <member name="P:OxyPlot.Xamarin.Forms.PlotView.Model">
+            <summary>
+            Gets or sets the <see cref="T:OxyPlot.PlotModel"/> to view.
+            </summary>
+            <value>The model.</value>
+        </member>
+        <member name="P:OxyPlot.Xamarin.Forms.PlotView.Controller">
+            <summary>
+            Gets or sets the <see cref="T:OxyPlot.PlotController"/> for the view.
+            </summary>
+            <value>The controller.</value>
+        </member>
+        <member name="P:OxyPlot.Xamarin.Forms.PlotView.IsRendererInitialized">
+            <summary>
+            Gets or sets a value indicating whether the renderer is "initialized".
+            </summary>
+            <value><c>true</c> if the renderer is initialized; otherwise, <c>false</c>.</value>
+        </member>
+    </members>
+</doc>
