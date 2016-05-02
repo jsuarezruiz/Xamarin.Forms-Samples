@@ -1,0 +1,18 @@
+﻿<Properties StartupItem="iOS/XamarinFormsPreviewer.iOS.csproj">
+  <MonoDevelop.Ide.ItemProperties.XamarinFormsPreviewer.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.8275CE9E-3823-460B-9FF5-C1D2E4FBD885" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamarinFormsPreviewer/Views/MainView.xaml">
+    <Files>
+      <File FileName="XamarinFormsPreviewer/Views/MainView.xaml" Line="19" Column="4" />
+      <File FileName="XamarinFormsPreviewer/Views/MainView.xaml.cs" Line="9" Column="26" />
+      <File FileName="XamarinFormsPreviewer/App.xaml" Line="1" Column="1" />
+      <File FileName="XamarinFormsPreviewer/App.xaml.cs" Line="11" Column="48" />
+      <File FileName="XamarinFormsPreviewer/Models/Monkey.cs" Line="30" Column="126" />
+      <File FileName="XamarinFormsPreviewer/obj/Debug/XamarinFormsPreviewer.Views.MainView.xaml.g.cs" Line="21" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
