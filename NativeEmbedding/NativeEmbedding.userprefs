@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="iOS/NativeEmbedding.iOS.csproj">
+  <MonoDevelop.Ide.ItemProperties.NativeEmbedding.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.8275CE9E-3823-460B-9FF5-C1D2E4FBD885" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="NativeEmbedding/Views/MainView.xaml.cs">
+    <Files>
+      <File FileName="NativeEmbedding/App.cs" Line="1" Column="1" />
+      <File FileName="NativeEmbedding/Views/MainView.xaml.cs" Line="1" Column="1" />
+      <File FileName="NativeEmbedding/Views/MainView.xaml" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
