@@ -1,0 +1,23 @@
+<p:ListDataPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:p="clr-namespace:Xamarin.Forms.Pages;assembly=Xamarin.Forms.Pages"
+             x:Class="DataPages.MainView"
+			 StyleClass="Events" 
+			 Title="Sessions">   
+	<p:ListDataPage.DataSource>
+    	<p:JsonDataSource Source="http://demo3143189.mockable.io/sessions" />
+	</p:ListDataPage.DataSource>
+	<p:ListDataPage.DefaultItemTemplate>
+    	<DataTemplate>
+        	<ViewCell>
+            	<p:ListItemControl
+                	Title="{p:DataSourceBinding title}"
+                	Detail="{p:DataSourceBinding room}"
+                	ImageSource="{p:DataSourceBinding image}"
+                	DataSource="{Binding Value}"
+                	HeightRequest="100">
+            	</p:ListItemControl>
+        	</ViewCell>
+    	</DataTemplate>
+	</p:ListDataPage.DefaultItemTemplate>
+</p:ListDataPage>
