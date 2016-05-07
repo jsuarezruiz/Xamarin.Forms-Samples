@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+		xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		x:Class="Themes.MainView">
+	<ContentPage.Content>
+		<StackLayout>
+			<Label Text="BoxView StyleClass" />
+			<StackLayout Padding="40">
+		    	<BoxView 
+					BackgroundColor="Blue"
+					HeightRequest="50"
+					WidthRequest="50"/>
+				<BoxView StyleClass="HorizontalRule" />
+		    	<BoxView StyleClass="Circle" />
+		    	<BoxView StyleClass="Rounded" />
+			</StackLayout>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,19 @@
+﻿<Properties StartupItem="iOS/Themes.iOS.csproj" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Themes/Views/MainView.xaml">
+    <Files>
+      <File FileName="Themes/Views/MainView.xaml" Line="13" Column="22" />
+      <File FileName="Themes/Views/MainView.xaml.cs" Line="1" Column="1" />
+      <File FileName="Themes/App.xaml" Line="6" Column="6" />
+      <File FileName="Themes/App.xaml.cs" Line="27" Column="4" />
+      <File FileName="iOS/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="Themes/obj/Debug/Themes.App.xaml.g.cs" Line="1" Column="1" />
+      <File FileName="Droid/MainActivity.cs" Line="8" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Themes.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.8275CE9E-3823-460B-9FF5-C1D2E4FBD885" />
+</Properties>
