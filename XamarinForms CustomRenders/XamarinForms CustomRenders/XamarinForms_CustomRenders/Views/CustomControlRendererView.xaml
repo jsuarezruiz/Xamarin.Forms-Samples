@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinForms_CustomRenders.Views.CustomControlRendererView"
+             xmlns:custom="clr-namespace:XamarinForms_CustomRenders.CustomControls;assembly=XamarinForms_CustomRenders">
+  <StackLayout Padding="20" Spacing="20">
+    <Label Text="CustomEntry" />
+    <custom:CustomEntry />
+    <Entry>
+      <Entry.Style>
+        <Style TargetType="Entry">
+          <Setter Property="BackgroundColor" Value="Yellow" />
+        </Style>
+      </Entry.Style>
+    </Entry>
+    <custom:RoundedBoxView 
+      x:Name="rbv"           
+      WidthRequest="200" 
+      HeightRequest="200"
+      Stroke="Yellow" 
+      StrokeThickness="2" 
+      CornerRadius="20"
+      Color="Red" />
+    <custom:SeparatorControl 
+      Color="Red"              
+      StrokeType="Dashed"/>
+    <Label Text="Corner Radius" />
+    <Slider
+      x:Name="theSlider" 
+      Minimum="0" 
+      Maximum="75"
+      BindingContext="{x:Reference rbv}"
+      Value="{Binding CornerRadius, Mode=OneWayToSource}" />
+  </StackLayout>
+</ContentPage>

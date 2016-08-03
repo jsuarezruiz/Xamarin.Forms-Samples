@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinForms_CustomRenders.Views.ExtendControlView"
+             xmlns:custom="clr-namespace:XamarinForms_CustomRenders.CustomControls;assembly=XamarinForms_CustomRenders">
+  
+  <StackLayout Padding="20"
+               Spacing="20">
+  <Label Text="HyperLinkControl" />
+  <custom:HyperLinkControl 
+    Text="Email"        
+    NavigateUri="javiersuarezruiz@hotmail.com" />
+  <custom:HyperLinkControl
+    Text="Url"          
+    NavigateUri="http://www.desarrollaconmicrosoft.com/dotnetspain2015" />
+</StackLayout>
+</ContentPage>

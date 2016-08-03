@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinForms_CustomRenders.Views.MainView"
+             x:Name="MainView">
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="150" />
+      <RowDefinition Height="*" />
+    </Grid.RowDefinitions>
+    <StackLayout Padding="12">
+      <Label Text="CUSTOM RENDERS" />
+      <Label Text="extender Xamarin.Forms" 
+             FontSize="48" />
+    </StackLayout>
+    <Grid Grid.Row="1" Padding="12">
+      <StackLayout>
+        <Button
+          Text="Custom Control Renderer"
+          Command="{Binding NavigateToExtendControlCommand}"/>
+        <Button
+          Text="Extend Control"
+          Command="{Binding NavigateToExtendControlRendererCommand}"/>
+        <Button
+          Text="Custom Gesture Page"
+          Command="{Binding NavigateToExtendPageCommand}"/>
+      </StackLayout>
+      <Grid/>
+    </Grid>
+  </Grid>
+</ContentPage>
