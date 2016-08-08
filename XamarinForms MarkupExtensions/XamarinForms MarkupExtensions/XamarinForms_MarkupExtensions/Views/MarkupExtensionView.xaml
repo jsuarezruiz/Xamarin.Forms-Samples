@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinForms_MarkupExtensions.Views.MarkupExtensionView"
+             xmlns:extension="clr-namespace:XamarinForms_MarkupExtensions.MarkupExtensions;assembly=XamarinForms_MarkupExtensions">
+  <StackLayout
+     HorizontalOptions="CenterAndExpand"
+     VerticalOptions="CenterAndExpand">
+    <Label Text="TranslateExtension" />
+    <Label Text="{extension:TranslateExtension Text=Greeting}" />
+    <Label Text="DateDisplayExtension" />
+    <Label Text="{extension:DateDisplay Date, Binding=Yes}" />
+    <Label Text="{extension:DateDisplay Time}" />
+    <!-- Blue BoxView HslColor -->
+    <BoxView Color="{extension:HslColor H=0.67, S=1, L=0.5}"
+             HorizontalOptions="Center"
+             VerticalOptions="CenterAndExpand" />
+  </StackLayout>
+</ContentPage>
