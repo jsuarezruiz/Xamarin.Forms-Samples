@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BlurImageEffect.Views.MainView" 
+             xmlns:extensions="clr-namespace:BlurImageEffect.Extensions;assembly=BlurImageEffect"
+             xmlns:effects="clr-namespace:BlurImageEffect.Effects">
+  <StackLayout
+    Padding="24">
+    <Label 
+      Text="Image"/>
+    <Image
+      Source="https://www.xamarin.com/content/images/pages/branding/assets/xamarin-logo.png"/>
+    <Label 
+      Text="Blurred Image"/>
+    <Image>
+      <Image.Effects>
+        <effects:BlurredEffect
+          Url="https://www.xamarin.com/content/images/pages/branding/assets/xamarin-logo.png"
+          Radius="20"/>
+      </Image.Effects>
+    </Image>
+  </StackLayout>
+</ContentPage>
