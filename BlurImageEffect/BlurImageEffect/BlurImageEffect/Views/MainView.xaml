@@ -7,9 +7,13 @@
   <StackLayout
     Padding="24">
     <Label 
-      Text="Image"/>
+      Text="Image from URL"/>
     <Image
       Source="https://www.xamarin.com/content/images/pages/branding/assets/xamarin-logo.png"/>
+    <Label
+      Text="Image from Resource"/>
+    <Image
+      Source="{extensions:ImageResource BlurImageEffect.Images.Xamarin.png}"/>
     <Label 
       Text="Blurred Image"/>
     <Image>
