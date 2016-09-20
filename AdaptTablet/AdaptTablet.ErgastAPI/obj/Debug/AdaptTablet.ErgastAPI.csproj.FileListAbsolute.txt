@@ -6,17 +6,10 @@ C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet.Erg
 C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet.ErgastAPI\bin\Debug\Newtonsoft.Json.xml
 C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet.ErgastAPI\obj\Debug\AdaptTablet.ErgastAPI.dll.mdb
 C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet.ErgastAPI\bin\Debug\AdaptTablet.ErgastAPI.dll.mdb
-C:\Users\javie\Documents\Visual Studio 2015\Projects\AdaptTablet\AdaptTablet.ErgastAPI\obj\Debug\AdaptTablet.ErgastAPI.dll.mdb
-C:\Users\javie\Documents\Visual Studio 2015\Projects\AdaptTablet\AdaptTablet.ErgastAPI\bin\Debug\AdaptTablet.ErgastAPI.dll.mdb
-C:\Users\javie\Documents\Visual Studio 2015\Projects\AdaptTablet\AdaptTablet.ErgastAPI\obj\Debug\AdaptTablet.ErgastAPI.dll.mdb
-C:\Users\javie\Documents\Visual Studio 2015\Projects\AdaptTablet\AdaptTablet.ErgastAPI\bin\Debug\AdaptTablet.ErgastAPI.dll.mdb
-C:\Users\javie\Documents\Visual Studio 2015\Projects\AdaptTablet\AdaptTablet.ErgastAPI\obj\Debug\AdaptTablet.ErgastAPI.dll.mdb
-C:\Users\javie\Documents\Visual Studio 2015\Projects\AdaptTablet\AdaptTablet.ErgastAPI\bin\Debug\AdaptTablet.ErgastAPI.dll.mdb
-C:\Users\javie\Documents\Visual Studio 2015\Projects\AdaptTablet\AdaptTablet.ErgastAPI\obj\Debug\AdaptTablet.ErgastAPI.dll.mdb
-C:\Users\javie\Documents\Visual Studio 2015\Projects\AdaptTablet\AdaptTablet.ErgastAPI\bin\Debug\AdaptTablet.ErgastAPI.dll.mdb
-C:\Users\javie\Documents\Visual Studio 2015\Projects\AdaptTablet\AdaptTablet.ErgastAPI\obj\Debug\AdaptTablet.ErgastAPI.dll.mdb
-C:\Users\javie\Documents\Visual Studio 2015\Projects\AdaptTablet\AdaptTablet.ErgastAPI\bin\Debug\AdaptTablet.ErgastAPI.dll.mdb
-C:\Users\javie\Documents\Visual Studio 2015\Projects\AdaptTablet\AdaptTablet.ErgastAPI\obj\Debug\AdaptTablet.ErgastAPI.dll.mdb
-C:\Users\javie\Documents\Visual Studio 2015\Projects\AdaptTablet\AdaptTablet.ErgastAPI\bin\Debug\AdaptTablet.ErgastAPI.dll.mdb
-C:\Users\javie\Documents\Visual Studio 2015\Projects\AdaptTablet\AdaptTablet.ErgastAPI\obj\Debug\AdaptTablet.ErgastAPI.dll.mdb
-C:\Users\javie\Documents\Visual Studio 2015\Projects\AdaptTablet\AdaptTablet.ErgastAPI\bin\Debug\AdaptTablet.ErgastAPI.dll.mdb
+D:\GitHub\Xamarin.Forms-Samples\AdaptTablet\AdaptTablet.ErgastAPI\bin\Debug\AdaptTablet.ErgastAPI.dll
+D:\GitHub\Xamarin.Forms-Samples\AdaptTablet\AdaptTablet.ErgastAPI\bin\Debug\AdaptTablet.ErgastAPI.pdb
+D:\GitHub\Xamarin.Forms-Samples\AdaptTablet\AdaptTablet.ErgastAPI\bin\Debug\Newtonsoft.Json.dll
+D:\GitHub\Xamarin.Forms-Samples\AdaptTablet\AdaptTablet.ErgastAPI\bin\Debug\Newtonsoft.Json.xml
+D:\GitHub\Xamarin.Forms-Samples\AdaptTablet\AdaptTablet.ErgastAPI\obj\Debug\AdaptTablet.ErgastAPI.csprojResolveAssemblyReference.cache
+D:\GitHub\Xamarin.Forms-Samples\AdaptTablet\AdaptTablet.ErgastAPI\obj\Debug\AdaptTablet.ErgastAPI.dll
+D:\GitHub\Xamarin.Forms-Samples\AdaptTablet\AdaptTablet.ErgastAPI\obj\Debug\AdaptTablet.ErgastAPI.pdb
