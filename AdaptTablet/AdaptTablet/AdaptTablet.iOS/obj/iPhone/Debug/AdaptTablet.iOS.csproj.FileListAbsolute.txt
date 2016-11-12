@@ -1,3 +1,0 @@
-C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
-C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet.iOS\obj\iPhone\Debug\optimized\
-C:\Users\javie\documents\visual studio 2015\Projects\AdaptTablet\AdaptTablet\AdaptTablet.iOS\obj\iPhone\Debug\AdaptTablet.iOS.csprojResolveAssemblyReference.cache
