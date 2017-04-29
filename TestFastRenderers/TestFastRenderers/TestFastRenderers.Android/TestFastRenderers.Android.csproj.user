@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <ProjectView>ShowAllFiles</ProjectView>
-    <SelectedDevice>Dispositivo</SelectedDevice>
+    <SelectedDevice>OnePlus A3003</SelectedDevice>
+    <DefaultDevice>Android_x86</DefaultDevice>
   </PropertyGroup>
 </Project>

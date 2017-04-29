@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TestFastRenderers.Views.AdvancedTestView"
+             xmlns:templates="clr-namespace:TestFastRenderers.Views.Templates;assembly=TestFastRenderers"
+             Title="Advanced Test">
+    <ListView
+        ItemsSource="{Binding Monkeys}"
+        RowHeight="150"
+        CachingStrategy="RecycleElement">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <templates:MonkeyItemTemplate />
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>
