@@ -1,0 +1,50 @@
+﻿<Page
+    x:Class="FormsEmbedding.UWP.Views.AddItems"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FormsEmbedding.UWP.Views"
+    xmlns:data="using:FormsEmbedding.Model"
+    xmlns:viewmodels="using:FormsEmbedding.ViewModel"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{StaticResource PrimaryColor}">
+
+    <Page.Resources>
+        <Style TargetType="TextBox">
+            <Setter Property="Margin" Value="0,10"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+            <Setter Property="AcceptsReturn" Value="True"/>
+            <Setter Property="ScrollViewer.VerticalScrollBarVisibility" Value="Auto"/>
+        </Style>
+    </Page.Resources>
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <Border  Grid.Row="0" Background="{StaticResource PrimaryColor}" Padding="10">
+            <TextBlock x:Name="txtTitle" Text="Add Item" VerticalAlignment="Center" FontSize="28" Foreground="White"/>
+        </Border>
+
+        <StackPanel Grid.Row="1" Padding="10">
+            <TextBox x:Name="txtText" Header="Title" PlaceholderText="Item Name" MaxHeight="120" />
+            <TextBox x:Name="txtDesc" Header="Description" PlaceholderText="This is a nice description" MaxHeight="240" />
+        </StackPanel>
+    </Grid>
+
+    <Page.BottomAppBar>
+        <CommandBar>
+            <AppBarButton Label="Save" Icon="Save" Click="SaveItem_Click"/>
+        </CommandBar>
+    </Page.BottomAppBar>
+</Page>

@@ -1,0 +1,62 @@
+﻿<Page
+    x:Class="FormsEmbedding.UWP.Views.MainPivot"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FormsEmbedding.UWP.Views"
+    xmlns:data="using:FormsEmbedding.Model"
+    xmlns:viewmodels="using:FormsEmbedding.ViewModel"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    DataContext="{Binding RelativeSource={RelativeSource Self}}"
+    Background="{StaticResource PrimaryColor}">
+    
+    <Page.Resources>
+        <Style TargetType="PivotItem">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="Margin" Value="0"/>
+        </Style>
+
+        <DataTemplate x:Key="GvItemTemplate" x:DataType="data:Item">
+            <StackPanel Margin="0,10">
+                <TextBlock x:Name="txtText" Text="{Binding Text}" FontSize="16" FontWeight="Bold" Margin="0,5"/>
+                <TextBlock Text="{Binding Description}" FontSize="14"/>
+            </StackPanel>
+        </DataTemplate>
+    </Page.Resources>
+
+    <Pivot x:Name="rootPivot" Title="FormsEmbedding.UWP" SelectionChanged="PivotItemChanged">
+        <PivotItem Header="{Binding Title}" DataContext="{Binding BrowseViewModel}">
+            <ListView ItemsSource="{Binding Items}" ItemTemplate="{StaticResource GvItemTemplate}"
+                      ItemClick="GvItems_ItemClick" SelectionMode="None" IsItemClickEnabled="True">
+            </ListView>
+        </PivotItem>
+        <PivotItem Header="{Binding Title}" DataContext="{Binding AboutViewModel}">
+            <StackPanel>
+                <Border Background="{StaticResource AccentColor}" Padding="25">
+                    <Image Source="/Assets/xamarin_logo.png" Height="70"/>
+                </Border>
+                <StackPanel Padding="10">
+                    <TextBlock Margin="0,20" FontSize="20">
+                            <Bold>FormsEmbedding.UWP&#160;</Bold>
+                            <Span Foreground="{StaticResource LightTextColor}">1.0</Span>
+                    </TextBlock>
+                    <TextBlock TextWrapping="WrapWholeWords">
+                            This app is written in C# and native APIs using the
+                            <Bold>Xamarin Platform</Bold>. It shares code with its
+                            <Bold>iOS, Android, and Windows</Bold> versions.
+                    </TextBlock>
+                    <Button Content="Learn More" Command="{Binding OpenWebCommand}" Margin="0,20" 
+                            Background="{StaticResource PrimaryColor}" Foreground="White" HorizontalAlignment="Stretch"></Button>
+                </StackPanel>
+            </StackPanel>
+        </PivotItem>
+    </Pivot>
+
+    <Page.BottomAppBar>
+        <CommandBar Name="Toolbar" ClosedDisplayMode="Compact">
+            <AppBarButton Name="Settings" Icon="Setting" Label="Settings" Click="Settings_Click"/>
+            <AppBarButton Name="AddItemBtn" Icon="Add" Label="Add" Click="AddItem_Click"/>
+        </CommandBar>
+    </Page.BottomAppBar>
+</Page>
