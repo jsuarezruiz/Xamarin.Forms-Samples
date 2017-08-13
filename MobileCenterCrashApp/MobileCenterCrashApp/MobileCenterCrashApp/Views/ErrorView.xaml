@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileCenterCrashApp.Views.ErrorView"
+             Title="Mobile Center Analytics Sample">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button
+                x:Name="EventBtn"
+                Text="Event"/>
+            <Button 
+                x:Name="ExceptionBtn"
+                Text="Exception"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
