@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{142625BA-3CF8-43F2-B714-C8B68EDA1089}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="macOSForms.Mac/Info.plist">
+    <Files>
+      <File FileName="macOSForms/App.cs" Line="13" Column="2" />
+      <File FileName="macOSForms/Views/TipCalcView.xaml" Line="52" Column="15" />
+      <File FileName="macOSForms/Views/TipCalcView.xaml.cs" Line="3" Column="11" />
+      <File FileName="macOSForms.Mac/Main.cs" Line="11" Column="29" />
+      <File FileName="macOSForms.Mac/AppDelegate.cs" Line="34" Column="2" />
+      <File FileName="macOSForms/Converters/DoubleToStringConverter.cs" Line="30" Column="2" />
+      <File FileName="macOSForms/Converters/DoubleRoundingConverter.cs" Line="29" Column="13" />
+      <File FileName="macOSForms/Models/TipCalcModel.cs" Line="1" Column="1" />
+      <File FileName="macOSForms.Mac/Info.plist" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.macOSForms.Mac PreferredExecutionTarget="Test1" />
+</Properties>
