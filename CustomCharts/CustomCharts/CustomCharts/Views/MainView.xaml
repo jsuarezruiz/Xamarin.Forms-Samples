@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CustomCharts.Views.MainView"   
+             xmlns:controls="clr-namespace:CustomCharts.Controls;assembly=CustomCharts"        
+             xmlns:effects="clr-namespace:CustomCharts.Effects"
+             BackgroundColor="{StaticResource BackgroundColor}">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid 
+                Grid.Row="0"
+                Padding="0, 12">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Label 
+                    Grid.Row="0"
+                    Margin="48, 0, 0, 0"
+                    Text="Charts">
+                    <Label.Effects>
+                        <effects:ShadowEffect Radius="5" DistanceX="5" DistanceY="5" Color="Black" />
+                    </Label.Effects>
+                </Label>
+                <controls:AnimatedLineChart 
+                    Grid.Row="1"
+                    Entries="{Binding Entries}"
+                    ShowAxes="True"
+                    LineMode="Straight"
+                    Speed="6"
+                    PointSize="24"
+                    LabelTextSize="24"
+                    ChartBackgroundColor="Transparent" />
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
