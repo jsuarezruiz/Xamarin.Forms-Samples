@@ -1,4 +1,4 @@
-﻿using SQLite.Net.Async;
+﻿using SQLite;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using TodoSqlite.Helpers;
@@ -6,7 +6,7 @@ using TodoSqlite.Models;
 using TodoSqlite.Services.Sqlite;
 using Xamarin.Forms;
 
-namespace TodoSqlite.Services.Realm
+namespace TodoSqlite.Services.Sqlite
 {
     public class SqliteService : ISqliteService
     {
@@ -15,7 +15,8 @@ namespace TodoSqlite.Services.Realm
 
         public SqliteService()
         {
-            _sqlCon = DependencyService.Get<ISQLite>().GetConnection();
+            var databasePath = DependencyService.Get<IPathService>().GetDatabasePath();
+            _sqlCon = new SQLiteAsyncConnection(databasePath);
 
             CreateDatabaseAsync();
         }

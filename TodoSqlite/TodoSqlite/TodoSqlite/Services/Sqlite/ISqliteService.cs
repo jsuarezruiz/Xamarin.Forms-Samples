@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using TodoSqlite.Models;
 
-namespace TodoSqlite.Services.Realm
+namespace TodoSqlite.Services.Sqlite
 {
     public interface ISqliteService
     {

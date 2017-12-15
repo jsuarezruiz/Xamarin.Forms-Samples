@@ -1,24 +1,31 @@
-﻿using Microsoft.Practices.Unity;
+﻿using Autofac;
 using TodoSqlite.Services.Navigation;
-using TodoSqlite.Services.Realm;
+using TodoSqlite.Services.Sqlite;
 
 namespace TodoSqlite.ViewModels.Base
 {
     public class ViewModelLocator
     {
-        readonly IUnityContainer _container;
+        private static IContainer _container;
 
         public ViewModelLocator()
         {
-            _container = new UnityContainer();
+            var builder = new ContainerBuilder();
 
             // ViewModels
-            _container.RegisterType<TodoListViewModel>();
-            _container.RegisterType<TodoItemViewModel>();
+            builder.RegisterType<TodoListViewModel>();
+            builder.RegisterType<TodoItemViewModel>();
 
             // Services     
-            _container.RegisterType<INavigationService, NavigationService>();
-            _container.RegisterType<ISqliteService, SqliteService>();
+            builder.RegisterType<NavigationService>().As<INavigationService>().SingleInstance();
+            builder.RegisterType<SqliteService>().As<ISqliteService>();
+
+            if (_container != null)
+            {
+                _container.Dispose();
+            }
+
+            _container = builder.Build();
         }
 
         public TodoListViewModel TodoListViewModel
