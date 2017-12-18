@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="TodoSqlite.Views.TodoItemView"
+    xmlns:templates="clr-namespace:TodoSqlite.Views.Templates;assembly=TodoSqlite"
+    Title="{Binding Item.Name}">
+    <StackLayout
+        VerticalOptions="StartAndExpand"
+        Padding="20">
+        <Label
+            Text="Name" />
+        <Entry
+            Text="{Binding Item.Name}"/>
+        <Label
+            Text="Notes" />
+        <Entry
+            Text="{Binding Item.Notes}"/>
+        <Label
+            Text="Done" />
+        <Switch
+            x:Name="DoneEntry"
+            IsToggled="{Binding Item.Done}"/>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <Label
+                Grid.Column="0"
+                Text="Steps" />
+            <Entry 
+                Grid.Column="1"
+                Text="{Binding Step, Mode=TwoWay}"/>
+            <Button
+                Grid.Column="2"
+                Text="Add"
+                Command="{Binding AddStepCommand}"/>
+        </Grid>
+        <ListView
+            ItemsSource="{Binding Steps}"
+            HeightRequest="60">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <templates:StepItemTemplate />
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button
+            Text="Save"
+            Command="{Binding SaveCommand}"/>
+        <Button
+            Text="Delete"
+            Command="{Binding DeleteCommand}"/>
+        <Button
+            Text="Cancel"
+            Command="{Binding CancelCommand}"/>
+    </StackLayout>
+</ContentPage>
