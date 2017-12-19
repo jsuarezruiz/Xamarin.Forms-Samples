@@ -3,30 +3,30 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TodoRealm.Views.TodoItemView"
              Title="{Binding Name}">
-  <StackLayout 
+    <StackLayout 
     VerticalOptions="StartAndExpand" 
     Padding="20">
-    <Label 
+        <Label 
       Text="Name" />
-    <Entry 
+        <Entry 
       Text="{Binding Name}"/>
-    <Label 
+        <Label 
       Text="Notes" />
-    <Entry 
+        <Entry 
       Text="{Binding Notes}"/>
-    <Label 
+        <Label 
       Text="Done" />
-    <Switch 
+        <Switch 
       x:Name="DoneEntry" 
       IsToggled="{Binding Done, Mode=TwoWay}"/>
-    <Button 
+        <Button 
       Text="Save"
       Command="{Binding SaveCommand}"/>
-    <Button 
+        <Button 
       Text="Delete"
       Command="{Binding DeleteCommand}"/>
-    <Button 
+        <Button 
       Text="Cancel"
       Command="{Binding CancelCommand}"/>
-  </StackLayout>
+    </StackLayout>
 </ContentPage>

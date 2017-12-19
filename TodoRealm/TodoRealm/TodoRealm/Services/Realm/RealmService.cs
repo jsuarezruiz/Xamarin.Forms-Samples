@@ -29,11 +29,15 @@ namespace TodoRealm.Services.Realm
             {
                 _realm.Write(() =>
                 {
-                    var todoItem = _realm.CreateObject<TodoItem>();
-                    todoItem.Id = items.Count + 1;
-                    todoItem.Name = item.Name;
-                    todoItem.Notes = item.Notes;
-                    todoItem.Done = item.Done;
+                    var todoItem = new TodoItem
+                    {
+                        Id = items.Count + 1,
+                        Name = item.Name,
+                        Notes = item.Notes,
+                        Done = item.Done
+                    };
+
+                    _realm.Add(todoItem);
                 });
             }
             else

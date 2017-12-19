@@ -57,7 +57,7 @@ namespace TodoRealm.ViewModels
             var result = _realmService.GetAll();
 
             Items = new ObservableCollection<TodoItem>();
-            foreach(var item in result)
+            foreach (var item in result)
             {
                 Items.Add(item);
             }

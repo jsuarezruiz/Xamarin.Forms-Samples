@@ -1,4 +1,4 @@
-﻿using Microsoft.Practices.Unity;
+﻿using Autofac;
 using TodoRealm.Services.Navigation;
 using TodoRealm.Services.Realm;
 
@@ -6,19 +6,26 @@ namespace TodoRealm.ViewModels.Base
 {
     public class ViewModelLocator
     {
-        readonly IUnityContainer _container;
+        private static IContainer _container;
 
         public ViewModelLocator()
         {
-            _container = new UnityContainer();
+            var builder = new ContainerBuilder();
 
             // ViewModels
-            _container.RegisterType<TodoListViewModel>();
-            _container.RegisterType<TodoItemViewModel>();
+            builder.RegisterType<TodoListViewModel>();
+            builder.RegisterType<TodoItemViewModel>();
 
             // Services     
-            _container.RegisterType<INavigationService, NavigationService>();
-            _container.RegisterType<IRealmService, RealmService>();
+            builder.RegisterType<NavigationService>().As<INavigationService>().SingleInstance();
+            builder.RegisterType<RealmService>().As<IRealmService>();
+
+            if (_container != null)
+            {
+                _container.Dispose();
+            }
+
+            _container = builder.Build();
         }
 
         public TodoListViewModel TodoListViewModel
