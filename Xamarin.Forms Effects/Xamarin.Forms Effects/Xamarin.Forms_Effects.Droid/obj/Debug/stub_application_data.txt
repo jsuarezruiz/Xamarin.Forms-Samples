@@ -1,2 +1,0 @@
-android.app.Application
-Xamarin.Forms_Effects.Droid
