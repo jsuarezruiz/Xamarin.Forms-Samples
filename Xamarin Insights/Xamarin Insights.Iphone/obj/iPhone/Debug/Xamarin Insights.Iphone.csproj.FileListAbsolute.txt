@@ -1,2 +1,0 @@
-C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights.Iphone\obj\iPhone\Debug\
-C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights.Iphone\obj\iPhone\Debug\Xamarin Insights.Iphone.csprojResolveAssemblyReference.cache

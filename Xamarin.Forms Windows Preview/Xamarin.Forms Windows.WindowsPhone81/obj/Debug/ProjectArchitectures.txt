@@ -1,2 +1,0 @@
-C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin.Forms Windows\Xamarin.Forms Windows.WindowsPhone81\Xamarin.Forms Windows.WindowsPhone81.csproj;neutral
-C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin.Forms Windows\Xamarin.Forms Windows\Xamarin.Forms_Windows\Xamarin.Forms_Windows.csproj;neutral

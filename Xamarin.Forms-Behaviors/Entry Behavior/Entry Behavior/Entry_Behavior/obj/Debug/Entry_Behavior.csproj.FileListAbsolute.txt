@@ -1,9 +1,0 @@
-c:\users\javier\documents\visual studio 2013\Projects\Entry Behavior\Entry Behavior\Entry_Behavior\obj\Debug\MainView.xaml.g.cs
-C:\Users\Javier\documents\visual studio 2013\Projects\Entry Behavior\Entry Behavior\Entry_Behavior\bin\Debug\Entry_Behavior.dll
-C:\Users\Javier\documents\visual studio 2013\Projects\Entry Behavior\Entry Behavior\Entry_Behavior\bin\Debug\Entry_Behavior.pdb
-C:\Users\Javier\documents\visual studio 2013\Projects\Entry Behavior\Entry Behavior\Entry_Behavior\bin\Debug\Xamarin.Forms.Core.dll
-C:\Users\Javier\documents\visual studio 2013\Projects\Entry Behavior\Entry Behavior\Entry_Behavior\bin\Debug\Xamarin.Forms.Xaml.dll
-C:\Users\Javier\documents\visual studio 2013\Projects\Entry Behavior\Entry Behavior\Entry_Behavior\bin\Debug\Xamarin.Forms.Core.xml
-C:\Users\Javier\documents\visual studio 2013\Projects\Entry Behavior\Entry Behavior\Entry_Behavior\bin\Debug\Xamarin.Forms.Xaml.xml
-C:\Users\Javier\documents\visual studio 2013\Projects\Entry Behavior\Entry Behavior\Entry_Behavior\obj\Debug\Entry_Behavior.dll
-C:\Users\Javier\documents\visual studio 2013\Projects\Entry Behavior\Entry Behavior\Entry_Behavior\obj\Debug\Entry_Behavior.pdb

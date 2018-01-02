@@ -1,8 +1,0 @@
-c:\users\javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights\bin\Debug\Xamarin Insights.dll
-c:\users\javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights\bin\Debug\Xamarin Insights.pdb
-c:\users\javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights\bin\Debug\Cirrious.CrossCore.dll
-c:\users\javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights\bin\Debug\Cirrious.MvvmCross.dll
-c:\users\javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights\bin\Debug\Cirrious.MvvmCross.Localization.dll
-c:\users\javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights\obj\Debug\Xamarin Insights.csprojResolveAssemblyReference.cache
-c:\users\javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights\obj\Debug\Xamarin Insights.dll
-c:\users\javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights\obj\Debug\Xamarin Insights.pdb

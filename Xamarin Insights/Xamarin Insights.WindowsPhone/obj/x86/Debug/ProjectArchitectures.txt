@@ -1,2 +1,0 @@
-C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights.WindowsPhone\Xamarin Insights.WindowsPhone.csproj;x86
-C:\Users\Javier\documents\visual studio 2013\Projects\Xamarin Insights\Xamarin Insights\Xamarin Insights.Core.csproj;neutral
