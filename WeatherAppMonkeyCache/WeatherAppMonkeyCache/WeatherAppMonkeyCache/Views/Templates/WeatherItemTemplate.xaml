@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WeatherAppMonkeyCache.Views.Templates.WeatherItemTemplate">
+    <ContentView.Resources>
+        <ResourceDictionary>
+
+            <Style x:Key="TextStyle"
+                   TargetType="Label">
+                <Setter Property="TextColor"
+                        Value="Gray" />
+                <Setter Property="FontSize"
+                        Value="12" />
+            </Style>
+
+            <Style x:Key="IconStyle"
+                   TargetType="Image">
+                <Setter Property="Aspect"
+                        Value="AspectFit" />
+                <Setter Property="WidthRequest"
+                        Value="150" />
+            </Style>
+
+        </ResourceDictionary>
+    </ContentView.Resources>
+    <ContentView.Content>
+        <Grid WidthRequest="150"
+              Margin="6, 0, 6, 24">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Label Grid.Row="0"
+                   Text="{Binding DisplayDate}"
+                   Style="{StaticResource TextStyle}" />
+            <Image Grid.Row="1"
+                   Source="{Binding Icon, Converter={StaticResource IconConverter}}"
+                   Style="{StaticResource IconStyle}" />
+            <Label Grid.Row="2"
+                   Text="{Binding DisplayTemp}"
+                   Style="{StaticResource TextStyle}" />
+        </Grid>
+    </ContentView.Content>
+</ContentView>

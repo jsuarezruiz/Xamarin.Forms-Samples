@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WeatherAppMonkeyCache.Views.WeatherView"
+             xmlns:controls="clr-namespace:WeatherAppMonkeyCache.Controls"
+             xmlns:templates="clr-namespace:WeatherAppMonkeyCache.Views.Templates"
+             Title="WeatherApp">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+
+            <Style x:Key="BackgroundStyle"
+                   TargetType="Image">
+                <Setter Property="Aspect"
+                        Value="AspectFill" />
+            </Style>
+
+            <Style x:Key="TempTextStyle"
+                   TargetType="Label">
+                <Setter Property="TextColor"
+                        Value="{StaticResource WhiteColor}" />
+                <Setter Property="FontSize"
+                        Value="48" />
+                <Setter Property="Margin"
+                        Value="12, 48, 0, 0" />
+            </Style>
+
+            <Style x:Key="ConditionTextStyle"
+                   TargetType="Label">
+                <Setter Property="TextColor"
+                        Value="{StaticResource WhiteColor}" />
+                <Setter Property="FontSize"
+                        Value="12" />
+                <Setter Property="Margin"
+                        Value="12, 0" />
+            </Style>
+
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Icon="Images/reload.png"
+                     Text="Reload"
+                     Command="{Binding ReloadCommand}" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <Grid BackgroundColor="{StaticResource WhiteColor}">
+            <Grid RowSpacing="0"
+                  IsVisible="{Binding IsBusy, Converter={StaticResource InverseBoolConverter}}">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="7*" />
+                    <RowDefinition Height="3*" />
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0"
+                      RowSpacing="0"
+                      BackgroundColor="{StaticResource AccentColor}">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="150" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0"
+                           Grid.RowSpan="3"
+                           Source="{Binding Condition, Converter={StaticResource BackgroundConverter}}"
+                           Style="{StaticResource BackgroundStyle}" />
+                    <Grid Grid.Row="0">
+                        <Label Text="{Binding Temp}"
+                               Style="{StaticResource TempTextStyle}" />
+                    </Grid>
+                    <Label Grid.Row="1"
+                           Text="{Binding Condition}"
+                           Style="{StaticResource ConditionTextStyle}" />
+                </Grid>
+                <Grid Grid.Row="1">
+                    <controls:HorizontalList ListOrientation="Horizontal"
+                                             ItemsSource="{Binding Forecast.Items}">
+                        <controls:HorizontalList.ItemTemplate>
+                            <DataTemplate>
+                                <templates:WeatherItemTemplate />
+                            </DataTemplate>
+                        </controls:HorizontalList.ItemTemplate>
+                    </controls:HorizontalList>
+                </Grid>
+            </Grid>
+            <ActivityIndicator IsVisible="{Binding IsBusy}"
+                               IsRunning="{Binding IsBusy}"
+                               Color="{StaticResource AccentColor}"
+                               BackgroundColor="{StaticResource WhiteColor}"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center" />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

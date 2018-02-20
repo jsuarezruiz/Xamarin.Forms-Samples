@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:converters="clr-namespace:WeatherAppMonkeyCache.Converters;assembly=WeatherAppMonkeyCache"
+             x:Class="WeatherAppMonkeyCache.App">
+    <Application.Resources>
+        <ResourceDictionary>
+
+            <!-- COLORS -->
+            <Color x:Key="AccentColor">#353186</Color>
+            <Color x:Key="WhiteColor">#FFFFFF</Color>
+            <Color x:Key="BlackColor">#000000</Color>
+
+            <!-- CONVERTERS -->
+            <converters:BackgroundConverter x:Key="BackgroundConverter" />
+            <converters:IconConverter x:Key="IconConverter" />
+            <converters:InverseBoolConverter x:Key="InverseBoolConverter" />
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
