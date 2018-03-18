@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="VisualStateManager.Views.VisualStateManagerView"
+    xmlns:behaviors="clr-namespace:VisualStateManager.Behaviors"
+    BackgroundColor="White"
+    Title="VisualStateManager">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+
+            <Style TargetType="Label">
+                <Setter Property="FontSize" Value="10" />
+            </Style>
+
+            <Style
+                x:Key="RepeatPasswordStyle"
+                TargetType="Entry">
+                <Setter
+                    Property="VisualStateManager.VisualStateGroups">
+                    <VisualStateGroupList
+                        x:Name="CommonStates">
+                        <VisualStateGroup>
+                            <VisualState
+                                x:Name="Valid">
+                                <VisualState.Setters>
+                                    <Setter
+                                        Property="BackgroundColor"
+                                        Value="White" />
+                                </VisualState.Setters>
+                            </VisualState>
+                            <VisualState
+                                x:Name="Invalid">
+                                <VisualState.Setters>
+                                    <Setter
+                                        Property="BackgroundColor"
+                                        Value="Red" />
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateGroupList>
+                </Setter>
+            </Style>
+            
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout
+            Margin="12">
+            <Label
+                Text="Password" />
+            <Entry
+                x:Name="Password"
+                IsPassword="True" />
+            <Label
+                Text="Repeat Password" />
+            <Entry
+                x:Name="RepeatPassword"
+                IsPassword="True"
+                Style="{StaticResource RepeatPasswordStyle}">
+                <Entry.Behaviors>
+                    <behaviors:ConfirmPasswordBehavior
+                        CompareToEntry="{Binding Source={x:Reference Password}}" />
+                </Entry.Behaviors>
+            </Entry>
+        </StackLayout>
+    </ContentPage.Content>
+    </ContentPage>
