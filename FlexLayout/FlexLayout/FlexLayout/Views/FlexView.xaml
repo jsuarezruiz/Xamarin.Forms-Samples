@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="FlexLayout.Views.FlexView"
+    Title="FlexLayout">
+    <TabbedPage.Resources>
+        <ResourceDictionary>
+
+            <Style
+                x:Key="FlexLayoutStyle"
+                TargetType="FlexLayout">
+                <Setter
+                    Property="Direction"
+                    Value="Row" />
+                <Setter
+                    Property="Wrap"
+                    Value="Wrap" />
+                <Setter
+                    Property="AlignItems"
+                    Value="Stretch" />
+                <Setter
+                    Property="AlignContent"
+                    Value="Start" />
+            </Style>
+
+            <Style x:Key="GridStyle" TargetType="Grid">
+                <Setter
+                    Property="HeightRequest"
+                    Value="100" />
+                <Setter
+                    Property="FlexLayout.Grow"
+                    Value="0" />
+            </Style>
+            
+            <Style
+                x:Key="SmallGridStyle"
+                TargetType="Grid"
+                BasedOn="{StaticResource GridStyle}">
+                <Setter
+                    Property="FlexLayout.Basis"
+                    Value="33.33%" />
+            </Style>
+            
+            <Style
+                x:Key="MediumGridStyle"
+                TargetType="Grid"
+                BasedOn="{StaticResource GridStyle}">
+                <Setter
+                    Property="FlexLayout.Basis"
+                    Value="50%" />
+            </Style>
+            
+        </ResourceDictionary>
+    </TabbedPage.Resources>
+    <TabbedPage.Children>
+        <ContentPage
+            Title="Align">
+            <FlexLayout
+                Direction="Column">
+                <Label
+                    Text="FlexStart"
+                    FlexLayout.AlignSelf="Start" />
+                <Label
+                    Text="FlexCenter"
+                    FlexLayout.AlignSelf="Center" />
+                <Label
+                    Text="FlexEnd"
+                    FlexLayout.AlignSelf="End" />
+            </FlexLayout>
+        </ContentPage>
+        <ContentPage
+            Title="Justify">
+            <FlexLayout
+                Direction="Row"
+                JustifyContent="SpaceAround">
+                <Label
+                    Text="1" />
+                <Label
+                    Text="2"/>
+                <Label
+                    Text="3" />
+            </FlexLayout>
+        </ContentPage>
+        <ContentPage
+            Title="Child Sizes">
+            <FlexLayout
+                Style="{StaticResource FlexLayoutStyle}">
+                <Grid
+                    BackgroundColor="Red"
+                    Style="{StaticResource SmallGridStyle}">
+                    <Label
+                        Text="33.33%" />
+                </Grid>
+                <Grid
+                    BackgroundColor="Blue"
+                    Style="{StaticResource SmallGridStyle}">
+                    <Label
+                        Text="33.33%" />
+                </Grid>
+                <Grid
+                    BackgroundColor="Pink"
+                    Style="{StaticResource SmallGridStyle}">
+                    <Label
+                        Text="33.33%" />
+                </Grid>
+                <Grid
+                    BackgroundColor="Yellow"
+                    FlexLayout.Basis="100%"
+                    HeightRequest="200">
+                    <Label
+                        Text="100%" />
+                </Grid>
+                <Grid
+                    BackgroundColor="Purple"
+                    Style="{StaticResource SmallGridStyle}">
+                    <Label
+                        Text="33.33%" />
+                </Grid>
+                <Grid
+                    BackgroundColor="Orange"
+                    Style="{StaticResource MediumGridStyle}">
+                    <Label
+                        Text="50%" />
+                </Grid>
+                <Grid
+                    BackgroundColor="Green"
+                    FlexLayout.Grow="1">
+                    <Label
+                        Text="Auto" />
+                </Grid>
+            </FlexLayout>
+        </ContentPage>
+    </TabbedPage.Children>
+</TabbedPage>
