@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TodoLiteDB.Views.TodoListView"
+             Title="ToDo">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="Add"
+                     Command="{Binding AddCommand}">
+            <ToolbarItem.Icon>
+                <OnPlatform x:TypeArguments="FileImageSource">
+                    <On Platform="Android, iOS"
+                        Value="plus" />
+                    <On Platform="UWP"
+                        Value="Assets/plus.png" />
+                </OnPlatform>
+            </ToolbarItem.Icon>
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+    <ListView ItemsSource="{Binding Items}"
+              SelectedItem="{Binding SelectedItem, Mode=TwoWay}">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <ViewCell.View>
+                        <StackLayout Padding="20,0,20,0"
+                                     Orientation="Horizontal"
+                                     HorizontalOptions="FillAndExpand">
+                            <Label Text="{Binding Name}"
+                                   VerticalTextAlignment="Center"
+                                   HorizontalOptions="StartAndExpand" />
+                            <Image HorizontalOptions="End"
+                                   IsVisible="{Binding Done}">
+                                <Image.Source>
+                                    <OnPlatform x:TypeArguments="ImageSource">
+                                        <On Platform="Android, iOS"
+                                            Value="check" />
+                                        <On Platform="UWP"
+                                            Value="Assets/check.png" />
+                                    </OnPlatform>
+                                </Image.Source>
+                            </Image>
+                        </StackLayout>
+                    </ViewCell.View>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>
