@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BottomTabbedPage.Views.MainView">
+    <TabbedPage.Children>
+        <ContentPage Title="Home"
+                     Icon="home_icon.png">
+            <Grid>
+                <Label 
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    Text="Home"/>
+            </Grid>
+        </ContentPage>
+        <ContentPage Title="Favorites"
+                     Icon="favorites_icon.png">
+            <Grid>
+                <Label HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       Text="Favorites" />
+            </Grid>
+        </ContentPage>
+        <ContentPage Title="Settings"
+                     Icon="settings_icon.png">
+            <Grid>
+                <Label HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       Text="Settings" />
+            </Grid>
+        </ContentPage>
+    </TabbedPage.Children>
+</TabbedPage>
