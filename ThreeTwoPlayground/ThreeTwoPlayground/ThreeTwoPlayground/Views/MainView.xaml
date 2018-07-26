@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ThreeTwoPlayground.Views.MainView"
+             Title="Xamarin.Forms 3.2 Features">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button
+                Text="Button Paddings"
+                Command="{Binding ButtonPaddingsCommand}"/>
+            <Button
+                Text="Commandable Spans"
+                Command="{Binding CommandableSpansCommand}"/>
+            <Button 
+                Text="Editor Placeholder"
+                Command="{Binding EditorPlaceholderCommand}"/>
+            <Button 
+                Text="OnPlatform Markup Extensions"
+                Command="{Binding OnPlatformMarkupExtensionsCommand}"/>
+            <Button 
+                Text="Page Title"
+                Command="{Binding PageTitleCommand}"/>
+            <Button 
+                Text="Rounded Corners BoxView"
+                Command="{Binding RoundedCornersBoxCommand}"/>
+            <Button 
+                Text="Swipe Gesture"
+                Command="{Binding SwipeGestureCommand}"/>
+            <Button 
+                Text="Others"
+                Command="{Binding OthersCommand}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

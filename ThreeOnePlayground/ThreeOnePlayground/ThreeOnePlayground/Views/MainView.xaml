@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ThreeOnePlayground.Views.MainView"
+             Title="Xamarin.Forms 3.1 Features">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button
+                Text="AutoResize Editor"
+                Command="{Binding AutoResizeEditorCommand}"/>
+            <Button
+                Text="AutoCapitalization Entry"
+                Command="{Binding EntryAutoCapitalizationCommand}"/>
+            <Button 
+                Text="Return Key Entry"
+                Command="{Binding EntryReturnKeyCommand}"/>
+            <Button 
+                Text="Bottom Tabs"
+                Command="{Binding TabsCommand}"/>
+            <Button 
+                Text="Evaluate Javascript"
+                Command="{Binding EvaluateJsCommand}"/>
+            <Button 
+                Text="Others"
+                Command="{Binding OthersCommand}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

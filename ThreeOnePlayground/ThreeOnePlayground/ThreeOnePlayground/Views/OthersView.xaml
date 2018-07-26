@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ThreeOnePlayground.Views.OthersView"         
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             Title="Others">
+    <ContentPage.Content>
+        <ScrollView
+            VerticalScrollBarVisibility="Always"  
+            HorizontalScrollBarVisibility="Never">
+            <StackLayout>
+                <Label 
+                    Text="Bindable Spans"/>
+                <Label>
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span Text="Test"  />
+                                <Span Text="{Binding Info}"
+                                  TextColor="Red" />
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label 
+                    Text="Slider ThumbColor"/>
+                <Slider 
+                    ThumbColor="Orange"
+                    Minimum="0"
+                    Maximum="10"
+                    Value="5"/>
+                <Label 
+                    Text="Disable Text Prediction" />
+                <Entry 
+                    Placeholder="Insert text"
+                    IsTextPredictionEnabled="false" />
+                <Label 
+                    Text="Switch On Color" />
+                <Switch
+                    OnColor="Yellow"
+                    IsToggled="true" />
+                <Label 
+                    Text="Drop Shadow  (iOS)" />
+                <BoxView
+                    Margin="12, 0"
+                    BackgroundColor="Black"
+                    ios:VisualElement.ShadowColor="Red"
+                    ios:VisualElement.ShadowOpacity="1"
+                    ios:VisualElement.ShadowRadius="12"
+                    ios:VisualElement.IsShadowEnabled="true" />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

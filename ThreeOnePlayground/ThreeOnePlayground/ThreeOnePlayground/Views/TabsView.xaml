@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="ThreeOnePlayground.Views.TabsView"  
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            BarBackgroundColor="LightBlue"
+            android:TabbedPage.ToolbarPlacement="Bottom"
+            android:TabbedPage.BarItemColor="Gray"
+            android:TabbedPage.BarSelectedItemColor="Black"
+            Title="Bottom Tabs">
+    <TabbedPage.Children>
+        <ContentPage 
+            Title="First"
+            Icon="first">
+            <Grid />
+        </ContentPage>
+        <ContentPage
+            Title="Second"
+            Icon="second">
+            <Grid />
+        </ContentPage>
+        <ContentPage
+            Title="Third"
+            Icon="third">
+            <Grid />
+        </ContentPage>
+    </TabbedPage.Children>
+</TabbedPage>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ThreeTwoPlayground.Views.RoundedCornersBoxView"
+             Title="Rounded Corners BoxView">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label 
+                Text="BoxView CornerRadius"/>
+            <BoxView      
+                CornerRadius="24, 0, 24, 24"
+                BackgroundColor="Red"
+                Color="Red"
+                HeightRequest="100"
+                Margin="12, 0"/>
+            <Label 
+                FontSize="Small"
+                Text="24, 0, 24, 24"
+                Margin="12, 0, 0, 0"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

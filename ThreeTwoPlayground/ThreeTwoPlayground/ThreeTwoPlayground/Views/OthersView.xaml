@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ThreeTwoPlayground.Views.OthersView"
+             Title="Others">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label 
+                Text="Controlling Caret position" />
+            <Entry 
+                CursorPosition="4"
+                Text="CursorPosition"/>
+            <StackLayout
+                Padding="10, 20, 100, 0">
+                <Label
+                    Text="Line Height"
+                    LineBreakMode="WordWrap">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span
+                                LineHeight="0.2"
+                                Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+                                BackgroundColor="Red" />
+                            <Span 
+                                LineHeight="1.2"
+                                Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+                                BackgroundColor="Pink"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

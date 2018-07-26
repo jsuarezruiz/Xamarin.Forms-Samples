@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ThreeOnePlayground.Views.EntryAutoCapitalizationView"
+             Title="Auto Capitalization">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label 
+                Text="Auto Capitalization" />
+            <Entry 
+                Placeholder="Insert text">
+                <Entry.Keyboard>
+                    <Keyboard x:FactoryMethod="Create">
+                        <x:Arguments>
+                            <KeyboardFlags>CapitalizeNone</KeyboardFlags>
+                        </x:Arguments>
+                    </Keyboard>
+                </Entry.Keyboard>
+            </Entry>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
