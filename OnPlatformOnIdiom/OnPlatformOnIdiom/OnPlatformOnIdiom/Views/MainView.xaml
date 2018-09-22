@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OnPlatformOnIdiom.Views.MainView"
+             Title="New Xamarin.Forms 3.2 markup extensions">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+
+            <Style TargetType="BoxView">
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="HeightRequest" Value="150" />
+                <Setter Property="WidthRequest" Value="150" />
+            </Style>
+            
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout>
+            <Label  
+                Text="OnPlatform"/>
+            <BoxView 
+                Color="{OnPlatform Red, iOS=Green, Android=Blue, UWP=Orange}"/>
+            <Label  
+                Text="OnIdiom"/>
+            <BoxView 
+                Color="{OnIdiom Red, Phone=Green, Tablet=Blue, Desktop=Orange}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
