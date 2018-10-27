@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:viewModels="clr-namespace:CompiledBindingsSample.ViewModels"
+    x:Class="CompiledBindingsSample.Views.MainView">
+    <ContentPage.Content>
+        <StackLayout
+            x:DataType="viewModels:MainViewModel">
+            <StackLayout.BindingContext>
+                <viewModels:MainViewModel />
+            </StackLayout.BindingContext>
+            <Label
+                Text="{Binding Value1}"/>
+            <Label
+                Text="{Binding Value2}" />
+            <Label
+                Text="{Binding Value3}" />
+            <StackLayout
+                x:DataType="{x:Null}">
+                <Label
+                    Text="{Binding Value4}" />
+                <Label
+                    Text="{Binding Value5}" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
