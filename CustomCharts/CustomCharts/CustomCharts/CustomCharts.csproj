@@ -11,7 +11,7 @@
     <PackageReference Include="LiveXAML" Version="1.3.1" />
     <PackageReference Include="Microcharts.Forms" Version="0.7.1-pre" />
     <PackageReference Include="Microsoft.NETCore.Portable.Compatibility" Version="1.0.1" />
-    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="Xamarin.Forms" Version="2.4.0.282" />
     <PackageReference Include="System.ValueTuple" Version="4.3.0" />
   </ItemGroup>
